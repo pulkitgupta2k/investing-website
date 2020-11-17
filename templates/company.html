@@ -1,0 +1,14 @@
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>COMPANY</th>
+        <th>INDUSTRY</th>
+    </tr>
+    {% for key, value in data.items() %}
+    <tr>
+        <th>{{ key }}</th>
+        <th>{{ value[0] }}</th>
+        <th>{{ value[1] }}</th>
+    </tr>
+    {% endfor %}
+</table>

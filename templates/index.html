@@ -1,0 +1,3 @@
+{% for name in companies %}
+    <a href = "{{ url_for('company_data', name=name) }}">{{ name }}<br></a>
+{% endfor %}
