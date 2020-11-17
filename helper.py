@@ -28,7 +28,7 @@ def get_links(file):
             
     with open("left.json", "w") as f:
         json.dump(left, f)
-    with open("companies.json", "w") as f:
+    with open("companies_link.json", "w") as f:
         json.dump(links, f)
 
 

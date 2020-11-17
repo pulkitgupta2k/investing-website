@@ -2,7 +2,7 @@ from helper import *
 
 
 def ratios_driver():
-    with open("companies.json", "r") as f:
+    with open("companies_link.json", "r") as f:
         companies = json.load(f)
     with open("data.json", "r") as f:
         data = json.load(f)
