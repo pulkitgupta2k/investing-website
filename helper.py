@@ -3,7 +3,6 @@ from bs4 import BeautifulSoup
 import json
 from pprint import pprint
 
-
 def getSoup(link):
     headers = {'User-Agent' : 'PostmanRuntime/7.24.1', 'Accept': "*/*", "Connection": 'keep-alive'}
     req = requests.get(link, headers=headers)
@@ -35,8 +34,7 @@ def get_links(file):
 
 def get_ratios(link):
     soup = getSoup(link)
-    # pprint(soup)
-    title = soup.find("title").text
+    title = soup.find("title").text.replace(" ", "-")
     table = soup.find("table", {"id": "rrTable"})
     trs = table.findAll("tr", {"class": "child"})
     ratios = dict()
@@ -46,4 +44,18 @@ def get_ratios(link):
             ratios[tds[0].text] = [tds[1].text, tds[2].text]
         except:
             pass
+    print(title)
     return {title:ratios}
+
+def cor():
+    with open("data.json", "r") as f:
+        data = json.load(f)
+    data1 = {}
+    for key, value in data.items():
+        data1[key.replace(" ", "-")] = value
+
+    with open("data.json", "w") as f:
+        json.dump(data1, f)
+
+if __name__ == "__main__":
+    cor()

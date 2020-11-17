@@ -6,7 +6,7 @@ def ratios_driver():
         companies = json.load(f)
     with open("data.json", "r") as f:
         data = json.load(f)
-    
+
     for company in companies:
         try:
             data.update(get_ratios(company))
