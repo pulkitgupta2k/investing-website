@@ -21,7 +21,7 @@ def filter():
         return render_template("filter.html", companies = {})
 
     elif request.method == "POST":
-        print(request.form)
+        categories = request.form.getlist('category')
         if request.form['id'] == '0':
             divident_yield_start = float( request.form['divident-yield-start'] if request.form['divident-yield-start'] != "" else '-inf' )
             divident_yield_end = float(request.form['divident-yield-end'] if request.form['divident-yield-end'] != "" else 'inf')
@@ -52,7 +52,8 @@ def filter():
                 if  ( dy == '-' or ( float(dy) >=  divident_yield_start and float(dy) <= divident_yield_end) ) and \
                     ( pr == '-' or ( float(pr) >=  payout_ratio_start and float(pr) <= payout_ratio_end) ) and \
                     ( dg == '-' or ( float(dg) >=  divident_growth_start and float(dg) <= divident_growth_end) ) and \
-                    ( b == '-' or ( float(b) >=  beta_start and float(b) <= beta_end) ) :
+                    ( b == '-' or ( float(b) >=  beta_start and float(b) <= beta_end) ) \
+                    and value['Category'] in categories:
 
                     companies[key] = value
 
@@ -93,7 +94,8 @@ def filter():
                     ( ys == '-' or ( float(ys) >=  _5_yr_sales_start and float(ys) <= _5_yr_sales_end) ) and \
                     ( cr == '-' or ( float(cr) >=  curr_ratio_start and float(cr) <= curr_ratio_end) ) and \
                     ( b == '-' or ( float(b) >=  beta_start and float(b) <= beta_end) ) and \
-                    ( eps == '-' or ( float(eps) >=  eps_start and float(eps) <= eps_end) ) :
+                    ( eps == '-' or ( float(eps) >=  eps_start and float(eps) <= eps_end) ) \
+                    and value['Category'] in categories:
 
                     companies[key] = value
 
