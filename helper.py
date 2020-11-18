@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from pprint import pprint
+import re
 
 def getSoup(link):
     headers = {'User-Agent' : 'PostmanRuntime/7.24.1', 'Accept': "*/*", "Connection": 'keep-alive'}
@@ -33,8 +34,13 @@ def get_links(file):
 
 
 def get_ratios(link):
+    ret_dic = {}
+    link = link+"-ratios"
     soup = getSoup(link)
     title = soup.find("title").text.replace(" ", "-")
+    l = re.split("[()]", title)
+    ret_dic[l[1]] = {}
+    ret_dic[l[1]]["Name"] = l[0].strip("-")
     table = soup.find("table", {"id": "rrTable"})
     trs = table.findAll("tr", {"class": "child"})
     ratios = dict()
@@ -44,18 +50,47 @@ def get_ratios(link):
             ratios[tds[0].text] = [tds[1].text, tds[2].text]
         except:
             pass
-    print(title)
-    return {title:ratios}
+    ret_dic[l[1]]['Data'] = ratios
+    ret_dic[l[1]]['Link'] = link.strip("-ratios")
+    return ret_dic
 
-def cor():
+def add_ex():
     with open("data.json", "r") as f:
         data = json.load(f)
-    data1 = {}
+    
+    with open("loc.json", "r") as f:
+        location = json.load(f)
+    
+    for key in data.keys():
+        try:
+            data[key]["Exchange"] = location[key][0]["EXCHANGE"]
+        except:
+            data[key]["Exchange"] = ""
+            pass
+    
+    with open("data.json", "w") as f:
+        json.dump(data, f)
+
+def add_cat():
+    with open("data.json", "r") as f:
+        data = json.load(f)
+    
+    with open("cat.json", "r") as f:
+        cat = json.load(f)
+    
+    for key, values in cat.items():
+        for value in values:
+            if value in data.keys():
+                data[value]["Category"] = key
+                # pprint(data[value])
+
     for key, value in data.items():
-        data1[key.replace(" ", "-")] = value
+        if "Category" not in value.keys():
+            data[key]["Category"] = ""
 
     with open("data.json", "w") as f:
-        json.dump(data1, f)
+        json.dump(data, f)
+
 
 if __name__ == "__main__":
-    cor()
+    pass

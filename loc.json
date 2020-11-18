@@ -1,0 +1,2532 @@
+{
+   "2": [
+       {
+         "EXCHANGE":"Shenzhen Stock Exchange"
+       }
+    ],
+   "267": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "333": [
+       {
+         "EXCHANGE":"Shenzhen Stock Exchange"
+       }
+    ],
+   "384": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "386": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "700": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "857": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "858": [
+       {
+         "EXCHANGE":"Shenzhen Stock Exchange"
+       }
+    ],
+   "914": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "939": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "941": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "2142": [
+       {
+         "EXCHANGE":"Shenzhen Stock Exchange"
+       }
+    ],
+   "2202": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "2318": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "2415": [
+       {
+         "EXCHANGE":"Shenzhen Stock Exchange"
+       }
+    ],
+   "3311": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "3690": [
+       {
+         "EXCHANGE":"Hong Kong Exchanges And Clearing Ltd"
+       }
+    ],
+   "300760": [
+       {
+         "EXCHANGE":"Shenzhen Stock Exchange"
+       }
+    ],
+   "500010": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500027": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500043": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500087": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500103": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500108": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500112": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500114": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500124": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500180": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500182": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500209": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500247": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500271": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500295": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500302": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500304": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500312": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500325": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500400": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500440": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500470": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500510": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500520": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500530": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500570": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500696": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500790": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500820": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "500875": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "507685": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "509480": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "517300": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "524715": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "524804": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532129": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532155": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532174": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532215": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532281": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532424": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532454": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532482": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532493": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532500": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532538": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532540": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532555": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532648": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532755": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532819": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532898": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532927": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532955": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532977": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "532978": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "533155": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "533206": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "533278": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "535648": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "540743": [
+       {
+         "EXCHANGE":"BSE LTD"
+       }
+    ],
+   "600007": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "600009": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "600276": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "600519": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "600585": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "600900": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "601138": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "601888": [
+       {
+         "EXCHANGE":"Shanghai Stock Exchange"
+       }
+    ],
+   "ANF": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ATV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AMZN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "AEO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "APTV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AVP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BTOW3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BNED": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BBBY": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BBY": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BWA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BYD": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "BBW": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BURL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GOOS": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "KMX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CCL": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "CAKE": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CAAS": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CMG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "COGN3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CMCSA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CPG": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "CORE": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "COST": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "DJCO": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "DFRG": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "DG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "DLTR": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "DOL": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "DPZ": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "F": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GPS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HRB": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HOG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HAS": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "HIBB": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "HMC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HSW": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "H": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "IMAX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "IHG": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "LE": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "LVS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LCII": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RENT3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "LAME4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "LREN3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "LOOK": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "LULU": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "LYFT": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "M": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MGLU3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "MAR": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "MAT": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "MCD": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MOV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "EDU": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "NXT": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "NKE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "NCLH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "OTB": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "PZZA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "PSON": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "PLNT": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RLH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "QSR": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "REV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RBA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SIRI": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SWBI": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SBUX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SFIX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TLRD": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TAL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TGT": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TSLA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TXRH": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TCS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "EL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "DIS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "WEN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TIF": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TJX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "UBER": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ULTA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "UAA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "URBN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "VRA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "VFC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "WTB": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "WYND": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "YUM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ATD.B": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       },
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "ABEV3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       },
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CRFB3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BRFS3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CPB": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CASY": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "KO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PCAR4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CTVA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CVS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GIS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "JJSF": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "JBSS3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "K": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "KDP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MDIA3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "MKC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MCK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TAP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MNST": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "FIZZ": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "NATU3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "PEP": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "PG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RADL3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "RB.": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "RAD": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SBRY": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SFM": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SYY": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HSY": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "THS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TSN": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ULVR": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "UL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "UNFI": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "WDFC": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "WYN": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "FIVE": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "ZENA": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "AMTX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CCJ": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CNQ": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "CVX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SNP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CEO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CLR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CSAN3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "ET": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "XOM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GLEN": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "HES": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LAM": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "NOV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "NGS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "OKE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BRDT3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "PTR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PETR3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "PETR4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "PSX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RDSA": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SU": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "SUN": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TRCH": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TLW": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "UGPA3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "AFL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ALL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AXP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "APAM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AV.": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "B3SA3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BPAC11": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BBAS3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "SANB11": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BBDC3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BBDC4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BNS": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "OZK": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BCS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BBSE3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "BX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BPFH": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BRML3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CWB": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "JRJC": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CIEL3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "C": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CLIG": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "CS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "DB": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "DLR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "DFS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "EXPN": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "EXR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FICO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FFH": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "GBCI": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GEC": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GWO": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "HSBA": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "ICE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "IRBR3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "IRM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ITUB4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "ITSA4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "JPM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "KEY": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "KKR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LAZ": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LM": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LLOY": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "L": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MTB": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MET": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MCO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "COOP": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "MULT3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "NWG": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "ONB": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "OPY": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PYPL": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "DOC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PNC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PSSA3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "PRU": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PSA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RF": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SDR": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SEIC": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "STAN": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SULA11": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "SSSS": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GEO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "UBS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "V": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "WFC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "WBK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ABBV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ACHC": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "AMGN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "AMN": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AZN": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "ACB": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "BAX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BMY": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CGIX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CSII": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CPRX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CELG": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CNC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ENDP": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GILD": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GSK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GMED": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HBIO": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "HYPE3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "ILMN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "JNJ": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MDC": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "MRK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MYGN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GNDI3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "NVS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PFE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PBH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "REGN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SN.": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "TAK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TEVA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "TVTY": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "UNH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ZGNX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "APD": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AKS": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ACH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ASH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       },
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "BECN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BHP": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "BRKM5": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CAR": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "CHNR": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CLW": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CSNA3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "EMN": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FERG": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "FMC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FCX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FFHL": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GGBR4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "ROCK": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "IOSP": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "JMAT": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "KALU": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "KL": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "KLBN11": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "MVR": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "MNDI": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "NP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "NTIC": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "PKX": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "KWR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ROLL": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "RIO": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       },
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "RGLD": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SSRM": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SUZB3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "X": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "VALE3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "AC": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "AAL": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "ARCB": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "ASGN": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BBD.B": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "BNZL": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "CJT": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "CCRO3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CEA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ZNH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CYD": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "DAL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PLOW": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "EZJ": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "EMBR3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "FCN": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GSH": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HTLD": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "JBLU": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "KSU": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LMT": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "NCI": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PCAR": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "RR.": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "RAIL3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "SKYW": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SMIN": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SNA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "LUV": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SAVE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MIDD": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "SHYF": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TWI": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "VRSK": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "WNC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "WEGE3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "ZTO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ADBE": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BABA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GOOG": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "AABA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "AAPL": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "ANET": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BIDU": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "BNFT": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CTSH": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "CSU": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "DSCV": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "DXC": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ENGH": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "FB": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GRPN": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "MANH": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "MCRO": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "MSFT": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "NTES": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "NXPI": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "ORCL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SGE": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SHOP": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "SINA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "WORK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SOHU": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "NCTY": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TWTR": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "UTSI": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "ZNGA": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "AEP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "AWK": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "T": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "BCE": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "BT.A": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "CU": [
+       {
+         "EXCHANGE":"Toronto Stock Exchange"
+       }
+    ],
+   "ELET3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "ELET6": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CHL": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CHA": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "CHU": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SBSP3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "D": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "ENGI11": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "CMIG4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "EGIE3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "EQTL3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "WTRG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "FE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "GOGO": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "GTT": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "HNP": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "MSEX": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "NFG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "PCG": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SRE": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SVT": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "SJW": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SO": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "S": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "SSE": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "VIVT4": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "YORW": [
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ],
+   "TIMP3": [
+       {
+         "EXCHANGE":"B3 S.A. - Brasil, Bolsa, Balcão"
+       }
+    ],
+   "UGI": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "UU.": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       }
+    ],
+   "VZ": [
+       {
+         "EXCHANGE":"New York Stock Exchange, Inc."
+       }
+    ],
+   "VOD": [
+       {
+         "EXCHANGE":"London Stock Exchange"
+       },
+       {
+         "EXCHANGE":"Nasdaq"
+       }
+    ]
+ }

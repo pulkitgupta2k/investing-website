@@ -1,3 +1,3 @@
-{% for name in companies %}
-    <a href = "{{ url_for('company_data', name=name) }}">{{ name }}<br></a>
+{% for key,value in data.items() %}
+    <a href = "{{ url_for('company_data', name=key ) }}">{{ value['Name'] }} - ({{ key }})<br></a>
 {% endfor %}
