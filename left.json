@@ -1,1 +1,578 @@
-["DFRG", "ATD.B", "ATD.B", "PCAR4", "BBD.B", "532129", "BT.A", "TIMP3"]
+{
+    "AVP": {
+        "name": "Avon Products Inc",
+        "ytick": "AVP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "532977": {
+        "name": "Bajaj Auto",
+        "ytick": "BAJAJAUTO.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500530": {
+        "name": "Bosch",
+        "ytick": "BOSCH.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "COGN3": {
+        "name": "CognaEducacao SA",
+        "ytick": "COGN3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DFRG": {
+        "name": "Del Frisco\u00e2\u20ac\u2122s Restaurant Group Inc",
+        "ytick": "DFRG",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500182": {
+        "name": "Hero MotoCorp",
+        "ytick": "HEROMOTOCORP.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HSW": {
+        "name": "Hostelworld Group PLC",
+        "ytick": "HSW",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "533155": {
+        "name": "Jubilant Foodworks",
+        "ytick": "JUBILANTFOODWORKS.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500520": {
+        "name": "Mahindra & Mahindra",
+        "ytick": "MAHINDRA&MAHINDRA.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "532500": {
+        "name": "Maruti Suzuki India",
+        "ytick": "MARUTISUZUKIINDIA.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "NXT": {
+        "name": "Next PLC",
+        "ytick": "NXT",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "OTB": {
+        "name": "On The Beach Group PLC",
+        "ytick": "OTB",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "PSON": {
+        "name": "Pearson PLC",
+        "ytick": "PSON",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500114": {
+        "name": "Titan Co",
+        "ytick": "TITANCO.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "WTB": {
+        "name": "Whitbread PLC",
+        "ytick": "WTB",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "ATD.B": {
+        "name": "Alimentation Couche- Tard Inc",
+        "ytick": "ATD.B",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "PCAR4": {
+        "name": "Companhia Brasileira De Distribuicao",
+        "ytick": "PCAR4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "540743": {
+        "name": "Godrej Agrovet",
+        "ytick": "GODREJAGROVET.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "532424": {
+        "name": "Godrej Consumer Products",
+        "ytick": "GODREJCONSUMERPRODUCTS.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "500696": {
+        "name": "Hindustan Unilever",
+        "ytick": "HINDUSTANUNILEVER.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "NATU3": {
+        "name": "Natura Cosmeticos SA",
+        "ytick": "NATU3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "500790": {
+        "name": "Nestle India",
+        "ytick": "NESTLEINDIA.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "RB.": {
+        "name": "Reckitt Benckiser Group PLC",
+        "ytick": "RB.",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "SBRY": {
+        "name": "Sainsbury (J) PLC",
+        "ytick": "SBRY",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "ULVR": {
+        "name": "Unilever PLC",
+        "ytick": "ULVR",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "ZENA": {
+        "name": "Zenabis Global Inc",
+        "ytick": "ZENA",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "386": {
+        "name": "China Petroleum & Chemical Corp",
+        "ytick": "386",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "ENERGY"
+    },
+    "GLEN": {
+        "name": "Glencore PLC",
+        "ytick": "GLEN",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "LAM": {
+        "name": "Lamprell PLC",
+        "ytick": "LAM",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "500312": {
+        "name": "Oil & Natural Gas Corp",
+        "ytick": "OIL&NATURALGASCORP.BO",
+        "location": "BSE LTD",
+        "category": "ENERGY"
+    },
+    "857": {
+        "name": "PetroChina Co Ltd",
+        "ytick": "857",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "ENERGY"
+    },
+    "500325": {
+        "name": "Reliance Industries",
+        "ytick": "RELIANCEINDUSTRIES.BO",
+        "location": "BSE LTD",
+        "category": "ENERGY"
+    },
+    "RDSA": {
+        "name": "Royal Dutch Shell PLC",
+        "ytick": "RDSA",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "TLW": {
+        "name": "Tullow Oil PLC",
+        "ytick": "TLW",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "AV.": {
+        "name": "Aviva PLC",
+        "ytick": "AV.",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532978": {
+        "name": "Bajaj Finserv",
+        "ytick": "BAJAJFINSERV.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "939": {
+        "name": "China Construction Bank Corp",
+        "ytick": "939",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "FINANCIAL SERVICES"
+    },
+    "2202": {
+        "name": "China Vanke Co Ltd",
+        "ytick": "2202",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "FINANCIAL SERVICES"
+    },
+    "CLIG": {
+        "name": "City of London Investment Group PLC",
+        "ytick": "CLIG",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "EXPN": {
+        "name": "Experian PLC",
+        "ytick": "EXPN",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500010": {
+        "name": "Housing Development Finance Corp",
+        "ytick": "HOUSINGDEVELOPMENTFINANCECORP.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "HSBA": {
+        "name": "HSBC Holdings PLC",
+        "ytick": "HSBA",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500247": {
+        "name": "Kotak Mahindra Bank",
+        "ytick": "KOTAKMAHINDRABANK.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "LLOY": {
+        "name": "Lloyds Banking Group PLC",
+        "ytick": "LLOY",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500271": {
+        "name": "Max Financial Services",
+        "ytick": "MAXFINANCIALSERVICES.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "2318": {
+        "name": "Ping An Insurance (Group) Co. of China Ltd",
+        "ytick": "2318",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532955": {
+        "name": "REC",
+        "ytick": "REC.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "SDR": {
+        "name": "Schroders PLC",
+        "ytick": "SDR",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500112": {
+        "name": "State Bank of India",
+        "ytick": "STATEBANKOFINDIA.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "524804": {
+        "name": "Aurobindo Pharma",
+        "ytick": "AUROBINDOPHARMA.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "CELG": {
+        "name": "Celgene Corp",
+        "ytick": "CELG",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "500124": {
+        "name": "Dr Reddy\u00e2\u20ac\u2122s Laboratories",
+        "ytick": "DRREDDY\u00c2\u20ac\u2122SLABORATORIES.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "532482": {
+        "name": "Granules India",
+        "ytick": "GRANULESINDIA.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "500302": {
+        "name": "Piramal Enterprises",
+        "ytick": "PIRAMALENTERPRISES.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "SN.": {
+        "name": "Smith & Nephew PLC",
+        "ytick": "SN.",
+        "location": "London Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "524715": {
+        "name": "Sun Pharmaceuticals Industries",
+        "ytick": "SUNPHARMACEUTICALSINDUSTRIES.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "AKS": {
+        "name": "AK Steel Holding Corp",
+        "ytick": "AKS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "914": {
+        "name": "Anhui Conch Cement Co Ltd",
+        "ytick": "914",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500820": {
+        "name": "Asian Paints",
+        "ytick": "ASIANPAINTS.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "509480": {
+        "name": "Berger Paints India",
+        "ytick": "BERGERPAINTSINDIA.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "FERG": {
+        "name": "Ferguson PLC",
+        "ytick": "FERG",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500440": {
+        "name": "Hindalco Industries",
+        "ytick": "HINDALCOINDUSTRIES.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "JMAT": {
+        "name": "Johnson Matthey PLC",
+        "ytick": "JMAT",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "MVR": {
+        "name": "MelodyVR Group PLC",
+        "ytick": "MVR",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "MNDI": {
+        "name": "Mondi PLC",
+        "ytick": "MNDI",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "532538": {
+        "name": "UltraTech Cement",
+        "ytick": "ULTRATECHCEMENT.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500295": {
+        "name": "Vedanta",
+        "ytick": "VEDANTA.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500103": {
+        "name": "Bharat Heavy Electricals",
+        "ytick": "BHARATHEAVYELECTRICALS.BO",
+        "location": "BSE LTD",
+        "category": "PRODUCER DURABLES"
+    },
+    "BNZL": {
+        "name": "Bunzl PLC",
+        "ytick": "BNZL",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "CJT": {
+        "name": "Cargojet Inc",
+        "ytick": "CJT",
+        "location": "Toronto Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "3311": {
+        "name": "China State Construction International Holdings Ltd",
+        "ytick": "3311",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "PRODUCER DURABLES"
+    },
+    "267": {
+        "name": "CITIC Ltd",
+        "ytick": "267",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "PRODUCER DURABLES"
+    },
+    "532927": {
+        "name": "eClerx Services",
+        "ytick": "ECLERXSERVICES.BO",
+        "location": "BSE LTD",
+        "category": "PRODUCER DURABLES"
+    },
+    "500510": {
+        "name": "Larsen & Toubro",
+        "ytick": "LARSEN&TOUBRO.BO",
+        "location": "BSE LTD",
+        "category": "PRODUCER DURABLES"
+    },
+    "NCI": {
+        "name": "Navigant Consulting Inc",
+        "ytick": "NCI",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "RR.": {
+        "name": "Rolls-Royce Holdings PLC",
+        "ytick": "RR.",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "AABA": {
+        "name": "Altaba Inc",
+        "ytick": "AABA",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "532493": {
+        "name": "Astra Microwave Products",
+        "ytick": "ASTRAMICROWAVEPRODUCTS.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "DSCV": {
+        "name": "discoverIE Group PLC",
+        "ytick": "DSCV",
+        "location": "London Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "532281": {
+        "name": "HCL Technologies",
+        "ytick": "HCLTECHNOLOGIES.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "532129": {
+        "name": "Hexaware Technologies",
+        "ytick": "HEXAWARETECHNOLOGIES.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "3690": {
+        "name": "Meituan Dianping",
+        "ytick": "3690",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "TECHNOLOGY"
+    },
+    "532540": {
+        "name": "Tata Consultancy Services",
+        "ytick": "TATACONSULTANCYSERVICES.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "532755": {
+        "name": "Tech Mahindra",
+        "ytick": "TECHMAHINDRA.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "700": {
+        "name": "Tencent Holdings Ltd",
+        "ytick": "700",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "TECHNOLOGY"
+    },
+    "532454": {
+        "name": "Bharti Airtel",
+        "ytick": "BHARTIAIRTEL.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "BT.A": {
+        "name": "BT Group PLC",
+        "ytick": "BT.A",
+        "location": "London Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "384": {
+        "name": "China Gas Holdings Ltd",
+        "ytick": "384",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "UTILITIES"
+    },
+    "941": {
+        "name": "China Mobile Ltd",
+        "ytick": "941",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "UTILITIES"
+    },
+    "532155": {
+        "name": "GAIL (India)",
+        "ytick": "GAIL(INDIA).BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "517300": {
+        "name": "Gujarat Industries Power Co",
+        "ytick": "GUJARATINDUSTRIESPOWERCO.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "500108": {
+        "name": "Mahanagar Telephone Nigam",
+        "ytick": "MAHANAGARTELEPHONENIGAM.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "532898": {
+        "name": "Power Grid Corp Of India",
+        "ytick": "POWERGRIDCORPOFINDIA.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "S": {
+        "name": "Sprint Corp",
+        "ytick": "S",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "500400": {
+        "name": "Tata Power Co",
+        "ytick": "TATAPOWERCO.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "UU.": {
+        "name": "United Utilities Group PLC",
+        "ytick": "UU.",
+        "location": "London Stock Exchange",
+        "category": "UTILITIES"
+    }
+}

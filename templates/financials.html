@@ -1,0 +1,230 @@
+{% extends "layout.html" %}
+{% block body %}
+<div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap sm:flex-row flex-col py-6">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Income Statement Annually</h1>
+    </div>
+    <table class="min-w-full table-auto">
+        <thead class="justify-between">
+            <tr class="bg-gray-800">
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">Company</span>
+                </th>
+                {% for year in data["incomeStatementHistory"]["incomeStatementHistory"] %}
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">{{ year["endDate"]["fmt"] }}</span>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="bg-gray-200 justify-between">
+            {% for cat in data["incomeStatementHistory"]["incomeStatementHistory"][0].keys() %}
+            <tr class="bg-white border-4 border-gray-200">
+                <td>
+                    <span class="text-center ml-2 font-semibold">{{ cat }}</span>
+                </td>
+                {% for year in data["incomeStatementHistory"]["incomeStatementHistory"] %}
+                <td>
+                    {% if cat in year.keys() %}
+                    <span class="text-center ml-2 font-semibold">{{ year[cat]["fmt"] }}</span>
+                    {% else %}
+                    <span class="text-center ml-2 font-semibold"></span>
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap sm:flex-row flex-col py-6">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Income Statement Quarterly</h1>
+    </div>
+    <table class="min-w-full table-auto">
+        <thead class="justify-between">
+            <tr class="bg-gray-800">
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">Company</span>
+                </th>
+                {% for year in data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"] %}
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">{{ year["endDate"]["fmt"] }}</span>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="bg-gray-200 justify-between">
+            {% for cat in data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0].keys() %}
+            <tr class="bg-white border-4 border-gray-200">
+                <td>
+                    <span class="text-center ml-2 font-semibold">{{ cat }}</span>
+                </td>
+                {% for year in data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"] %}
+                <td>
+                    {% if cat in year.keys() %}
+                    <span class="text-center ml-2 font-semibold">{{ year[cat]["fmt"] }}</span>
+                    {% else %}
+                    <span class="text-center ml-2 font-semibold"></span>
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap sm:flex-row flex-col py-6">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Balance Sheet Annually</h1>
+    </div>
+    <table class="min-w-full table-auto">
+        <thead class="justify-between">
+            <tr class="bg-gray-800">
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">Company</span>
+                </th>
+                {% for year in data["balanceSheetHistory"]["balanceSheetStatements"] %}
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">{{ year["endDate"]["fmt"] }}</span>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="bg-gray-200 justify-between">
+            {% for cat in data["balanceSheetHistory"]["balanceSheetStatements"][0].keys() %}
+            <tr class="bg-white border-4 border-gray-200">
+                <td>
+                    <span class="text-center ml-2 font-semibold">{{ cat }}</span>
+                </td>
+                {% for year in data["balanceSheetHistory"]["balanceSheetStatements"] %}
+                <td>
+                    {% if cat in year.keys() %}
+                    <span class="text-center ml-2 font-semibold">{{ year[cat]["fmt"] }}</span>
+                    {% else %}
+                    <span class="text-center ml-2 font-semibold"></span>
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+<div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap sm:flex-row flex-col py-6">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Balance Sheet Quarterly</h1>
+    </div>
+    <table class="min-w-full table-auto">
+        <thead class="justify-between">
+            <tr class="bg-gray-800">
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">Company</span>
+                </th>
+                {% for year in data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"] %}
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">{{ year["endDate"]["fmt"] }}</span>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="bg-gray-200 justify-between">
+            {% for cat in data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0].keys() %}
+            <tr class="bg-white border-4 border-gray-200">
+                <td>
+                    <span class="text-center ml-2 font-semibold">{{ cat }}</span>
+                </td>
+                {% for year in data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"] %}
+                <td>
+                    {% if cat in year.keys() %}
+                    <span class="text-center ml-2 font-semibold">{{ year[cat]["fmt"] }}</span>
+                    {% else %}
+                    <span class="text-center ml-2 font-semibold"></span>
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+
+<div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap sm:flex-row flex-col py-6">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Cash flow Annually</h1>
+    </div>
+    <table class="min-w-full table-auto">
+        <thead class="justify-between">
+            <tr class="bg-gray-800">
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">Company</span>
+                </th>
+                {% for year in data["cashflowStatementHistory"]["cashflowStatements"] %}
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">{{ year["endDate"]["fmt"] }}</span>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="bg-gray-200 justify-between">
+            {% for cat in data["cashflowStatementHistory"]["cashflowStatements"][0].keys() %}
+            <tr class="bg-white border-4 border-gray-200">
+                <td>
+                    <span class="text-center ml-2 font-semibold">{{ cat }}</span>
+                </td>
+                {% for year in data["cashflowStatementHistory"]["cashflowStatements"] %}
+                <td>
+                    {% if cat in year.keys() %}
+                    <span class="text-center ml-2 font-semibold">{{ year[cat]["fmt"] }}</span>
+                    {% else %}
+                    <span class="text-center ml-2 font-semibold"></span>
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+<div class="container px-5 py-10 mx-auto">
+    <div class="flex flex-wrap sm:flex-row flex-col py-6">
+        <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Cash flow Quarterly</h1>
+    </div>
+    <table class="min-w-full table-auto">
+        <thead class="justify-between">
+            <tr class="bg-gray-800">
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">Company</span>
+                </th>
+                {% for year in data["cashflowStatementHistoryQuarterly"]["cashflowStatements"] %}
+                <th class="px-16 py-2">
+                    <span class="text-gray-300">{{ year["endDate"]["fmt"] }}</span>
+                </th>
+                {% endfor %}
+            </tr>
+        </thead>
+        <tbody class="bg-gray-200 justify-between">
+            {% for cat in data["cashflowStatementHistoryQuarterly"]["cashflowStatements"][0].keys() %}
+            <tr class="bg-white border-4 border-gray-200">
+                <td>
+                    <span class="text-center ml-2 font-semibold">{{ cat }}</span>
+                </td>
+                {% for year in data["cashflowStatementHistoryQuarterly"]["cashflowStatements"] %}
+                <td>
+                    {% if cat in year.keys() %}
+                    <span class="text-center ml-2 font-semibold">{{ year[cat]["fmt"] }}</span>
+                    {% else %}
+                    <span class="text-center ml-2 font-semibold"></span>
+                    {% endif %}
+                </td>
+                {% endfor %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

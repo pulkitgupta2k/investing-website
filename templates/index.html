@@ -1,5 +1,41 @@
-<h3><a href="{{ url_for('filter') }}">FILTER</a></h3>
+{% extends "layout.html" %}
+{% block body %}
 
-{% for key,value in data.items() %}
-    <a href = "{{ url_for('company_data', name=key ) }}">{{ value['Name'] }} - ({{ key }})<br></a>
-{% endfor %}
+<div class="flex flex-col items-center">
+    <div class="w-full flex flex-col items-center h-64">
+        <div class="w-full px-4">
+            <div class="flex flex-col items-center relative">
+                <div
+                    class="absolute shadow bg-white top-100 z-40 w-full lef-0 rounded max-h-select overflow-y-auto svelte-5uyqqj">
+                    <div class="flex flex-col w-full">
+                        <!---->
+                        {% for ticker, detail in common.items() %}
+                        <a href="{{ url_for('company', ticker=ticker) }}">
+
+                            <div class="cursor-pointer w-full border-gray-100 rounded-t border-b hover:bg-teal-100">
+                                <div
+                                    class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative hover:border-teal-100">
+
+                                    <div class="w-full items-center flex">
+                                        <div class="mx-2 -mt-1  ">{{ detail['name'] }}
+                                            <div
+                                                class="text-xs truncate w-full normal-case font-normal -mt-1 text-gray-500">
+                                                {{ ticker }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        {% endfor %}
+                        <!---->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}

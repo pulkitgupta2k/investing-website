@@ -1,27 +1,144 @@
-<h1>
-    NAME: {{ data['Name'] }}
-</h1>
-<h3>
-    LINK: <a href="{{ data['Link'] }}-advanced-chart">{{ data['Link'] }}-advanced-chart</a>
-</h3>
-<h3>
-    EXCHANGE: {{ data['Exchange'] }}
-</h3>
-<h3>
-    CATEGORY: {{ data['Category'] }}
-</h3>
+{% extends "layout.html" %}
 
-<table>
-    <tr>
-        <th>NAME</th>
-        <th>COMPANY</th>
-        <th>INDUSTRY</th>
-    </tr>
-    {% for key, value in data['Data'].items() %}
-    <tr>
-        <th>{{ key }}</th>
-        <th>{{ value[0] }}</th>
-        <th>{{ value[1] }}</th>
-    </tr>
-    {% endfor %}
-</table>
+
+
+
+{% block body %}
+<section class="text-gray-700 body-font">
+    <div class="container px-5 py-10 mx-auto">
+        <a href="{{ url_for('financials', ticker=data['symbol']) }}"><button
+            class="md:w-1/2 text-white bg-green-500 border-0 py-2 px-10 focus:outline-none hover:bg-green-600 rounded text-lg">Financials Detials</button>
+        </a>
+        
+    </div>
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col">
+
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                <div class="w-24 h-full bg-green-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6">
+                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Profile</h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            {% for key, value in data["summaryProfile"].items() %}
+            <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">{{ key }}</h2>
+                <p class="text-base leading-relaxed mt-2">{{ value }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col">
+
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                <div class="w-24 h-full bg-green-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6">
+                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Price</h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            {% for key, value in data["price"].items() %}
+            <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">{{ key }}</h2>
+                <p class="text-base leading-relaxed mt-2">{{ value["fmt"] }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col">
+
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                <div class="w-24 h-full bg-green-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6">
+                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Summary</h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            {% for key, value in data["summaryDetail"].items() %}
+            <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">{{ key }}</h2>
+                <p class="text-base leading-relaxed mt-2">{{ value["fmt"] }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col">
+
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                <div class="w-24 h-full bg-green-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6">
+                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Financial Data</h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            {% for key, value in data["financialData"].items() %}
+            <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">{{ key }}</h2>
+                <p class="text-base leading-relaxed mt-2">{{ value["fmt"] }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col">
+
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                <div class="w-24 h-full bg-green-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6">
+                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">Statistics</h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            {% for key, value in data["defaultKeyStatistics"].items() %}
+            <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">{{ key }}</h2>
+                <p class="text-base leading-relaxed mt-2">{{ value["fmt"] }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+
+    <div class="container px-5 py-10 mx-auto">
+        <div class="flex flex-col">
+
+            <div class="h-1 bg-gray-200 rounded overflow-hidden">
+                <div class="w-24 h-full bg-green-500"></div>
+            </div>
+            <div class="flex flex-wrap sm:flex-row flex-col py-6">
+                <h1 class="sm:w-2/5 text-gray-900 font-medium title-font text-2xl mb-2 sm:mb-0">ESG Scores</h1>
+            </div>
+        </div>
+        <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+            {% for key, value in data["esgScores"].items() %}
+            <div class="p-4 md:w-1/4 sm:mb-0 mb-6">
+                <h2 class="text-xl font-medium title-font text-gray-900 mt-5">{{ key }}</h2>
+                <p class="text-base leading-relaxed mt-2">{{ value["fmt"] }}</p>
+
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+</section>
+
+{% endblock %}

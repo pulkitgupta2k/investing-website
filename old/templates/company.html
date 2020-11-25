@@ -1,0 +1,27 @@
+<h1>
+    NAME: {{ data['Name'] }}
+</h1>
+<h3>
+    LINK: <a href="{{ data['Link'] }}-advanced-chart">{{ data['Link'] }}-advanced-chart</a>
+</h3>
+<h3>
+    EXCHANGE: {{ data['Exchange'] }}
+</h3>
+<h3>
+    CATEGORY: {{ data['Category'] }}
+</h3>
+
+<table>
+    <tr>
+        <th>NAME</th>
+        <th>COMPANY</th>
+        <th>INDUSTRY</th>
+    </tr>
+    {% for key, value in data['Data'].items() %}
+    <tr>
+        <th>{{ key }}</th>
+        <th>{{ value[0] }}</th>
+        <th>{{ value[1] }}</th>
+    </tr>
+    {% endfor %}
+</table>

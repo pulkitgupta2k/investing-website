@@ -1,0 +1,249 @@
+{
+    "symbol": "",
+    "profile": {
+        "sector": "",
+        "industry": "",
+        "country": ""
+    },
+    "esgScores": {
+        "totalEsg": "",
+        "socialScore": "",
+        "environmentScore": "",
+        "governanceScore": ""
+    },
+    "summaryDetail": {
+        "previousClose": "",
+        "open": "",
+        "bid": "",
+        "ask": "",
+        "dayLow": "",
+        "dayHigh": "",
+        "fiftyTwoWeekLow": "",
+        "fiftyTwoWeekHigh": "",
+        "volume": "",
+        "averageVolume": "",
+        "marketCap": "",
+        "beta": "",
+        "trailingPE": "",
+        "dividendYield": "",
+        "exDividendDate": "",
+        "forwardPE": "",
+        "priceToSalesTrailing12Months": "",
+        "payoutRatio": ""
+    },
+    "defaultKeyStatistics": {
+        "trailingEps": "",
+        "enterpriseValue": "",
+        "pegRatio": "",
+        "priceToBook": "",
+        "enterpriseToRevenue": "",
+        "enterpriseToEbitda": "",
+        "lastFiscalYearEnd": "",
+        "mostRecentQuarter": "",
+        "bookValue": "",
+        "52WeekChange": "",
+        "SandP52WeekChange": "",
+        "sharesOutstanding": "",
+        "floatShares": "",
+        "heldPercentInsiders": "",
+        "heldPercentInstitutions": "",
+        "shortRatio": "",
+        "sharesShort": "",
+        "lastSplitFactor": "",
+        "lastSplitDate": ""
+    },
+    "earnings": {
+        "earningsChart": {
+            "earningsDate": {
+                "0": "",
+                "1": ""
+            }
+        }
+    },
+    "financialData": {
+        "profitMargins": "",
+        "operatingMargins": "",
+        "returnOnAssets": "",
+        "returnOnEquity": "",
+        "totalRevenue": "",
+        "revenuePerShare": "",
+        "totalDebt": "",
+        "debtToEquity": "",
+        "currentRatio": "",
+        "operatingCashflow": "",
+        "freeCashflow": ""
+    },
+    "price": {
+        "averageDailyVolume3Month": "",
+        "averageDailyVolume10Day": ""
+    },
+    "incomeStatementHistory": {
+        "incomeStatementHistory": [
+            {
+                "endDate": "",
+                "totalRevenue": "",
+                "costOfRevenue": "",
+                "grossProfit": "",
+                "researchDevelopment": "",
+                "sellingGeneralAdministrative": "",
+                "totalOperatingExpenses": "",
+                "operatingIncome": "",
+                "interestExpense": "",
+                "totalOtherIncomeExpenseNet": "",
+                "incomeBeforeTax": "",
+                "incomeTaxExpense": "",
+                "netIncomeFromContinuingOps": "",
+                "netIncome": "",
+                "netIncomeApplicableToCommonShares": ""
+            }
+        ]
+    },
+    "incomeStatementHistoryQuarterly": {
+        "incomeStatementHistory": [
+            {
+                "endDate": "",
+                "totalRevenue": "",
+                "costOfRevenue": "",
+                "grossProfit": "",
+                "researchDevelopment": "",
+                "sellingGeneralAdministrative": "",
+                "totalOperatingExpenses": "",
+                "operatingIncome": "",
+                "interestExpense": "",
+                "totalOtherIncomeExpenseNet": "",
+                "incomeBeforeTax": "",
+                "incomeTaxExpense": "",
+                "netIncomeFromContinuingOps": "",
+                "netIncome": "",
+                "netIncomeApplicableToCommonShares": ""
+            }
+        ]
+    },
+    "balanceSheetHistory": {
+        "balanceSheetStatements": [
+            {
+                "endDate": "",
+                "cash": "",
+                "shortTermInvestments": "",
+                "totalCash": "cash+shortTermInvestments",
+                "netReceivables": "",
+                "inventory": "",
+                "totalCurrentAssests": "totalCash+netReceivables+invetory",
+                "propertyPlantEquipment": "",
+                "goodWill": "",
+                "intangibleAssets": "",
+                "otherAssets": "",
+                "totalAssets": "",
+                "totalCurrentLiabilities": "",
+                "longTermDebt": "",
+                "totalLiab": "",
+                "commonStock": "",
+                "retainedEarnings": "",
+                "totalStockholderEquity": ""
+            }
+        ]
+    },
+    "balanceSheetHistoryQuarterly": {
+        "balanceSheetStatements": [
+            {
+                "endDate": "",
+                "cash": "",
+                "shortTermInvestments": "",
+                "totalCash": "cash+shortTermInvestments",
+                "netReceivables": "",
+                "inventory": "",
+                "totalCurrentAssests": "totalCash+netReceivables+invetory",
+                "propertyPlantEquipment": "",
+                "goodWill": "",
+                "intangibleAssets": "",
+                "otherAssets": "",
+                "totalAssets": "",
+                "totalCurrentLiabilities": "",
+                "longTermDebt": "",
+                "totalLiab": "",
+                "commonStock": "",
+                "retainedEarnings": "",
+                "totalStockholderEquity": ""
+            }
+        ]
+    },
+    "cashflowStatementHistory": {
+        "cashflowStatements": [
+            {
+                "endDate": "",
+                "netIncome": "",
+                "depreciation": "",
+                "investments": "",
+                "changeToLiabilities": "",
+                "totalCashflowsFromInvestingActivities": "",
+                "netBorrowings": "",
+                "totalCashFromFinancingActivities": "",
+                "changeInCash": "",
+                "effectOfExchangeRate": "",
+                "totalCashFromOperatingActivities": "",
+                "changeToInventory": "",
+                "changeToAccountReceivables": "",
+                "changeToNetincome": "",
+                "capitalExpenditures": ""
+            }
+        ]
+    },
+    "cashflowStatementHistoryQuarterly": {
+        "cashflowStatements": [
+            {
+                "endDate": "",
+                "netIncome": "",
+                "depreciation": "",
+                "investments": "",
+                "changeToLiabilities": "",
+                "totalCashflowsFromInvestingActivities": "",
+                "netBorrowings": "",
+                "totalCashFromFinancingActivities": "",
+                "changeInCash": "",
+                "effectOfExchangeRate": "",
+                "totalCashFromOperatingActivities": "",
+                "changeToInventory": "",
+                "changeToAccountReceivables": "",
+                "changeToNetincome": "",
+                "capitalExpenditures": ""
+            }
+        ]
+    },
+    "timeSeries": {
+        "annualBasicEPS": [
+            {
+                "asOfDate": "",
+                "reportedValue": "",
+                "currencyCode": ""
+            }
+        ],
+        "annualDilutedEPS": [
+            {
+                "asOfDate": "",
+                "reportedValue": "",
+                "currencyCode": ""
+            }
+        ],
+        "annualBasicAverageShares": [
+            {
+                "asOfDate": "",
+                "reportedValue": "",
+                "currencyCode": ""
+            }
+        ],
+        "annualDilutedAverageShares": [
+            {
+                "asOfDate": "",
+                "reportedValue": "",
+                "currencyCode": ""
+            }
+        ],
+        "annualEbitda": [
+            {
+                "asOfDate": "",
+                "reportedValue": "",
+                "currencyCode": ""
+            }
+        ]
+    }
+}
