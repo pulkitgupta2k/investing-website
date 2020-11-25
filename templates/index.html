@@ -1,6 +1,223 @@
 {% extends "layout.html" %}
 {% block body %}
 <div class="container px-5 py-10 mx-auto">
+    <div class="grid place-items-center pb-10">
+        <form class="mt-6" action="{{ url_for('index') }}" method="POST">
+            <div class="flex justify-between gap-3 my-5">
+                <span class="w-1/2">
+                    <div>Location</div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="New York Stock Exchange, Inc." checked><span class="ml-2 text-gray-700">New York
+                                Stock Exchange, Inc.</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="Nasdaq"
+                                checked><span class="ml-2 text-gray-700">Nasdaq</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="B3 S.A. - Brasil, Bolsa, BalcÃ£o" checked><span class="ml-2 text-gray-700">B3
+                                S.A. - Brasil, Bolsa, BalcÃ£o</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="BSE LTD"
+                                checked><span class="ml-2 text-gray-700">BSE LTD</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="Toronto Stock Exchange" checked><span class="ml-2 text-gray-700">Toronto Stock
+                                Exchange</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="Shanghai Stock Exchange" checked><span class="ml-2 text-gray-700">Shanghai Stock
+                                Exchange</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="Shenzhen Stock Exchange" checked><span class="ml-2 text-gray-700">Shenzhen Stock
+                                Exchange</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="Hong Kong Exchanges And Clearing Ltd" checked><span
+                                class="ml-2 text-gray-700">Hong Kong Exchanges And Clearing Ltd</span>
+                        </label>
+                    </div>
+                </span>
+
+                <span class="w-1/2">
+                    <div>Category</div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="CONSUMER DISCRETIONARY" checked><span class="ml-2 text-gray-700">CONSUMER
+                                DISCRETIONARY</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="CONSUMER STAPLES"
+                                checked><span class="ml-2 text-gray-700">CONSUMER STAPLES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="ENERGY"
+                                checked><span class="ml-2 text-gray-700">ENERGY</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="FINANCIAL SERVICES" checked><span class="ml-2 text-gray-700">FINANCIAL
+                                SERVICES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="HEALTH CARE"
+                                checked><span class="ml-2 text-gray-700">HEALTH CARE</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="MATERIALS & PROCESSING" checked><span class="ml-2 text-gray-700">MATERIALS &
+                                PROCESSING</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600"
+                                value="PRODUCER DURABLES" checked><span class="ml-2 text-gray-700">PRODUCER
+                                DURABLES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="TECHNOLOGY"
+                                checked><span class="ml-2 text-gray-700">TECHNOLOGY</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="UTILITIES"
+                                checked><span class="ml-2 text-gray-700">UTILITIES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" value="OTHERS"
+                                checked><span class="ml-2 text-gray-700">OTHERS</span>
+                        </label>
+                    </div>
+                </span>
+            </div>
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Dept to Equity Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="de_ratio_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="de_ratio_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div>EPS</div>
+                    <div class="flex">
+                        <input type="number" name="eps_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="eps_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Return on Equity</div>
+                    <div class="flex">
+                        <input type="number" name="ret_eq_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="ret_eq_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div>Quick Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="q_ratio_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="q_ratio_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Dividend Yield</div>
+                    <div class="flex">
+                        <input type="number" name="div_y_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="div_y_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div>Operating Profit Margin</div>
+                    <div class="flex">
+                        <input type="number" name="op_pro_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="op_pro_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Interest Coverage Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="int_cov_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                        <input type="number" name="int_cov_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" />
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <button type="submit"
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Search
+            </button>
+        </form>
+    </div>
+
+
     <div class="flex flex-col items-center">
         <div class="w-full flex flex-col items-center h-64">
             <div class="w-full px-4">
@@ -34,8 +251,6 @@
             </div>
         </div>
     </div>
-
-
 </div>
 
 {% endblock %}
