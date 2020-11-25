@@ -121,17 +121,29 @@ def correction():
     #     json.dump(common, f)
     #######################
 
+    # with open("common.json") as f:
+    #     common = json.load(f)
+    
+    # loc = []
+
+    # for key, value in common.items():
+    #     if value["category"] not in loc:
+    #         loc.append(value["category"])
+    #         print(value["category"])
+    #######################
+
+    with open("left.json") as f:
+        left = json.load(f)
+    
     with open("common.json") as f:
         common = json.load(f)
     
-    loc = []
-
-    for key, value in common.items():
-        if value["category"] not in loc:
-            loc.append(value["category"])
-            print(value["category"])
-
+    for key, value in left.items():
+        common[key] = value
+    
+    with open("common_new.json", "w") as f:
+        json.dump(common,f)
 
 if __name__ == "__main__":
-    # master_func()
-    correction()
+    master_func()
+    # correction()
