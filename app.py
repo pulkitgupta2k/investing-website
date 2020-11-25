@@ -1,13 +1,30 @@
 from flask import Flask, render_template, request, url_for, redirect
 import json
+from pprint import pprint
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET"])
+@app.route("/", methods=["GET", "POST"])
 def index():
-    with open("common.json", "r") as f:
-        common = json.load(f)
-    return render_template("index.html", common = common)
+    if request.method == "GET":
+        with open("common.json", "r") as f:
+            common = json.load(f)
+        return render_template("index.html", common = common)
+    if request.method == "POST":
+        with open("common.json", "r") as f:
+            common = json.load(f)
+
+        location = request.form.getlist("location")
+        category = request.form.getlist("category")
+
+        ret_common = {}
+
+        for key, value in common.items():
+            if value["location"] in location and value["category"] in category:
+                ret_common[key] = value
+
+        return render_template("index.html", common = ret_common)
+
 
 @app.route("/company/<ticker>/", methods=["GET"])
 def company(ticker):
