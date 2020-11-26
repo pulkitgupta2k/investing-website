@@ -16,7 +16,6 @@ def get_summary(ticker):
     url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-summary"
     querystring = {"symbol": ticker}
     response = get_json(url, querystring)
-
     return response
 
 def get_financial(ticker):
@@ -47,21 +46,20 @@ def get_data(key, value):
         json.dump(new_data, f)
 
 def master_func():
-    with open("common.json") as f:
+    with open("left_1.json") as f:
         tickers = json.load(f)
 
     for file in glob.glob("data/*.json"):
         tickers.pop(file[5:-5])
 
-    left = []
+    left = {}
     for key, value in tickers.items():
         try:
             get_data(key,value)
             print(value['ytick'])
         except:
-            left.append({key: value})
+            left[key] = value
             print(f"ERROR in {value['ytick']}")
-
 
     with open("left.json", "w") as f:
         json.dump(left, f)
@@ -128,7 +126,7 @@ def correction():
     #         print(value["category"])
     #######################
 
-    with open("left.json") as f:
+    with open("left_1.json") as f:
         left = json.load(f)
     
     with open("common.json") as f:
@@ -137,7 +135,7 @@ def correction():
     for key, value in left.items():
         common[key] = value
     
-    with open("common_new.json", "w") as f:
+    with open("common.json", "w") as f:
         json.dump(common,f)
 
 def add_formula():
@@ -207,7 +205,6 @@ def add_formula():
                 common[key]["ratios"]["div_pay"] = round(common[key]["ratios"]["div_pay"],2)
             except:
                 common[key]["ratios"]["div_pay"] = None
-
 
         else:
             common[key]["ratios"]["de_ratio"] = None

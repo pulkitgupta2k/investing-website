@@ -1,194 +1,68 @@
-[
-    {
-        "AVP": {
-            "name": "Avon Products Inc",
-            "ytick": "AVP",
-            "location": "New York Stock Exchange, Inc.",
-            "category": "CONSUMER DISCRETIONARY"
-        }
+{
+    "AVP": {
+        "name": "Avon Products Inc",
+        "ytick": "AVP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
     },
-    {
-        "532977": {
-            "name": "Bajaj Auto",
-            "ytick": "BAJAJAUTO.BO",
-            "location": "BSE LTD",
-            "category": "CONSUMER DISCRETIONARY"
-        }
+    "DFRG": {
+        "name": "Del Frisco\u00e2\u20ac\u2122s Restaurant Group Inc",
+        "ytick": "DFRG",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
     },
-    {
-        "DFRG": {
-            "name": "Del Frisco\u00e2\u20ac\u2122s Restaurant Group Inc",
-            "ytick": "DFRG",
-            "location": "Nasdaq",
-            "category": "CONSUMER DISCRETIONARY"
-        }
+    "NATU3": {
+        "name": "Natura Cosmeticos SA",
+        "ytick": "NATU3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
     },
-    {
-        "NATU3": {
-            "name": "Natura Cosmeticos SA",
-            "ytick": "NATU3.SA",
-            "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
-            "category": "CONSUMER STAPLES"
-        }
+    "532955": {
+        "name": "REC",
+        "ytick": "REC.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
     },
-    {
-        "386": {
-            "name": "China Petroleum & Chemical Corp",
-            "ytick": "000386",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "ENERGY"
-        }
+    "CELG": {
+        "name": "Celgene Corp",
+        "ytick": "CELG",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
     },
-    {
-        "857": {
-            "name": "PetroChina Co Ltd",
-            "ytick": "000857",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "ENERGY"
-        }
+    "AKS": {
+        "name": "AK Steel Holding Corp",
+        "ytick": "AKS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
     },
-    {
-        "939": {
-            "name": "China Construction Bank Corp",
-            "ytick": "000939",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "FINANCIAL SERVICES"
-        }
+    "267": {
+        "name": "CITIC Ltd",
+        "ytick": "000267",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "PRODUCER DURABLES"
     },
-    {
-        "2202": {
-            "name": "China Vanke Co Ltd",
-            "ytick": "002202",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "FINANCIAL SERVICES"
-        }
+    "NCI": {
+        "name": "Navigant Consulting Inc",
+        "ytick": "NCI",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
     },
-    {
-        "2318": {
-            "name": "Ping An Insurance (Group) Co. of China Ltd",
-            "ytick": "002318",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "FINANCIAL SERVICES"
-        }
+    "AABA": {
+        "name": "Altaba Inc",
+        "ytick": "AABA",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
     },
-    {
-        "532955": {
-            "name": "REC",
-            "ytick": "REC.BO",
-            "location": "BSE LTD",
-            "category": "FINANCIAL SERVICES"
-        }
+    "384": {
+        "name": "China Gas Holdings Ltd",
+        "ytick": "000384",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "UTILITIES"
     },
-    {
-        "CELG": {
-            "name": "Celgene Corp",
-            "ytick": "CELG",
-            "location": "Nasdaq",
-            "category": "HEALTH CARE"
-        }
-    },
-    {
-        "AKS": {
-            "name": "AK Steel Holding Corp",
-            "ytick": "AKS",
-            "location": "New York Stock Exchange, Inc.",
-            "category": "MATERIALS & PROCESSING"
-        }
-    },
-    {
-        "914": {
-            "name": "Anhui Conch Cement Co Ltd",
-            "ytick": "000914",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "MATERIALS & PROCESSING"
-        }
-    },
-    {
-        "CJT": {
-            "name": "Cargojet Inc",
-            "ytick": "CJT.L",
-            "location": "Toronto Stock Exchange",
-            "category": "PRODUCER DURABLES"
-        }
-    },
-    {
-        "3311": {
-            "name": "China State Construction International Holdings Ltd",
-            "ytick": "003311",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "PRODUCER DURABLES"
-        }
-    },
-    {
-        "267": {
-            "name": "CITIC Ltd",
-            "ytick": "000267",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "PRODUCER DURABLES"
-        }
-    },
-    {
-        "532927": {
-            "name": "eClerx Services",
-            "ytick": "ECLERX.BO",
-            "location": "BSE LTD",
-            "category": "PRODUCER DURABLES"
-        }
-    },
-    {
-        "NCI": {
-            "name": "Navigant Consulting Inc",
-            "ytick": "NCI",
-            "location": "New York Stock Exchange, Inc.",
-            "category": "PRODUCER DURABLES"
-        }
-    },
-    {
-        "AABA": {
-            "name": "Altaba Inc",
-            "ytick": "AABA",
-            "location": "Nasdaq",
-            "category": "TECHNOLOGY"
-        }
-    },
-    {
-        "3690": {
-            "name": "Meituan Dianping",
-            "ytick": "003690",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "TECHNOLOGY"
-        }
-    },
-    {
-        "700": {
-            "name": "Tencent Holdings Ltd",
-            "ytick": "000700",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "TECHNOLOGY"
-        }
-    },
-    {
-        "384": {
-            "name": "China Gas Holdings Ltd",
-            "ytick": "000384",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "UTILITIES"
-        }
-    },
-    {
-        "941": {
-            "name": "China Mobile Ltd",
-            "ytick": "000941",
-            "location": "Hong Kong Exchanges And Clearing Ltd",
-            "category": "UTILITIES"
-        }
-    },
-    {
-        "S": {
-            "name": "Sprint Corp",
-            "ytick": "S",
-            "location": "New York Stock Exchange, Inc.",
-            "category": "UTILITIES"
-        }
+    "S": {
+        "name": "Sprint Corp",
+        "ytick": "S",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
     }
-]
+}
