@@ -32,7 +32,6 @@ def index():
 
         return render_template("index.html", common = ret_common)
 
-
 @app.route("/company/<ticker>/", methods=["GET"])
 def company(ticker):
     with open(f"data/{ticker}.json") as f:

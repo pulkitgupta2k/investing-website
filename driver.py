@@ -12,7 +12,6 @@ def get_json(url, querystring):
         "GET", url, headers=headers, params=querystring).json()
     return response
 
-
 def get_summary(ticker):
     url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-summary"
     querystring = {"symbol": ticker}
@@ -20,13 +19,11 @@ def get_summary(ticker):
 
     return response
 
-
 def get_financial(ticker):
     url = "https://apidojo-yahoo-finance-v1.p.rapidapi.com/stock/v2/get-financials"
     querystring = {"symbol": ticker}
     response = get_json(url, querystring)
     return response
-
 
 def get_data(key, value):
     ticker = value['ytick']
@@ -48,7 +45,6 @@ def get_data(key, value):
 
     with open(f"data/{key}.json", "w") as f:
         json.dump(new_data, f)
-
 
 def master_func():
     with open("common.json") as f:
