@@ -144,6 +144,89 @@ def correction():
     with open("common_new.json", "w") as f:
         json.dump(common,f)
 
+def add_formula():
+    with open("common.json") as f:
+        common = json.load(f)
+    
+    have_data = []
+
+    for file in glob.glob("data/*.json"):
+        have_data.append(file[5:-5])
+
+    for key, value in common.items():
+        common[key]["ratios"] = {}
+        if key in have_data:
+            with open(f"data/{key}.json") as f:
+                data = json.load(f)
+            try:
+                common[key]["ratios"]["de_ratio"] = data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalLiab"]["raw"] / \
+                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalStockholderEquity"]["raw"]
+                common[key]["ratios"]["de_ratio"] = round(common[key]["ratios"]["de_ratio"],2)
+            except:
+                common[key]["ratios"]["de_ratio"] = None
+
+            try:            
+                common[key]["ratios"]["eps"] = data["cashflowStatementHistory"]["cashflowStatements"][0]["netIncome"]["raw"] / \
+                    data["defaultKeyStatistics"]["sharesOutstanding"]["raw"]
+                common[key]["ratios"]["eps"] = round(common[key]["ratios"]["eps"],2)
+            except:
+                common[key]["ratios"]["eps"] = None
+
+            try:
+                common[key]["ratios"]["ret_eq"] = 100 * data["cashflowStatementHistory"]["cashflowStatements"][0]["netIncome"]["raw"] / \
+                    data["defaultKeyStatistics"]["sharesOutstanding"]["raw"]
+                common[key]["ratios"]["ret_eq"] = round(common[key]["ratios"]["ret_eq"],2)
+            except:
+                common[key]["ratios"]["ret_eq"] = None
+
+            try:
+                common[key]["ratios"]["q_ratio"] = ( data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentAssets"]["raw"] -  data["balanceSheetHistory"]["balanceSheetStatements"][0]["inventory"]["raw"]) / \
+                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentLiabilities"]["raw"]
+                common[key]["ratios"]["q_ratio"] = round(common[key]["ratios"]["q_ratio"],2)
+            except:
+                common[key]["ratios"]["q_ratio"] = None
+
+            try:
+                common[key]["ratios"]["div_y"] = 0
+                common[key]["ratios"]["div_y"] = round(common[key]["ratios"]["div_y"],2)
+            except:
+                common[key]["ratios"]["div_y"] = None
+
+            try:
+                common[key]["ratios"]["op_pro"] = data["incomeStatementHistory"]["incomeStatementHistory"][0]["operatingIncome"]["raw"] / \
+                    data["incomeStatementHistory"]["incomeStatementHistory"][0]["totalRevenue"]["raw"]
+                common[key]["ratios"]["op_pro"] = round(common[key]["ratios"]["op_pro"],2)
+            except:
+                common[key]["ratios"]["op_pro"] = None
+
+            try:
+                common[key]["ratios"]["int_cov"] = data["balanceSheetHistory"]["balanceSheetStatements"][0]["retainedEarnings"]["raw"] / \
+                    data["incomeStatementHistory"]["incomeStatementHistory"][0]["interestExpense"]["raw"]
+                common[key]["ratios"]["int_cov"] = round(common[key]["ratios"]["int_cov"],2)
+            except:
+                common[key]["ratios"]["int_cov"] = None
+
+            try:
+                common[key]["ratios"]["div_pay"] = 0
+                common[key]["ratios"]["div_pay"] = round(common[key]["ratios"]["div_pay"],2)
+            except:
+                common[key]["ratios"]["div_pay"] = None
+
+
+        else:
+            common[key]["ratios"]["de_ratio"] = None
+            common[key]["ratios"]["eps"] = None
+            common[key]["ratios"]["ret_eq"] = None
+            common[key]["ratios"]["q_ratio"] = None
+            common[key]["ratios"]["div_y"] = None
+            common[key]["ratios"]["op_pro"] = None
+            common[key]["ratios"]["int_cov"] = None
+            common[key]["ratios"]["div_pay"] = None
+
+    with open("common.json", "w") as f:
+        json.dump(common, f)
+
 if __name__ == "__main__":
-    master_func()
+    # master_func()
     # correction()
+    add_formula()

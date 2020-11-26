@@ -1,0 +1,3020 @@
+{
+    "ANF": {
+        "name": "Abercrombie & Fitch Co",
+        "ytick": "ANF",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "ATV": {
+        "name": "Acorn International Inc",
+        "ytick": "ATV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "AMZN": {
+        "name": "Amazon.com Inc",
+        "ytick": "AMZN",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "AEO": {
+        "name": "American Eagle Outfitters Inc",
+        "ytick": "AEO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "APTV": {
+        "name": "Aptiv PLC",
+        "ytick": "APTV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "AVP": {
+        "name": "Avon Products Inc",
+        "ytick": "AVP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BTOW3": {
+        "name": "B2W - Companhia Digital",
+        "ytick": "BTOW3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "532977": {
+        "name": "Bajaj Auto",
+        "ytick": "BAJAJAUTO.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BNED": {
+        "name": "Barnes & Noble Education Inc",
+        "ytick": "BNED",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500043": {
+        "name": "Bata India",
+        "ytick": "BATAINDIA.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BBBY": {
+        "name": "Bed Bath & Beyond Inc",
+        "ytick": "BBBY",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BBY": {
+        "name": "Best Buy Co Inc",
+        "ytick": "BBY",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BWA": {
+        "name": "BorgWarner Inc",
+        "ytick": "BWA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500530": {
+        "name": "Bosch",
+        "ytick": "BOSCHLTD.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BYD": {
+        "name": "Boyd Group Services Inc",
+        "ytick": "BYD",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BBW": {
+        "name": "Build-A-Bear Workshop Inc",
+        "ytick": "BBW",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "BURL": {
+        "name": "Burlington Stores Inc",
+        "ytick": "BURL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "GOOS": {
+        "name": "Canada Goose Holdings Inc",
+        "ytick": "GOOS",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "KMX": {
+        "name": "CarMax Inc",
+        "ytick": "KMX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CCL": {
+        "name": "Carnival PLC",
+        "ytick": "CCL",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CAKE": {
+        "name": "Cheesecake Factory Inc",
+        "ytick": "CAKE",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CAAS": {
+        "name": "China Automotive Systems Inc",
+        "ytick": "CAAS",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "601888": {
+        "name": "China Tourism Group Duty Free Corp Ltd",
+        "ytick": "601888.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CMG": {
+        "name": "Chipotle Mexican Grill Inc",
+        "ytick": "CMG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "COGN3": {
+        "name": "CognaEducacao SA",
+        "ytick": "COGN3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CMCSA": {
+        "name": "Comcast Corp",
+        "ytick": "CMCSA",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CPG": {
+        "name": "Compass Group PLC",
+        "ytick": "CPG",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "CORE": {
+        "name": "Core-Mark Holding Co Inc",
+        "ytick": "CORE",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "COST": {
+        "name": "Costco Wholesale Corp",
+        "ytick": "COST",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DJCO": {
+        "name": "Daily Journal Corp",
+        "ytick": "DJCO",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DFRG": {
+        "name": "Del Frisco\u00e2\u20ac\u2122s Restaurant Group Inc",
+        "ytick": "DFRG",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DG": {
+        "name": "Dollar General Corp",
+        "ytick": "DG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DLTR": {
+        "name": "Dollar Tree Inc",
+        "ytick": "DLTR",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DOL": {
+        "name": "Dollarama Inc",
+        "ytick": "DOL",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DPZ": {
+        "name": "Domino\u00e2\u20ac\u2122s Pizza Inc",
+        "ytick": "DPZ",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "FL": {
+        "name": "Foot Locker Inc",
+        "ytick": "FL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "F": {
+        "name": "Ford Motor Co",
+        "ytick": "F",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "GPS": {
+        "name": "Gap Inc",
+        "ytick": "GPS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "GM": {
+        "name": "General Motors Co",
+        "ytick": "GM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HRB": {
+        "name": "H&R Block Inc",
+        "ytick": "HRB",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HOG": {
+        "name": "Harley-Davidson Inc",
+        "ytick": "HOG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HAS": {
+        "name": "Hasbro Inc",
+        "ytick": "HAS",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500182": {
+        "name": "Hero MotoCorp",
+        "ytick": "HEROMOTOCO.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HIBB": {
+        "name": "Hibbett Sports Inc",
+        "ytick": "HIBB",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HMC": {
+        "name": "Honda Motor Co Ltd",
+        "ytick": "HMC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "HSW": {
+        "name": "Hostelworld Group PLC",
+        "ytick": "HSW.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "H": {
+        "name": "Hyatt Hotels Corp",
+        "ytick": "H",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "IMAX": {
+        "name": "Imax Corp",
+        "ytick": "IMAX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "IHG": {
+        "name": "InterContinental Hotels Group PLC",
+        "ytick": "IHG",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "533155": {
+        "name": "Jubilant Foodworks",
+        "ytick": "JUBLFOOD.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LE": {
+        "name": "Lands\u00e2\u20ac\u2122 End Inc",
+        "ytick": "LE",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LVS": {
+        "name": "Las Vegas Sands Corp",
+        "ytick": "LVS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LCII": {
+        "name": "LCI Industries Inc",
+        "ytick": "LCII",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "RENT3": {
+        "name": "Localiza Rent A Car SA",
+        "ytick": "RENT3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LAME4": {
+        "name": "Lojas Americanas SA",
+        "ytick": "LAME4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LREN3": {
+        "name": "Lojas Renner SA",
+        "ytick": "LREN3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LOOK": {
+        "name": "Lookers PLC",
+        "ytick": "LOOK",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LULU": {
+        "name": "Lululemon Athletica Inc",
+        "ytick": "LULU",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "LYFT": {
+        "name": "Lyft Inc",
+        "ytick": "LYFT",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "M": {
+        "name": "Macy\u00e2\u20ac\u2122s Inc",
+        "ytick": "M",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "MGLU3": {
+        "name": "Magazine Luiza SA",
+        "ytick": "MGLU3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500520": {
+        "name": "Mahindra & Mahindra",
+        "ytick": "M%26M.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "MAR": {
+        "name": "Marriott International Inc",
+        "ytick": "MAR",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "532500": {
+        "name": "Maruti Suzuki India",
+        "ytick": "MARUTI.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "MAT": {
+        "name": "Mattel Inc",
+        "ytick": "MAT",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "MCD": {
+        "name": "McDonald\u00e2\u20ac\u2122s Corp",
+        "ytick": "MCD",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "000333": {
+        "name": "Midea Group Co Ltd",
+        "ytick": "000333.SZ",
+        "location": "Shenzhen Stock Exchange",
+        "category": "OTHERS"
+    },
+    "MOV": {
+        "name": "Movado Group Inc",
+        "ytick": "MOV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "EDU": {
+        "name": "New Oriental Education & Technology Group Inc",
+        "ytick": "EDU",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "NXT": {
+        "name": "Next PLC",
+        "ytick": "NXT.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "NKE": {
+        "name": "Nike Inc",
+        "ytick": "NKE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "NCLH": {
+        "name": "Norwegian Cruise Line Holdings Ltd",
+        "ytick": "NCLH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "OTB": {
+        "name": "On The Beach Group PLC",
+        "ytick": "OTB.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "PZZA": {
+        "name": "Papa John\u00e2\u20ac\u2122s International Inc",
+        "ytick": "PZZA",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "PSON": {
+        "name": "Pearson PLC",
+        "ytick": "PSON.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "PLNT": {
+        "name": "Planet Fitness Inc",
+        "ytick": "PLNT",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "RLH": {
+        "name": "Red Lion Hotels Corp",
+        "ytick": "RLH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "QSR": {
+        "name": "Restaurant Brands International Inc",
+        "ytick": "QSR",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "REV": {
+        "name": "Revlon Inc",
+        "ytick": "REV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "RBA": {
+        "name": "Ritchie Bros Auctioneers Inc",
+        "ytick": "RBA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "SIRI": {
+        "name": "Sirius XM Holdings Inc",
+        "ytick": "SIRI",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "SWBI": {
+        "name": "Smith & Wesson Brands Inc",
+        "ytick": "SWBI",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "SBUX": {
+        "name": "Starbucks Corp",
+        "ytick": "SBUX",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "SFIX": {
+        "name": "Stitch Fix Inc",
+        "ytick": "SFIX",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TLRD": {
+        "name": "Tailored Brands Inc",
+        "ytick": "TLRD",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TAL": {
+        "name": "TAL Education Group",
+        "ytick": "TAL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TGT": {
+        "name": "Target Corp",
+        "ytick": "TGT",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500570": {
+        "name": "Tata Motors",
+        "ytick": "TATAMOTORS.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TSLA": {
+        "name": "Tesla Inc",
+        "ytick": "TSLA",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TXRH": {
+        "name": "Texas Roadhouse Inc",
+        "ytick": "TXRH",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TCS": {
+        "name": "The Container Store Group Inc",
+        "ytick": "TCS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "EL": {
+        "name": "The Estee Lauder Companies Inc",
+        "ytick": "EL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "DIS": {
+        "name": "The Walt Disney Co",
+        "ytick": "DIS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "WEN": {
+        "name": "The Wendy\u00e2\u20ac\u2122s Co",
+        "ytick": "WEN",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TIF": {
+        "name": "Tiffany & Co",
+        "ytick": "TIF",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "500114": {
+        "name": "Titan Co",
+        "ytick": "TITAN.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TJX": {
+        "name": "TJX Companies Inc",
+        "ytick": "TJX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "TM": {
+        "name": "Toyota Motor Corp",
+        "ytick": "TM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "UBER": {
+        "name": "Uber Technologies Inc",
+        "ytick": "UBER",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "ULTA": {
+        "name": "Ulta Beauty Inc",
+        "ytick": "ULTA",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "UAA": {
+        "name": "Under Armour Inc",
+        "ytick": "UAA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "URBN": {
+        "name": "Urban Outfitters Inc",
+        "ytick": "URBN",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "VRA": {
+        "name": "Vera Bradley Inc",
+        "ytick": "VRA",
+        "location": "Nasdaq",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "VFC": {
+        "name": "VF Corp",
+        "ytick": "VFC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "WTB": {
+        "name": "Whitbread PLC",
+        "ytick": "WTB.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "WYND": {
+        "name": "Wyndham Destinations Inc",
+        "ytick": "WYND",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "YUM": {
+        "name": "Yum Brands Inc",
+        "ytick": "YUM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER DISCRETIONARY"
+    },
+    "ATD.B": {
+        "name": "Alimentation Couche- Tard Inc",
+        "ytick": "ATD-B.TO",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "ABEV3": {
+        "name": "Ambev SA",
+        "ytick": "ABEV3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "CRFB3": {
+        "name": "Atacadao SA",
+        "ytick": "CRFB3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "BRFS3": {
+        "name": "BRF SA",
+        "ytick": "BRFS3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "CPB": {
+        "name": "Campbell Soup Co",
+        "ytick": "CPB",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "CASY": {
+        "name": "Casey\u00e2\u20ac\u2122s General Stores Inc",
+        "ytick": "CASY",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "KO": {
+        "name": "Coca-Cola Co",
+        "ytick": "KO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "CL": {
+        "name": "Colgate-Palmolive Co",
+        "ytick": "CL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "PCAR4": {
+        "name": "Companhia Brasileira De Distribuicao",
+        "ytick": "PCAR3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "CTVA": {
+        "name": "Corteva Inc",
+        "ytick": "CTVA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "CVS": {
+        "name": "CVS Health Corp",
+        "ytick": "CVS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "GIS": {
+        "name": "General Mills Inc",
+        "ytick": "GIS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "540743": {
+        "name": "Godrej Agrovet",
+        "ytick": "GODREJAGRO.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "532424": {
+        "name": "Godrej Consumer Products",
+        "ytick": "GODREJCP.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "500696": {
+        "name": "Hindustan Unilever",
+        "ytick": "HINDUNILVR.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "500875": {
+        "name": "ITC",
+        "ytick": "ITC.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "JJSF": {
+        "name": "J&J Snack Foods Corp",
+        "ytick": "JJSF",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "JBSS3": {
+        "name": "JBS SA",
+        "ytick": "JBSS3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "K": {
+        "name": "Kellogg Co",
+        "ytick": "K",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "KDP": {
+        "name": "Keurig Dr Pepper Inc",
+        "ytick": "KDP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "600519": {
+        "name": "Kweichow Moutai Co Ltd",
+        "ytick": "600519.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "MDIA3": {
+        "name": "M Dias Branco SA Industria e Comercio de Alimentos",
+        "ytick": "MDIA3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "MKC": {
+        "name": "McCormick & Co Inc",
+        "ytick": "MKC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "MCK": {
+        "name": "McKesson Corp",
+        "ytick": "MCK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "TAP": {
+        "name": "Molson Coors Beverage Co",
+        "ytick": "TAP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "MNST": {
+        "name": "Monster Beverage Corp",
+        "ytick": "MNST",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "FIZZ": {
+        "name": "National Beverage Corp",
+        "ytick": "FIZZ",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "NATU3": {
+        "name": "Natura Cosmeticos SA",
+        "ytick": "NATU3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "500790": {
+        "name": "Nestle India",
+        "ytick": "NESTLEIND.BO",
+        "location": "BSE LTD",
+        "category": "CONSUMER STAPLES"
+    },
+    "PEP": {
+        "name": "PepsiCo Inc",
+        "ytick": "PEP",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "PG": {
+        "name": "Procter & Gamble Co",
+        "ytick": "PG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "RADL3": {
+        "name": "Raia Drogasil SA",
+        "ytick": "RADL3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "CONSUMER STAPLES"
+    },
+    "RB.": {
+        "name": "Reckitt Benckiser Group PLC",
+        "ytick": "RB.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "RAD": {
+        "name": "Rite Aid Corp",
+        "ytick": "RAD",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "SBRY": {
+        "name": "Sainsbury (J) PLC",
+        "ytick": "SBRY.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "SFM": {
+        "name": "Sprouts Farmers Market Inc",
+        "ytick": "SFM",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "SYY": {
+        "name": "Sysco Corp",
+        "ytick": "SYY",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "HSY": {
+        "name": "The Hershey Co",
+        "ytick": "HSY",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "TR": {
+        "name": "Tootsie Roll Industries Inc",
+        "ytick": "TR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "THS": {
+        "name": "Treehouse Foods Inc",
+        "ytick": "THS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "TSN": {
+        "name": "Tyson Foods Inc",
+        "ytick": "TSN",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "ULVR": {
+        "name": "Unilever PLC",
+        "ytick": "ULVR.L",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "UL": {
+        "name": "Unilever PLC",
+        "ytick": "UL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "UNFI": {
+        "name": "United Natural Foods Inc",
+        "ytick": "UNFI",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "CONSUMER STAPLES"
+    },
+    "WDFC": {
+        "name": "WD-40 Co",
+        "ytick": "WDFC",
+        "location": "Nasdaq",
+        "category": "CONSUMER STAPLES"
+    },
+    "000858": {
+        "name": "Wuliangye Yibin Co Ltd",
+        "ytick": "000858.SZ",
+        "location": "Shenzhen Stock Exchange",
+        "category": "OTHERS"
+    },
+    "WYN": {
+        "name": "Wynnstay Group PLC",
+        "ytick": "WYN",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "FIVE": {
+        "name": "X5 Retail Group NV",
+        "ytick": "FIVE",
+        "location": "London Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "ZENA": {
+        "name": "Zenabis Global Inc",
+        "ytick": "ZENA.TO",
+        "location": "Toronto Stock Exchange",
+        "category": "CONSUMER STAPLES"
+    },
+    "AMTX": {
+        "name": "Aemetis Inc",
+        "ytick": "AMTX",
+        "location": "Nasdaq",
+        "category": "ENERGY"
+    },
+    "BP": {
+        "name": "BP PLC",
+        "ytick": "BP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "CCJ": {
+        "name": "Cameco Corp",
+        "ytick": "CCJ",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "CNQ": {
+        "name": "Canadian Natural Resources Ltd",
+        "ytick": "CNQ",
+        "location": "Toronto Stock Exchange",
+        "category": "ENERGY"
+    },
+    "CVX": {
+        "name": "Chevron Corp",
+        "ytick": "CVX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "386": {
+        "name": "China Petroleum & Chemical Corp",
+        "ytick": "000386",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "ENERGY"
+    },
+    "SNP": {
+        "name": "China Petroleum & Chemical Corp",
+        "ytick": "SNP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "CEO": {
+        "name": "CNOOC Ltd",
+        "ytick": "CEO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "533278": {
+        "name": "Coal India",
+        "ytick": "COALINDIA.BO",
+        "location": "BSE LTD",
+        "category": "ENERGY"
+    },
+    "CLR": {
+        "name": "Continental Resources Inc",
+        "ytick": "CLR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "CSAN3": {
+        "name": "Cosan SA",
+        "ytick": "CSAN3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "ENERGY"
+    },
+    "ET": {
+        "name": "Energy Transfer LP",
+        "ytick": "ET",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "XOM": {
+        "name": "Exxon Mobil Corp",
+        "ytick": "XOM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "GLEN": {
+        "name": "Glencore PLC",
+        "ytick": "GLEN.L",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "HES": {
+        "name": "Hess Corp",
+        "ytick": "HES",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "LAM": {
+        "name": "Lamprell PLC",
+        "ytick": "LAM.L",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "NOV": {
+        "name": "National Oilwell Varco Inc",
+        "ytick": "NOV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "NGS": {
+        "name": "Natural Gas Services Group Inc",
+        "ytick": "NGS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "500312": {
+        "name": "Oil & Natural Gas Corp",
+        "ytick": "ONGC.BO",
+        "location": "BSE LTD",
+        "category": "ENERGY"
+    },
+    "OKE": {
+        "name": "ONEOK Inc",
+        "ytick": "OKE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "BRDT3": {
+        "name": "Petrobras Distribuidora SA",
+        "ytick": "BRDT3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "ENERGY"
+    },
+    "857": {
+        "name": "PetroChina Co Ltd",
+        "ytick": "000857",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "ENERGY"
+    },
+    "PTR": {
+        "name": "PetroChina Co Ltd",
+        "ytick": "PTR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "PETR3": {
+        "name": "Petroleo Brasileiro SA Petrobras",
+        "ytick": "PETR3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "ENERGY"
+    },
+    "PETR4": {
+        "name": "Petroleo Brasileiro SA Petrobras",
+        "ytick": "PETR4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "ENERGY"
+    },
+    "PSX": {
+        "name": "Phillips 66",
+        "ytick": "PSX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "500325": {
+        "name": "Reliance Industries",
+        "ytick": "RELIANCE.BO",
+        "location": "BSE LTD",
+        "category": "ENERGY"
+    },
+    "RDSA": {
+        "name": "Royal Dutch Shell PLC",
+        "ytick": "RDSA.L",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "533206": {
+        "name": "SJVN",
+        "ytick": "SJVN.BO",
+        "location": "BSE LTD",
+        "category": "ENERGY"
+    },
+    "SU": {
+        "name": "Suncor Energy Inc",
+        "ytick": "SU",
+        "location": "Toronto Stock Exchange",
+        "category": "ENERGY"
+    },
+    "SUN": {
+        "name": "Sunoco LP",
+        "ytick": "SUN",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "ENERGY"
+    },
+    "TRCH": {
+        "name": "Torchlight Energy Resources Inc",
+        "ytick": "TRCH",
+        "location": "Nasdaq",
+        "category": "ENERGY"
+    },
+    "TLW": {
+        "name": "Tullow Oil PLC",
+        "ytick": "TLW.L",
+        "location": "London Stock Exchange",
+        "category": "ENERGY"
+    },
+    "UGPA3": {
+        "name": "Ultrapar Participacoes SA",
+        "ytick": "UGPA3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "ENERGY"
+    },
+    "AFL": {
+        "name": "Aflac Inc",
+        "ytick": "AFL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "ALL": {
+        "name": "Allstate Corp",
+        "ytick": "ALL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "AXP": {
+        "name": "American Express Co",
+        "ytick": "AXP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "APAM": {
+        "name": "Artisan Partners Asset Management Inc",
+        "ytick": "APAM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "AV.": {
+        "name": "Aviva PLC",
+        "ytick": "AV.L",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532215": {
+        "name": "Axis Bank",
+        "ytick": "AXISBANK.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "B3SA3": {
+        "name": "B3 SA - Brasil Bolsa Balcao",
+        "ytick": "B3SA3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532978": {
+        "name": "Bajaj Finserv",
+        "ytick": "BAJAJFINSV.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BPAC11": {
+        "name": "Banco BTG Pactual S.A.",
+        "ytick": "BPAC11.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BBAS3": {
+        "name": "Banco do Brasil SA BB Brasil",
+        "ytick": "BBAS3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "SANB11": {
+        "name": "Banco Santander (Brasil) SA",
+        "ytick": "SANB11.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BBDC3": {
+        "name": "Bank Bradesco SA",
+        "ytick": "BBDC3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BBDC4": {
+        "name": "Bank Bradesco SA",
+        "ytick": "BBDC4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "002142": {
+        "name": "Bank Of Ningbo Co Ltd",
+        "ytick": "002142.SZ",
+        "location": "Shenzhen Stock Exchange",
+        "category": "OTHERS"
+    },
+    "BNS": {
+        "name": "Bank of Nova Scotia",
+        "ytick": "BNS",
+        "location": "Toronto Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "OZK": {
+        "name": "Bank OZK",
+        "ytick": "OZK",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BCS": {
+        "name": "Barclays PLC",
+        "ytick": "BCS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BBSE3": {
+        "name": "BB Seguridade Participacoes SA",
+        "ytick": "BBSE3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BX": {
+        "name": "Blackstone Group Inc",
+        "ytick": "BX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BPFH": {
+        "name": "Boston Private Financial Holdings Inc",
+        "ytick": "BPFH",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "BRML3": {
+        "name": "BR Malls Participacoes SA",
+        "ytick": "BRML3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "CWB": {
+        "name": "Canadian Western Bank",
+        "ytick": "CWB",
+        "location": "Toronto Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "939": {
+        "name": "China Construction Bank Corp",
+        "ytick": "000939",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "FINANCIAL SERVICES"
+    },
+    "JRJC": {
+        "name": "China Finance Online Co Ltd",
+        "ytick": "JRJC",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "2202": {
+        "name": "China Vanke Co Ltd",
+        "ytick": "002202",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "FINANCIAL SERVICES"
+    },
+    "000002": {
+        "name": "China Vanke Co Ltd",
+        "ytick": "000002.SZ",
+        "location": "Shenzhen Stock Exchange",
+        "category": "OTHERS"
+    },
+    "600007": {
+        "name": "China World Trade Center Co Ltd",
+        "ytick": "600007.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "CIEL3": {
+        "name": "Cielo SA",
+        "ytick": "CIEL3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "C": {
+        "name": "Citigroup Inc",
+        "ytick": "C",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "CLIG": {
+        "name": "City of London Investment Group PLC",
+        "ytick": "CLIG.L",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "CS": {
+        "name": "Credit Suisse Group AG",
+        "ytick": "CS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "DB": {
+        "name": "Deutsche Bank AG",
+        "ytick": "DB",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "DLR": {
+        "name": "Digital Realty Trust Inc",
+        "ytick": "DLR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "DFS": {
+        "name": "Discover Financial Services",
+        "ytick": "DFS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "EXPN": {
+        "name": "Experian PLC",
+        "ytick": "EXPN.L",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "EXR": {
+        "name": "Extra Space Storage Inc",
+        "ytick": "EXR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "FICO": {
+        "name": "Fair Isaac Corp",
+        "ytick": "FICO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "FFH": {
+        "name": "Fairfax Financial Holdings Ltd",
+        "ytick": "FFH",
+        "location": "Toronto Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "GBCI": {
+        "name": "Glacier Bancorp Inc",
+        "ytick": "GBCI",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "GEC": {
+        "name": "Great Elm Capital Group Inc",
+        "ytick": "GEC",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "GWO": {
+        "name": "Great-West Lifeco Inc",
+        "ytick": "GWO",
+        "location": "Toronto Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500180": {
+        "name": "HDFC Bank",
+        "ytick": "HDFCBANK.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500010": {
+        "name": "Housing Development Finance Corp",
+        "ytick": "HDFC.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "HSBA": {
+        "name": "HSBC Holdings PLC",
+        "ytick": "HSBA.L",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532174": {
+        "name": "ICICI Bank",
+        "ytick": "ICICIBANK.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "ICE": {
+        "name": "Intercontinental Exchange Inc",
+        "ytick": "ICE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "IRBR3": {
+        "name": "IRB Brasil Resseguros SA",
+        "ytick": "IRBR3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "IRM": {
+        "name": "Iron Mountain Inc",
+        "ytick": "IRM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "ITUB4": {
+        "name": "Itau Unibanco Holding SA",
+        "ytick": "ITUB4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "ITSA4": {
+        "name": "Itausa Investimentos ITAU SA",
+        "ytick": "ITSA4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "JPM": {
+        "name": "JPMorgan Chase & Co",
+        "ytick": "JPM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "KEY": {
+        "name": "KeyCorp",
+        "ytick": "KEY",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "KKR": {
+        "name": "KKR & Co Inc",
+        "ytick": "KKR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500247": {
+        "name": "Kotak Mahindra Bank",
+        "ytick": "KOTAKBANK.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "LAZ": {
+        "name": "Lazard Ltd",
+        "ytick": "LAZ",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "LM": {
+        "name": "Legg Mason Inc",
+        "ytick": "LM",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "LLOY": {
+        "name": "Lloyds Banking Group PLC",
+        "ytick": "LLOY.L",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "L": {
+        "name": "Loews Corp",
+        "ytick": "L",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "MTB": {
+        "name": "M&T Bank Corp",
+        "ytick": "MTB",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "MA": {
+        "name": "Mastercard Inc",
+        "ytick": "MA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500271": {
+        "name": "Max Financial Services",
+        "ytick": "MFSL.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "MET": {
+        "name": "MetLife Inc",
+        "ytick": "MET",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "MCO": {
+        "name": "Moody\u00e2\u20ac\u2122s Corporation",
+        "ytick": "MCO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "COOP": {
+        "name": "Mr. Cooper Group Inc",
+        "ytick": "COOP",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "MULT3": {
+        "name": "Multiplan Empreendimentos Imobiliarios SA",
+        "ytick": "MULT3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "NWG": {
+        "name": "NatWest Group PLC",
+        "ytick": "NWG",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "ONB": {
+        "name": "Old National Bancorp",
+        "ytick": "ONB",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "OPY": {
+        "name": "Oppenheimer Holdings Inc",
+        "ytick": "OPY",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "PYPL": {
+        "name": "PayPal Holdings Inc",
+        "ytick": "PYPL",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "DOC": {
+        "name": "Physicians Realty Trust",
+        "ytick": "DOC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "2318": {
+        "name": "Ping An Insurance (Group) Co. of China Ltd",
+        "ytick": "002318",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "FINANCIAL SERVICES"
+    },
+    "PNC": {
+        "name": "PNC Financial Services Group Inc",
+        "ytick": "PNC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "PSSA3": {
+        "name": "Porto Seguro SA",
+        "ytick": "PSSA3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "PRU": {
+        "name": "Prudential Financial Inc",
+        "ytick": "PRU",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "PSA": {
+        "name": "Public Storage",
+        "ytick": "PSA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532955": {
+        "name": "REC",
+        "ytick": "REC.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "RF": {
+        "name": "Regions Financial Corp",
+        "ytick": "RF",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "SDR": {
+        "name": "Schroders PLC",
+        "ytick": "SDR.L",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "SEIC": {
+        "name": "SEI Investments Co",
+        "ytick": "SEIC",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "STAN": {
+        "name": "Standard Chartered PLC",
+        "ytick": "STAN",
+        "location": "London Stock Exchange",
+        "category": "FINANCIAL SERVICES"
+    },
+    "500112": {
+        "name": "State Bank of India",
+        "ytick": "SBIN.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "SULA11": {
+        "name": "Sul America SA",
+        "ytick": "SULA11.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "FINANCIAL SERVICES"
+    },
+    "SSSS": {
+        "name": "SuRo Capital Corp",
+        "ytick": "SSSS",
+        "location": "Nasdaq",
+        "category": "FINANCIAL SERVICES"
+    },
+    "GEO": {
+        "name": "The GEO Group Inc",
+        "ytick": "GEO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "UBS": {
+        "name": "UBS Group AG",
+        "ytick": "UBS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "V": {
+        "name": "Visa Inc",
+        "ytick": "V",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "WFC": {
+        "name": "Wells Fargo & Co",
+        "ytick": "WFC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "WBK": {
+        "name": "Westpac Banking Corp",
+        "ytick": "WBK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "FINANCIAL SERVICES"
+    },
+    "532648": {
+        "name": "Yes Bank",
+        "ytick": "YESBANK.BO",
+        "location": "BSE LTD",
+        "category": "FINANCIAL SERVICES"
+    },
+    "ABBV": {
+        "name": "AbbVie Inc",
+        "ytick": "ABBV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "ACHC": {
+        "name": "Acadia Healthcare Co Inc",
+        "ytick": "ACHC",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "AMGN": {
+        "name": "Amgen Inc",
+        "ytick": "AMGN",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "AMN": {
+        "name": "AMN Healthcare Services Inc",
+        "ytick": "AMN",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "AZN": {
+        "name": "AstraZeneca PLC",
+        "ytick": "AZN",
+        "location": "London Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "524804": {
+        "name": "Aurobindo Pharma",
+        "ytick": "AUROPHARMA.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "ACB": {
+        "name": "Aurora Cannabis Inc",
+        "ytick": "ACB",
+        "location": "Toronto Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "BAX": {
+        "name": "Baxter International Inc",
+        "ytick": "BAX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "BMY": {
+        "name": "Bristol-Myers Squibb Company",
+        "ytick": "BMY",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "CGIX": {
+        "name": "Cancer Genetics Inc",
+        "ytick": "CGIX",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "CSII": {
+        "name": "Cardiovascular Systems Inc",
+        "ytick": "CSII",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "CPRX": {
+        "name": "Catalyst Pharmaceuticals Inc",
+        "ytick": "CPRX",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "CELG": {
+        "name": "Celgene Corp",
+        "ytick": "CELG",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "CNC": {
+        "name": "Centene Corp",
+        "ytick": "CNC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "500087": {
+        "name": "Cipla",
+        "ytick": "CIPLA.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "500124": {
+        "name": "Dr Reddy\u00e2\u20ac\u2122s Laboratories",
+        "ytick": "DRREDDY.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "ENDP": {
+        "name": "Endo International PLC",
+        "ytick": "ENDP",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "GILD": {
+        "name": "Gilead Sciences Inc",
+        "ytick": "GILD",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "GSK": {
+        "name": "GlaxoSmithKline PLC",
+        "ytick": "GSK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "GMED": {
+        "name": "Globus Medical Inc",
+        "ytick": "GMED",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "532482": {
+        "name": "Granules India",
+        "ytick": "GRANULES.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "HBIO": {
+        "name": "Harvard Bioscience Inc",
+        "ytick": "HBIO",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "HYPE3": {
+        "name": "Hypera SA",
+        "ytick": "HYPE3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "HEALTH CARE"
+    },
+    "ILMN": {
+        "name": "Illumina Inc",
+        "ytick": "ILMN",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "600276": {
+        "name": "Jiangsu Hengrui Medicine Co Ltd",
+        "ytick": "600276.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "JNJ": {
+        "name": "Johnson & Johnson",
+        "ytick": "JNJ",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "MDC": {
+        "name": "Mediclinic International PLC",
+        "ytick": "MDC",
+        "location": "London Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "MRK": {
+        "name": "Merck & Co Inc",
+        "ytick": "MRK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "MYGN": {
+        "name": "Myriad Genetics Inc",
+        "ytick": "MYGN",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "GNDI3": {
+        "name": "Notre Dame Intermedica Participacoes SA",
+        "ytick": "GNDI3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "HEALTH CARE"
+    },
+    "NVS": {
+        "name": "Novartis AG",
+        "ytick": "NVS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "PFE": {
+        "name": "Pfizer Inc",
+        "ytick": "PFE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "500302": {
+        "name": "Piramal Enterprises",
+        "ytick": "PEL.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "PBH": {
+        "name": "Prestige Consumer Healthcare Inc",
+        "ytick": "PBH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "REGN": {
+        "name": "Regeneron Pharmaceuticals Inc",
+        "ytick": "REGN",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "300760": {
+        "name": "Shenzhen Mindray Bio-Medical Electronics Co Ltd",
+        "ytick": "300760.SZ",
+        "location": "Shenzhen Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "SN.": {
+        "name": "Smith & Nephew PLC",
+        "ytick": "SN.L",
+        "location": "London Stock Exchange",
+        "category": "HEALTH CARE"
+    },
+    "524715": {
+        "name": "Sun Pharmaceuticals Industries",
+        "ytick": "SUNPHARMA.BO",
+        "location": "BSE LTD",
+        "category": "HEALTH CARE"
+    },
+    "TAK": {
+        "name": "Takeda Pharmaceutical Co Ltd",
+        "ytick": "TAK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "TEVA": {
+        "name": "Teva Pharmaceutical Industries Ltd",
+        "ytick": "TEVA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "TVTY": {
+        "name": "Tivity Health Inc",
+        "ytick": "TVTY",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "UNH": {
+        "name": "UnitedHealth Group Inc",
+        "ytick": "UNH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "HEALTH CARE"
+    },
+    "ZGNX": {
+        "name": "Zogenix Inc",
+        "ytick": "ZGNX",
+        "location": "Nasdaq",
+        "category": "HEALTH CARE"
+    },
+    "APD": {
+        "name": "Air Products & Chemicals Inc",
+        "ytick": "APD",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "AKS": {
+        "name": "AK Steel Holding Corp",
+        "ytick": "AKS",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "ACH": {
+        "name": "Aluminum Corporation of China Ltd",
+        "ytick": "ACH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "914": {
+        "name": "Anhui Conch Cement Co Ltd",
+        "ytick": "000914",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "600585": {
+        "name": "Anhui Conch Cement Co Ltd",
+        "ytick": "600585.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "ASH": {
+        "name": "Ashley House PLC",
+        "ytick": "ASH",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "500820": {
+        "name": "Asian Paints",
+        "ytick": "ASIANPAINT.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500027": {
+        "name": "Atul",
+        "ytick": "ATUL.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "BECN": {
+        "name": "Beacon Roofing Supply Inc",
+        "ytick": "BECN",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "509480": {
+        "name": "Berger Paints India",
+        "ytick": "BERGEPAINT.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "BHP": {
+        "name": "BHP Group PLC",
+        "ytick": "BHP",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "BRKM5": {
+        "name": "Braskem SA",
+        "ytick": "BRKM5.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "CAR": {
+        "name": "Carclo PLC",
+        "ytick": "CAR",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "CHNR": {
+        "name": "China Natural Resources Inc",
+        "ytick": "CHNR",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "CLW": {
+        "name": "Clearwater Paper Corp",
+        "ytick": "CLW",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "CSNA3": {
+        "name": "Companhia Siderurgica Nacional",
+        "ytick": "CSNA3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "EMN": {
+        "name": "Eastman Chemical Co",
+        "ytick": "EMN",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "FERG": {
+        "name": "Ferguson PLC",
+        "ytick": "FERG.L",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "FMC": {
+        "name": "FMC Corp",
+        "ytick": "FMC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "FCX": {
+        "name": "Freeport-McMoRan Inc",
+        "ytick": "FCX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "FFHL": {
+        "name": "Fuwei Films (Holdings) Co Ltd",
+        "ytick": "FFHL",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "GGBR4": {
+        "name": "Gerdau SA",
+        "ytick": "GGBR4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "ROCK": {
+        "name": "Gibraltar Industries Inc",
+        "ytick": "ROCK",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500440": {
+        "name": "Hindalco Industries",
+        "ytick": "HINDALCO.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "IOSP": {
+        "name": "Innospec Inc",
+        "ytick": "IOSP",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "JMAT": {
+        "name": "Johnson Matthey PLC",
+        "ytick": "JMAT.L",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "KALU": {
+        "name": "Kaiser Aluminum Corp",
+        "ytick": "KALU",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "KL": {
+        "name": "Kirkland Lake Gold Ltd",
+        "ytick": "KL",
+        "location": "Toronto Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "KLBN11": {
+        "name": "Klabin SA",
+        "ytick": "KLBN11.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "MVR": {
+        "name": "MelodyVR Group PLC",
+        "ytick": "MVR.L",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "MNDI": {
+        "name": "Mondi PLC",
+        "ytick": "MNDI.L",
+        "location": "London Stock Exchange",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "NP": {
+        "name": "Neenah Inc",
+        "ytick": "NP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "NTIC": {
+        "name": "Northern Technologies International Corp",
+        "ytick": "NTIC",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "PKX": {
+        "name": "POSCO",
+        "ytick": "PKX",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "KWR": {
+        "name": "Quaker Chemical Corp",
+        "ytick": "KWR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "ROLL": {
+        "name": "RBC Bearings Inc",
+        "ytick": "ROLL",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "RIO": {
+        "name": "Rio Tinto PLC",
+        "ytick": "RIO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "RGLD": {
+        "name": "Royal Gold Inc",
+        "ytick": "RGLD",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "SSRM": {
+        "name": "SSR Mining Inc",
+        "ytick": "SSRM",
+        "location": "Nasdaq",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "SUZB3": {
+        "name": "Suzano SA",
+        "ytick": "SUZB3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500470": {
+        "name": "Tata Steel",
+        "ytick": "TATASTEEL.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "532538": {
+        "name": "UltraTech Cement",
+        "ytick": "ULTRACEMCO.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "X": {
+        "name": "United States Steel Corp",
+        "ytick": "X",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "VALE3": {
+        "name": "Vale SA",
+        "ytick": "VALE3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "500295": {
+        "name": "Vedanta",
+        "ytick": "VEDL.BO",
+        "location": "BSE LTD",
+        "category": "MATERIALS & PROCESSING"
+    },
+    "AC": {
+        "name": "Air Canada",
+        "ytick": "AC",
+        "location": "Toronto Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "AAL": {
+        "name": "American Airlines Group Inc",
+        "ytick": "AAL",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "ARCB": {
+        "name": "ArcBest Corp",
+        "ytick": "ARCB",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "ASGN": {
+        "name": "ASGN Inc",
+        "ytick": "ASGN",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "500103": {
+        "name": "Bharat Heavy Electricals",
+        "ytick": "BHEL.BO",
+        "location": "BSE LTD",
+        "category": "PRODUCER DURABLES"
+    },
+    "BA": {
+        "name": "Boeing Co",
+        "ytick": "BA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "BBD.B": {
+        "name": "Bombardier Inc",
+        "ytick": "BBD.B",
+        "location": "Toronto Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "BNZL": {
+        "name": "Bunzl PLC",
+        "ytick": "BNZL.L",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "CJT": {
+        "name": "Cargojet Inc",
+        "ytick": "CJT.L",
+        "location": "Toronto Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "CCRO3": {
+        "name": "CCR SA",
+        "ytick": "CCRO3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "PRODUCER DURABLES"
+    },
+    "CEA": {
+        "name": "China Eastern Airlines Corp Ltd",
+        "ytick": "CEA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "ZNH": {
+        "name": "China Southern Airlines Co Ltd",
+        "ytick": "ZNH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "3311": {
+        "name": "China State Construction International Holdings Ltd",
+        "ytick": "003311",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "PRODUCER DURABLES"
+    },
+    "CYD": {
+        "name": "China Yuchai International Ltd",
+        "ytick": "CYD",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "267": {
+        "name": "CITIC Ltd",
+        "ytick": "000267",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "PRODUCER DURABLES"
+    },
+    "DAL": {
+        "name": "Delta Air Lines Inc",
+        "ytick": "DAL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "PLOW": {
+        "name": "Douglas Dynamics Inc",
+        "ytick": "PLOW",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "EZJ": {
+        "name": "easyJet PLC",
+        "ytick": "EZJ",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "532927": {
+        "name": "eClerx Services",
+        "ytick": "ECLERX.BO",
+        "location": "BSE LTD",
+        "category": "PRODUCER DURABLES"
+    },
+    "EMBR3": {
+        "name": "Embraer SA",
+        "ytick": "EMBR3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "PRODUCER DURABLES"
+    },
+    "FCN": {
+        "name": "FTI Consulting Inc",
+        "ytick": "FCN",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "GSH": {
+        "name": "Guangshen Railway Co Ltd",
+        "ytick": "GSH",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "HTLD": {
+        "name": "Heartland Express Inc",
+        "ytick": "HTLD",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "JBLU": {
+        "name": "JetBlue Airways Corp",
+        "ytick": "JBLU",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "KSU": {
+        "name": "Kansas City Southern",
+        "ytick": "KSU",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "500510": {
+        "name": "Larsen & Toubro",
+        "ytick": "LT.BO",
+        "location": "BSE LTD",
+        "category": "PRODUCER DURABLES"
+    },
+    "LMT": {
+        "name": "Lockheed Martin Corp",
+        "ytick": "LMT",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "NCI": {
+        "name": "Navigant Consulting Inc",
+        "ytick": "NCI",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "PCAR": {
+        "name": "PACCAR Inc",
+        "ytick": "PCAR",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "RR.": {
+        "name": "Rolls-Royce Holdings PLC",
+        "ytick": "RR.L",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "RAIL3": {
+        "name": "Rumo SA",
+        "ytick": "RAIL3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "PRODUCER DURABLES"
+    },
+    "600009": {
+        "name": "Shanghai International Airport Co Ltd",
+        "ytick": "600009.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "SKYW": {
+        "name": "SkyWest Inc",
+        "ytick": "SKYW",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "SMIN": {
+        "name": "Smiths Group PLC",
+        "ytick": "SMIN",
+        "location": "London Stock Exchange",
+        "category": "PRODUCER DURABLES"
+    },
+    "SNA": {
+        "name": "Snap-on Inc",
+        "ytick": "SNA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "LUV": {
+        "name": "Southwest Airlines Co",
+        "ytick": "LUV",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "SAVE": {
+        "name": "Spirit Airlines Inc",
+        "ytick": "SAVE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "MIDD": {
+        "name": "The Middleby Corp",
+        "ytick": "MIDD",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "SHYF": {
+        "name": "The Shyft Group Inc",
+        "ytick": "SHYF",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "TWI": {
+        "name": "Titan International Inc",
+        "ytick": "TWI",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "VRSK": {
+        "name": "Verisk Analytics Inc",
+        "ytick": "VRSK",
+        "location": "Nasdaq",
+        "category": "PRODUCER DURABLES"
+    },
+    "WNC": {
+        "name": "Wabash National Corp",
+        "ytick": "WNC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "WEGE3": {
+        "name": "Weg SA",
+        "ytick": "WEGE3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "PRODUCER DURABLES"
+    },
+    "ZTO": {
+        "name": "ZTO Express (Cayman) Inc",
+        "ytick": "ZTO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "PRODUCER DURABLES"
+    },
+    "ADBE": {
+        "name": "Adobe Inc",
+        "ytick": "ADBE",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "BABA": {
+        "name": "Alibaba Group Holding Ltd",
+        "ytick": "BABA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "TECHNOLOGY"
+    },
+    "GOOG": {
+        "name": "Alphabet Inc",
+        "ytick": "GOOG",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "AABA": {
+        "name": "Altaba Inc",
+        "ytick": "AABA",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "AAPL": {
+        "name": "Apple Inc",
+        "ytick": "AAPL",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "ANET": {
+        "name": "Arista Networks Inc",
+        "ytick": "ANET",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "TECHNOLOGY"
+    },
+    "532493": {
+        "name": "Astra Microwave Products",
+        "ytick": "ASTRAMICRO.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "BIDU": {
+        "name": "Baidu Inc",
+        "ytick": "BIDU",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "BNFT": {
+        "name": "Benefitfocus Inc",
+        "ytick": "BNFT",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "CTSH": {
+        "name": "Cognizant Technology Solutions Corp",
+        "ytick": "CTSH",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "CSU": {
+        "name": "Constellation Software Inc",
+        "ytick": "CSU",
+        "location": "Toronto Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "DSCV": {
+        "name": "discoverIE Group PLC",
+        "ytick": "DSCV.L",
+        "location": "London Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "DXC": {
+        "name": "DXC Technology Co",
+        "ytick": "DXC",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "TECHNOLOGY"
+    },
+    "ENGH": {
+        "name": "Enghouse Systems Ltd",
+        "ytick": "ENGH",
+        "location": "Toronto Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "FB": {
+        "name": "Facebook Inc",
+        "ytick": "FB",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "601138": {
+        "name": "Foxconn Industrial Internet Co Ltd",
+        "ytick": "601138.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "GRPN": {
+        "name": "Groupon Inc",
+        "ytick": "GRPN",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "002415": {
+        "name": "Hangzhou Hik-Vision Digital Technology Co Ltd",
+        "ytick": "002415.SZ",
+        "location": "Shenzhen Stock Exchange",
+        "category": "OTHERS"
+    },
+    "532281": {
+        "name": "HCL Technologies",
+        "ytick": "HCLTECH.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "532129": {
+        "name": "Hexaware Technologies",
+        "ytick": "HEXAWARE.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "500209": {
+        "name": "Infosys",
+        "ytick": "INFOSYS.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "535648": {
+        "name": "Just Dial",
+        "ytick": "JUSTDIAL.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "MANH": {
+        "name": "Manhattan Associates Inc",
+        "ytick": "MANH",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "3690": {
+        "name": "Meituan Dianping",
+        "ytick": "003690",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "TECHNOLOGY"
+    },
+    "MCRO": {
+        "name": "Micro Focus International PLC",
+        "ytick": "MCRO",
+        "location": "London Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "MSFT": {
+        "name": "Microsoft Corp",
+        "ytick": "MSFT",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "532819": {
+        "name": "MindTree",
+        "ytick": "MINDTREE.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "NTES": {
+        "name": "NetEase Inc",
+        "ytick": "NTES",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "500304": {
+        "name": "NIIT",
+        "ytick": "NIIT.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "NXPI": {
+        "name": "NXP Semiconductors NV",
+        "ytick": "NXPI",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "ORCL": {
+        "name": "Oracle Corp",
+        "ytick": "ORCL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "TECHNOLOGY"
+    },
+    "SGE": {
+        "name": "Sage Group (The) PLC",
+        "ytick": "SGE",
+        "location": "London Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "SHOP": {
+        "name": "Shopify Inc",
+        "ytick": "SHOP",
+        "location": "Toronto Stock Exchange",
+        "category": "TECHNOLOGY"
+    },
+    "SINA": {
+        "name": "SINA Corp",
+        "ytick": "SINA",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "WORK": {
+        "name": "Slack Technologies Inc",
+        "ytick": "WORK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "TECHNOLOGY"
+    },
+    "SOHU": {
+        "name": "Sohu.com Ltd",
+        "ytick": "SOHU",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "532540": {
+        "name": "Tata Consultancy Services",
+        "ytick": "TCS.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "532755": {
+        "name": "Tech Mahindra",
+        "ytick": "TECHM.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "700": {
+        "name": "Tencent Holdings Ltd",
+        "ytick": "000700",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "TECHNOLOGY"
+    },
+    "NCTY": {
+        "name": "The9 Ltd",
+        "ytick": "NCTY",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "TWTR": {
+        "name": "Twitter Inc",
+        "ytick": "TWTR",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "TECHNOLOGY"
+    },
+    "UTSI": {
+        "name": "UTStarcom Holdings Corp",
+        "ytick": "UTSI",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "507685": {
+        "name": "Wipro",
+        "ytick": "WIPRO.BO",
+        "location": "BSE LTD",
+        "category": "TECHNOLOGY"
+    },
+    "ZNGA": {
+        "name": "Zynga Inc",
+        "ytick": "ZNGA",
+        "location": "Nasdaq",
+        "category": "TECHNOLOGY"
+    },
+    "AEP": {
+        "name": "American Electric Power Co Inc",
+        "ytick": "AEP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "AWK": {
+        "name": "American Water Works Co Inc",
+        "ytick": "AWK",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "T": {
+        "name": "AT&T Inc",
+        "ytick": "T",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "BCE": {
+        "name": "BCE Inc",
+        "ytick": "BCE",
+        "location": "Toronto Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "532454": {
+        "name": "Bharti Airtel",
+        "ytick": "BHARTIARTL.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "BT.A": {
+        "name": "BT Group PLC",
+        "ytick": "BT-A.L",
+        "location": "London Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "CU": {
+        "name": "Canadian Utilities Ltd",
+        "ytick": "CU",
+        "location": "Toronto Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "ELET3": {
+        "name": "Centrais Eletricas Brasileiras SA",
+        "ytick": "ELET3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "ELET6": {
+        "name": "Centrais Eletricas Brasileiras SA",
+        "ytick": "ELET6.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "384": {
+        "name": "China Gas Holdings Ltd",
+        "ytick": "000384",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "UTILITIES"
+    },
+    "941": {
+        "name": "China Mobile Ltd",
+        "ytick": "000941",
+        "location": "Hong Kong Exchanges And Clearing Ltd",
+        "category": "UTILITIES"
+    },
+    "CHL": {
+        "name": "China Mobile Ltd",
+        "ytick": "CHL",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "CHA": {
+        "name": "China Telecom Corp Ltd",
+        "ytick": "CHA",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "CHU": {
+        "name": "China Unicom (Hong Kong) Ltd",
+        "ytick": "CHU",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "600900": {
+        "name": "China Yangtze Power Co Ltd",
+        "ytick": "600900.SS",
+        "location": "Shanghai Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "SBSP3": {
+        "name": "Companhia De Saneamento Basico Do Estado De Sao Paulo",
+        "ytick": "SBSP3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "D": {
+        "name": "Dominion Energy Inc",
+        "ytick": "D",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "ENGI11": {
+        "name": "Energisa SA",
+        "ytick": "ENGI11.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "CMIG4": {
+        "name": "Energy Company of Minas Gerais",
+        "ytick": "CMIG4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "EGIE3": {
+        "name": "ENGIE Brasil Energia SA",
+        "ytick": "EGIE3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "EQTL3": {
+        "name": "Equatorial Energia SA",
+        "ytick": "EQTL3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "WTRG": {
+        "name": "Essential Utilities Inc",
+        "ytick": "WTRG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "FE": {
+        "name": "FirstEnergy Corp",
+        "ytick": "FE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "532155": {
+        "name": "GAIL (India)",
+        "ytick": "GAIL.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "GOGO": {
+        "name": "Gogo Inc",
+        "ytick": "GOGO",
+        "location": "Nasdaq",
+        "category": "UTILITIES"
+    },
+    "GTT": {
+        "name": "GTT Communications Inc",
+        "ytick": "GTT",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "517300": {
+        "name": "Gujarat Industries Power Co",
+        "ytick": "GIPCL.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "HNP": {
+        "name": "Huaneng Power International Inc",
+        "ytick": "HNP",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "500108": {
+        "name": "Mahanagar Telephone Nigam",
+        "ytick": "MTNL.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "MSEX": {
+        "name": "Middlesex Water Co",
+        "ytick": "MSEX",
+        "location": "Nasdaq",
+        "category": "UTILITIES"
+    },
+    "NFG": {
+        "name": "National Fuel Gas Co",
+        "ytick": "NFG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "532555": {
+        "name": "NTPC",
+        "ytick": "NTPC.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "PCG": {
+        "name": "PG&E Corp",
+        "ytick": "PCG",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "532898": {
+        "name": "Power Grid Corp Of India",
+        "ytick": "POWERGRID.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "SRE": {
+        "name": "Sempra Energy",
+        "ytick": "SRE",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "SVT": {
+        "name": "Severn Trent PLC",
+        "ytick": "SVT",
+        "location": "London Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "SJW": {
+        "name": "SJW Group",
+        "ytick": "SJW",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "SO": {
+        "name": "Southern Co",
+        "ytick": "SO",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "S": {
+        "name": "Sprint Corp",
+        "ytick": "S",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "SSE": {
+        "name": "SSE PLC",
+        "ytick": "SSE",
+        "location": "London Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "500400": {
+        "name": "Tata Power Co",
+        "ytick": "TATAPOWER.BO",
+        "location": "BSE LTD",
+        "category": "UTILITIES"
+    },
+    "VIVT4": {
+        "name": "Telefonica Brasil SA",
+        "ytick": "VIVT4.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "YORW": {
+        "name": "The York Water Co",
+        "ytick": "YORW",
+        "location": "Nasdaq",
+        "category": "UTILITIES"
+    },
+    "TIMP3": {
+        "name": "Tim Participacoes SA",
+        "ytick": "TIMP3.SA",
+        "location": "B3 S.A. - Brasil, Bolsa, Balc\u00c3\u00a3o",
+        "category": "UTILITIES"
+    },
+    "UGI": {
+        "name": "UGI Corp",
+        "ytick": "UGI",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "UU.": {
+        "name": "United Utilities Group PLC",
+        "ytick": "UU.L",
+        "location": "London Stock Exchange",
+        "category": "UTILITIES"
+    },
+    "VZ": {
+        "name": "Verizon Communications Inc",
+        "ytick": "VZ",
+        "location": "New York Stock Exchange, Inc.",
+        "category": "UTILITIES"
+    },
+    "VOD": {
+        "name": "Vodafone Group PLC",
+        "ytick": "VOD",
+        "location": "Nasdaq",
+        "category": "UTILITIES"
+    }
+}
