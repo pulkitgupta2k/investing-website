@@ -316,7 +316,6 @@ def update_stock_price():
         except:
             pass
         common[key]['stock_price'] = price
-        print(key)
 
     with open("common.json", "w") as f:
         json.dump(common, f)
@@ -325,5 +324,6 @@ if __name__ == "__main__":
     # master_func()
     # add_div()
     # correction()
-    update_stock_price()
+    while True:
+        update_stock_price()
     # add_formula()
