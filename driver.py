@@ -101,7 +101,7 @@ def add_formula():
 
             try:
                 common[key]["ratios"]["ret_eq"] = 100 * data["incomeStatementHistory"]["incomeStatementHistory"][0]["netIncome"]["raw"] / \
-                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["sharesOutstanding"]["raw"]
+                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalStockholderEquity"]["raw"]
                 common[key]["ratios"]["ret_eq"] = round(common[key]["ratios"]["ret_eq"],2)
             except:
                 common[key]["ratios"]["ret_eq"] = None
