@@ -134,7 +134,7 @@ def add_formula():
                 common[key]["ratios"]["int_cov"] = None
 
             try:
-                common[key]["ratios"]["div_pay"] = data["investing"]["dividend"] / common[key]["ratios"]["eps"]
+                common[key]["ratios"]["div_pay"] = 100 * data["investing"]["dividend"] / common[key]["ratios"]["eps"]
                 common[key]["ratios"]["div_pay"] = round(common[key]["ratios"]["div_pay"],2)
             except:
                 common[key]["ratios"]["div_pay"] = None
