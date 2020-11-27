@@ -114,7 +114,7 @@ def add_formula():
                 common[key]["ratios"]["q_ratio"] = None
 
             try:
-                common[key]["ratios"]["div_y"] = 0
+                common[key]["ratios"]["div_y"] = 100 * data["investing"]["dividend"] / data["investing"]["stock_price"]
                 common[key]["ratios"]["div_y"] = round(common[key]["ratios"]["div_y"],2)
             except:
                 common[key]["ratios"]["div_y"] = None
@@ -134,7 +134,7 @@ def add_formula():
                 common[key]["ratios"]["int_cov"] = None
 
             try:
-                common[key]["ratios"]["div_pay"] = 0
+                common[key]["ratios"]["div_pay"] = data["investing"]["dividend"] / data["incomeStatementHistory"]["incomeStatementHistory"][0]["netIncome"]["raw"]
                 common[key]["ratios"]["div_pay"] = round(common[key]["ratios"]["div_pay"],2)
             except:
                 common[key]["ratios"]["div_pay"] = None
@@ -324,6 +324,6 @@ if __name__ == "__main__":
     # master_func()
     # add_div()
     # correction()
-    while True:
-        update_stock_price()
-    # add_formula()
+    # while True:
+        # update_stock_price()
+    add_formula()
