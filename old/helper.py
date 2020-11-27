@@ -92,5 +92,18 @@ def add_cat():
         json.dump(data, f)
 
 
+def corr():
+    with open("data.json") as f:
+        data = json.load(f)
+    
+    data_new = {}
+
+    for key, value in data.items():
+        data_new[key] = {}
+        data_new[key]["link"] = value["Link"]
+    
+    with open("link.json", "w") as f:
+        json.dump(data_new, f)
+
 if __name__ == "__main__":
-    pass
+    corr()

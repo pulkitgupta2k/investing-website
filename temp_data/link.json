@@ -1,0 +1,1424 @@
+{
+    "ANF": {
+        "link": "https://www.investing.com/equities/aberc-fitch-a"
+    },
+    "ATV": {
+        "link": "https://www.investing.com/equities/acorn-international-inc"
+    },
+    "AMZN": {
+        "link": "https://www.investing.com/equities/amazon-com-inc"
+    },
+    "AEO": {
+        "link": "https://www.investing.com/equities/american-eagle-outfitters"
+    },
+    "APTV": {
+        "link": "https://www.investing.com/equities/delphi-automotive"
+    },
+    "AVP": {
+        "link": "https://www.investing.com/equities/avcorp-industries-inc."
+    },
+    "BTOW3": {
+        "link": "https://www.investing.com/equities/b2w-varejo-on-nm"
+    },
+    "BAJA": {
+        "link": "https://www.investing.com/equities/bajaj-auto"
+    },
+    "BNED": {
+        "link": "https://www.investing.com/equities/barnes---noble-education-inc"
+    },
+    "BATA": {
+        "link": "https://www.investing.com/equities/bata-india"
+    },
+    "BBBY": {
+        "link": "https://www.investing.com/equities/bed-bath---beyond-inc"
+    },
+    "BBY": {
+        "link": "https://www.investing.com/equities/best-buy"
+    },
+    "BWA": {
+        "link": "https://www.investing.com/equities/borgwarner"
+    },
+    "BOSH": {
+        "link": "https://www.investing.com/equities/bosch"
+    },
+    "BYD": {
+        "link": "https://www.investing.com/equities/boyd-gaming-corp"
+    },
+    "BBW": {
+        "link": "https://www.investing.com/equities/build-a-bear-workshop-inc"
+    },
+    "BURL": {
+        "link": "https://www.investing.com/equities/burlington-stor"
+    },
+    "GOOS": {
+        "link": "https://www.investing.com/equities/canada-goose-holdings-inc"
+    },
+    "KMX": {
+        "link": "https://www.investing.com/equities/carmax-inc"
+    },
+    "CCL": {
+        "link": "https://www.investing.com/equities/carnival-corp-exch"
+    },
+    "CAKE": {
+        "link": "https://www.investing.com/equities/the-cheesecake-factory"
+    },
+    "CAAS": {
+        "link": "https://www.investing.com/equities/china-automotive"
+    },
+    "601888": {
+        "link": "https://www.investing.com/equities/cits"
+    },
+    "CMG": {
+        "link": "https://www.investing.com/equities/chipotle-mexican-grill-inc"
+    },
+    "COGN3": {
+        "link": "https://www.investing.com/equities/kroton-on-nm"
+    },
+    "CMCSA": {
+        "link": "https://www.investing.com/equities/comcast-corp-new"
+    },
+    "CPG": {
+        "link": "https://www.investing.com/equities/crescent-point-energy-corp"
+    },
+    "CORE": {
+        "link": "https://www.investing.com/equities/core-mark-holding"
+    },
+    "COST": {
+        "link": "https://www.investing.com/equities/costco-whsl-corp-new"
+    },
+    "DJCO": {
+        "link": "https://www.investing.com/equities/daily-journal-corp"
+    },
+    "DG": {
+        "link": "https://www.investing.com/equities/dollar-general-corp"
+    },
+    "DLTR": {
+        "link": "https://www.investing.com/equities/dollar-tree-inc"
+    },
+    "DPZ": {
+        "link": "https://www.investing.com/equities/dominos-pizza-inc"
+    },
+    "FL": {
+        "link": "https://www.investing.com/equities/foot-locker"
+    },
+    "F": {
+        "link": "https://www.investing.com/equities/ford-motor-co"
+    },
+    "GPS": {
+        "link": "https://www.investing.com/equities/gap.inc"
+    },
+    "GM": {
+        "link": "https://www.investing.com/equities/gen-motors"
+    },
+    "HRB": {
+        "link": "https://www.investing.com/equities/h---r-block-inc"
+    },
+    "HOG": {
+        "link": "https://www.investing.com/equities/harley-davidson"
+    },
+    "HAS": {
+        "link": "https://www.investing.com/equities/hasbro-inc"
+    },
+    "HROM": {
+        "link": "https://www.investing.com/equities/hero-motocorp"
+    },
+    "HIBB": {
+        "link": "https://www.investing.com/equities/hibbett-sports"
+    },
+    "HMC": {
+        "link": "https://www.investing.com/equities/honda"
+    },
+    "HSW": {
+        "link": "https://www.investing.com/equities/hostelworld-group-plc"
+    },
+    "H": {
+        "link": "https://www.investing.com/equities/hyatt-hotels-corp"
+    },
+    "IMX": {
+        "link": "https://www.investing.com/equities/imax-corp"
+    },
+    "IHG": {
+        "link": "https://www.investing.com/equities/intercontinental-hotels-group-plc"
+    },
+    "JUBI": {
+        "link": "https://www.investing.com/equities/jubilant-foodworks"
+    },
+    "LE": {
+        "link": "https://www.investing.com/equities/lands-end-i"
+    },
+    "LVS": {
+        "link": "https://www.investing.com/equities/las-vegas-sands"
+    },
+    "LCII": {
+        "link": "https://www.investing.com/equities/drew-industries-inc"
+    },
+    "RENT3": {
+        "link": "https://www.investing.com/equities/localiza-on-ej-nm"
+    },
+    "LAME4": {
+        "link": "https://www.investing.com/equities/lojas-americ-pn-int"
+    },
+    "LREN3": {
+        "link": "https://www.investing.com/equities/lojas-renner-on-nm"
+    },
+    "LOOK": {
+        "link": "https://www.investing.com/equities/looks-health-services-bo"
+    },
+    "LULU": {
+        "link": "https://www.investing.com/equities/lululemon-athletica"
+    },
+    "LYFT": {
+        "link": "https://www.investing.com/equities/lyft"
+    },
+    "M": {
+        "link": "https://www.investing.com/equities/macys"
+    },
+    "MGLU3": {
+        "link": "https://www.investing.com/equities/magaz-luiza-on-nm"
+    },
+    "MAHM": {
+        "link": "https://www.investing.com/equities/mahindra---mahindra"
+    },
+    "MRTI": {
+        "link": "https://www.investing.com/equities/maruti-suzuki-india"
+    },
+    "MAT": {
+        "link": "https://www.investing.com/equities/mattel-inc"
+    },
+    "MCD": {
+        "link": "https://www.investing.com/equities/mcdonalds"
+    },
+    "333": {
+        "link": "https://www.investing.com/equities/decheng-technology-ag-f"
+    },
+    "MOV": {
+        "link": "https://www.investing.com/equities/movado-group-inc"
+    },
+    "EDU": {
+        "link": "https://www.investing.com/equities/new-oriental-education---tech"
+    },
+    "NXT": {
+        "link": "https://www.investing.com/equities/nextdc-ltd"
+    },
+    "NKE": {
+        "link": "https://www.investing.com/equities/nike"
+    },
+    "NCLH": {
+        "link": "https://www.investing.com/equities/norwegian-cruise-line-holdings-ltd"
+    },
+    "OTB": {
+        "link": "https://www.investing.com/equities/on-the-beach-ltd"
+    },
+    "PZZA": {
+        "link": "https://www.investing.com/equities/papa-johns-international"
+    },
+    "PSON": {
+        "link": "https://www.investing.com/equities/pearson"
+    },
+    "PLNT": {
+        "link": "https://www.investing.com/equities/planet-fitness-inc"
+    },
+    "RLH": {
+        "link": "https://www.investing.com/equities/red-lion-hotels"
+    },
+    "QSR": {
+        "link": "https://www.investing.com/equities/restaurant-brands-intrnational"
+    },
+    "REV": {
+        "link": "https://www.investing.com/equities/revlon-inc"
+    },
+    "RBA": {
+        "link": "https://www.investing.com/equities/ritchie-bros.-auctioneers"
+    },
+    "SIRI": {
+        "link": "https://www.investing.com/equities/sirius-satellite-radio-inc"
+    },
+    "SWBI": {
+        "link": "https://www.investing.com/equities/smith---wesson"
+    },
+    "SBUX": {
+        "link": "https://www.investing.com/equities/starbucks-corp"
+    },
+    "SFIX": {
+        "link": "https://www.investing.com/equities/stitch-fix"
+    },
+    "TLRD": {
+        "link": "https://www.investing.com/equities/telrad-networks-ltd"
+    },
+    "TAL": {
+        "link": "https://www.investing.com/equities/tal-education-group"
+    },
+    "TGT": {
+        "link": "https://www.investing.com/equities/target"
+    },
+    "TAMO": {
+        "link": "https://www.investing.com/equities/tata-motors-ltd"
+    },
+    "TSLA": {
+        "link": "https://www.investing.com/equities/tesla-motors"
+    },
+    "TXRH": {
+        "link": "https://www.investing.com/equities/texas-roadhouse"
+    },
+    "TCS": {
+        "link": "https://www.investing.com/equities/tata-consultancy-services"
+    },
+    "EL": {
+        "link": "https://www.investing.com/equities/estee-lauder"
+    },
+    "DIS": {
+        "link": "https://www.investing.com/equities/disney"
+    },
+    "WEN": {
+        "link": "https://www.investing.com/equities/the-wendys-co"
+    },
+    "TIF": {
+        "link": "https://www.investing.com/equities/tiffany---co"
+    },
+    "TITN": {
+        "link": "https://www.investing.com/equities/titan-industries"
+    },
+    "TJX": {
+        "link": "https://www.investing.com/equities/tjx-co-inc"
+    },
+    "TM": {
+        "link": "https://www.investing.com/equities/toyota"
+    },
+    "UBER": {
+        "link": "https://www.investing.com/equities/uber-technologies-inc"
+    },
+    "ULTA": {
+        "link": "https://www.investing.com/equities/ulta-salon-cosmetics---fragrance"
+    },
+    "UAA": {
+        "link": "https://www.investing.com/equities/under-armour"
+    },
+    "URBN": {
+        "link": "https://www.investing.com/equities/urban-outfitters"
+    },
+    "VRA": {
+        "link": "https://www.investing.com/equities/vera-bradley"
+    },
+    "VFC": {
+        "link": "https://www.investing.com/equities/vf-corp"
+    },
+    "WTB": {
+        "link": "https://www.investing.com/equities/whitbread"
+    },
+    "WYND": {
+        "link": "https://www.investing.com/equities/wyndham-world"
+    },
+    "YUM": {
+        "link": "https://www.investing.com/equities/yum!-brands-inc"
+    },
+    "ABEV3": {
+        "link": "https://www.investing.com/equities/ambev-pn"
+    },
+    "CRFB3": {
+        "link": "https://www.investing.com/equities/atacadao-sa"
+    },
+    "BRFS3": {
+        "link": "https://www.investing.com/equities/brf-foods-on-ej-nm"
+    },
+    "CPB": {
+        "link": "https://www.investing.com/equities/campbell-soup"
+    },
+    "CASY": {
+        "link": "https://www.investing.com/equities/caseys-general"
+    },
+    "KO": {
+        "link": "https://www.investing.com/equities/coca-cola-co"
+    },
+    "CTVA": {
+        "link": "https://www.investing.com/equities/corteva"
+    },
+    "CVS": {
+        "link": "https://www.investing.com/equities/cvs-corp"
+    },
+    "GIS": {
+        "link": "https://www.investing.com/equities/general-mills"
+    },
+    "GODE": {
+        "link": "https://www.investing.com/equities/godrej-agrovet-ltd"
+    },
+    "GOCP": {
+        "link": "https://www.investing.com/equities/godrej-consumer-products"
+    },
+    "HLL": {
+        "link": "https://www.investing.com/equities/hindustan-unilever"
+    },
+    "ITC": {
+        "link": "https://www.investing.com/equities/itc"
+    },
+    "JJSF": {
+        "link": "https://www.investing.com/equities/j---j-snack-foods"
+    },
+    "JBSS3": {
+        "link": "https://www.investing.com/equities/jbs-on-nm"
+    },
+    "K": {
+        "link": "https://www.investing.com/equities/kellogg-co."
+    },
+    "KDP": {
+        "link": "https://www.investing.com/equities/dr-pepper-snapple"
+    },
+    "600519": {
+        "link": "https://www.investing.com/equities/moutai"
+    },
+    "MDIA3": {
+        "link": "https://www.investing.com/equities/m.diasbranco-on-ej-nm"
+    },
+    "MKC": {
+        "link": "https://www.investing.com/equities/mccormick---co"
+    },
+    "MCK": {
+        "link": "https://www.investing.com/equities/mckesson-corp"
+    },
+    "TAP": {
+        "link": "https://www.investing.com/equities/molson-coors"
+    },
+    "MNST": {
+        "link": "https://www.investing.com/equities/monster-beverage"
+    },
+    "FIZZ": {
+        "link": "https://www.investing.com/equities/national-beverage"
+    },
+    "NEST": {
+        "link": "https://www.investing.com/equities/nestle"
+    },
+    "PEP": {
+        "link": "https://www.investing.com/equities/pepsico"
+    },
+    "PG": {
+        "link": "https://www.investing.com/equities/procter-gamble"
+    },
+    "RADL3": {
+        "link": "https://www.investing.com/equities/raiadrogasil-on-nm"
+    },
+    "RBC": {
+        "link": "https://www.investing.com/equities/regal-beloit-corp"
+    },
+    "RAD": {
+        "link": "https://www.investing.com/equities/rite-aid-corp"
+    },
+    "SBRY": {
+        "link": "https://www.investing.com/equities/sainsbury"
+    },
+    "SFM": {
+        "link": "https://www.investing.com/equities/sprts-frmr"
+    },
+    "SYY": {
+        "link": "https://www.investing.com/equities/sysco-corp"
+    },
+    "HSY": {
+        "link": "https://www.investing.com/equities/hershey-co"
+    },
+    "THS": {
+        "link": "https://www.investing.com/equities/treehouse-foods-inc"
+    },
+    "TSN": {
+        "link": "https://www.investing.com/equities/tyson-foods"
+    },
+    "ULVR": {
+        "link": "https://www.investing.com/equities/unilever"
+    },
+    "UL": {
+        "link": "https://www.investing.com/equities/unilever-adr"
+    },
+    "UNFI": {
+        "link": "https://www.investing.com/equities/united-natural-foods"
+    },
+    "WDFC": {
+        "link": "https://www.investing.com/equities/wd-40-company"
+    },
+    "STLD": {
+        "link": "https://www.investing.com/equities/steel-dynamics"
+    },
+    "WYNN": {
+        "link": "https://www.investing.com/equities/wynn-resorts-ltd"
+    },
+    "FIVE": {
+        "link": "https://www.investing.com/equities/five-below-inc"
+    },
+    "ZENA": {
+        "link": "https://www.investing.com/equities/bevo-agro-inc"
+    },
+    "AMTX": {
+        "link": "https://www.investing.com/equities/aemetis-inc"
+    },
+    "BP": {
+        "link": "https://www.investing.com/equities/bp-plc"
+    },
+    "CCJ": {
+        "link": "https://www.investing.com/equities/cameco-corp"
+    },
+    "CNQ": {
+        "link": "https://www.investing.com/equities/canadian-natural-resources"
+    },
+    "CVX": {
+        "link": "https://www.investing.com/equities/chevron"
+    },
+    "3861": {
+        "link": "https://www.investing.com/equities/oji-holdings-corp."
+    },
+    "SNP": {
+        "link": "https://www.investing.com/equities/sinopec-corp-ss"
+    },
+    "CEO": {
+        "link": "https://www.investing.com/equities/cnooc-ltd"
+    },
+    "COAL": {
+        "link": "https://www.investing.com/equities/coal-india"
+    },
+    "CLR": {
+        "link": "https://www.investing.com/equities/continental-resources-inc"
+    },
+    "CSAN3": {
+        "link": "https://www.investing.com/equities/cosan-on-nm"
+    },
+    "XOM": {
+        "link": "https://www.investing.com/equities/exxon-mobil"
+    },
+    "GLEN": {
+        "link": "https://www.investing.com/equities/glencore"
+    },
+    "HES": {
+        "link": "https://www.investing.com/equities/hess-corp"
+    },
+    "LAM": {
+        "link": "https://www.investing.com/equities/laramide-resources-ltd."
+    },
+    "NOV": {
+        "link": "https://www.investing.com/equities/ntl-oilwell-varc"
+    },
+    "NGS": {
+        "link": "https://www.investing.com/equities/natural-gas-services-group-inc"
+    },
+    "ONGC": {
+        "link": "https://www.investing.com/equities/oil---natural-gas-corporation"
+    },
+    "OKE": {
+        "link": "https://www.investing.com/equities/oneok"
+    },
+    "BRDT3": {
+        "link": "https://www.investing.com/equities/petrobras-distribuidora"
+    },
+    "STT": {
+        "link": "https://www.investing.com/equities/state-street"
+    },
+    "PTR": {
+        "link": "https://www.investing.com/equities/petrochina-co-ads-exch"
+    },
+    "PETR3": {
+        "link": "https://www.investing.com/equities/petrobras-on"
+    },
+    "PETR4": {
+        "link": "https://www.investing.com/equities/petrobras-pn"
+    },
+    "PSX": {
+        "link": "https://www.investing.com/equities/phillips-66-ltd"
+    },
+    "RELI": {
+        "link": "https://www.investing.com/equities/reliance-industries"
+    },
+    "RDSa": {
+        "link": "https://www.investing.com/equities/royal-dutch-shell-a-plc"
+    },
+    "SJVN": {
+        "link": "https://www.investing.com/equities/sjvn-ltd"
+    },
+    "SU": {
+        "link": "https://www.investing.com/equities/suncor-energy-inc."
+    },
+    "SUN": {
+        "link": "https://www.investing.com/equities/sun-pharma-advanced-research"
+    },
+    "TRCH": {
+        "link": "https://www.investing.com/equities/torchlight-energ"
+    },
+    "TLW": {
+        "link": "https://www.investing.com/equities/tullow-oil"
+    },
+    "UGPA3": {
+        "link": "https://www.investing.com/equities/ultrapar-on-nm"
+    },
+    "AFL": {
+        "link": "https://www.investing.com/equities/aflac-inc"
+    },
+    "ALL": {
+        "link": "https://www.investing.com/equities/allstate-corporation"
+    },
+    "AXP": {
+        "link": "https://www.investing.com/equities/american-express"
+    },
+    "APAM": {
+        "link": "https://www.investing.com/equities/artsn-prtnr-asst"
+    },
+    "AXBK": {
+        "link": "https://www.investing.com/equities/axis-bank"
+    },
+    "B3SA3": {
+        "link": "https://www.investing.com/equities/bmfbovespa-on-nm"
+    },
+    "BJFS": {
+        "link": "https://www.investing.com/equities/bajaj-finserv-limited"
+    },
+    "BPAC11": {
+        "link": "https://www.investing.com/equities/banco-btg-pactual-sa"
+    },
+    "BBAS3": {
+        "link": "https://www.investing.com/equities/brasil-on"
+    },
+    "SANB11": {
+        "link": "https://www.investing.com/equities/santander-br-unt-ed-n2"
+    },
+    "BBDC3": {
+        "link": "https://www.investing.com/equities/bradesco-on-n1"
+    },
+    "BBDC4": {
+        "link": "https://www.investing.com/equities/bradesco-pn-n1"
+    },
+    "BNS": {
+        "link": "https://www.investing.com/equities/scotiabank"
+    },
+    "OZK": {
+        "link": "https://www.investing.com/equities/bank-of-the-ozark"
+    },
+    "BCS": {
+        "link": "https://www.investing.com/equities/barclays-plc"
+    },
+    "BBSE3": {
+        "link": "https://www.investing.com/equities/bbseguridad"
+    },
+    "BX": {
+        "link": "https://www.investing.com/equities/the-blackstone-group"
+    },
+    "BPFH": {
+        "link": "https://www.investing.com/equities/boston-private-fi"
+    },
+    "BRML3": {
+        "link": "https://www.investing.com/equities/br-malls-par-on-nm"
+    },
+    "WPG": {
+        "link": "https://www.investing.com/equities/wshngtn-prm"
+    },
+    "JRJC": {
+        "link": "https://www.investing.com/equities/china-finance-onlilne"
+    },
+    "2202": {
+        "link": "https://www.investing.com/equities/china-vanke"
+    },
+    "600007": {
+        "link": "https://www.investing.com/equities/cn-world-trad"
+    },
+    "CIEL3": {
+        "link": "https://www.investing.com/equities/cielo-on-nm"
+    },
+    "C": {
+        "link": "https://www.investing.com/equities/citigroup"
+    },
+    "CLIG": {
+        "link": "https://www.investing.com/equities/city-of-lon-invs"
+    },
+    "CS": {
+        "link": "https://www.investing.com/equities/credit-suisse-group"
+    },
+    "DBKGn": {
+        "link": "https://www.investing.com/equities/deutsche-bank"
+    },
+    "DLR": {
+        "link": "https://www.investing.com/equities/digital-realty-trust-inc"
+    },
+    "DFS": {
+        "link": "https://www.investing.com/equities/discover-financl"
+    },
+    "EXPN": {
+        "link": "https://www.investing.com/equities/experian-ord-usd0"
+    },
+    "EXR": {
+        "link": "https://www.investing.com/equities/extra-space-storage"
+    },
+    "FICO": {
+        "link": "https://www.investing.com/equities/fair-isaac-and-comp-inc"
+    },
+    "FFH": {
+        "link": "https://www.investing.com/equities/fairfax-financial-holdings-ltd"
+    },
+    "GBCI": {
+        "link": "https://www.investing.com/equities/glacier-bancorp"
+    },
+    "GEC": {
+        "link": "https://www.investing.com/equities/unwired-planet"
+    },
+    "GWO": {
+        "link": "https://www.investing.com/equities/great-west-lifeco-inc"
+    },
+    "HDBK": {
+        "link": "https://www.investing.com/equities/hdfc-bank-ltd"
+    },
+    "HDFC": {
+        "link": "https://www.investing.com/equities/housing-development-finance"
+    },
+    "HSBA": {
+        "link": "https://www.investing.com/equities/hsbc-holdings"
+    },
+    "ICBK": {
+        "link": "https://www.investing.com/equities/icici-bank-ltd"
+    },
+    "ICE": {
+        "link": "https://www.investing.com/equities/intercontintlex"
+    },
+    "IRBR3": {
+        "link": "https://www.investing.com/equities/irb-brasil-resseguros"
+    },
+    "IRM": {
+        "link": "https://www.investing.com/equities/iron-mountain-inc"
+    },
+    "ITUB4": {
+        "link": "https://www.investing.com/equities/itauunibanco-pn-edj-n1"
+    },
+    "ITSA4": {
+        "link": "https://www.investing.com/equities/itausa-pn-ej-n1"
+    },
+    "JPM": {
+        "link": "https://www.investing.com/equities/jp-morgan-chase"
+    },
+    "KEY": {
+        "link": "https://www.investing.com/equities/keycorp-new"
+    },
+    "KKR": {
+        "link": "https://www.investing.com/equities/kkr---co-lp"
+    },
+    "KTKM": {
+        "link": "https://www.investing.com/equities/kotak-mahindra-bank"
+    },
+    "LAZ": {
+        "link": "https://www.investing.com/equities/lazard-ltd"
+    },
+    "LMT": {
+        "link": "https://www.investing.com/equities/lockheed-martin"
+    },
+    "LLOY": {
+        "link": "https://www.investing.com/equities/lloyds-banking-grp"
+    },
+    "L": {
+        "link": "https://www.investing.com/equities/loews-corporation"
+    },
+    "MTB": {
+        "link": "https://www.investing.com/equities/m-t-bank-corp"
+    },
+    "IBM": {
+        "link": "https://www.investing.com/equities/ibm"
+    },
+    "MAXI": {
+        "link": "https://www.investing.com/equities/max-india"
+    },
+    "MET": {
+        "link": "https://www.investing.com/equities/metlife-inc"
+    },
+    "MCO": {
+        "link": "https://www.investing.com/equities/moodys-corp"
+    },
+    "COOP": {
+        "link": "https://www.investing.com/equities/wmi-holdings"
+    },
+    "MULT3": {
+        "link": "https://www.investing.com/equities/multiplan-on-n2"
+    },
+    "NWG": {
+        "link": "https://www.investing.com/equities/natwest-group-plc"
+    },
+    "ONB": {
+        "link": "https://www.investing.com/equities/old-national-bancorp"
+    },
+    "OPY": {
+        "link": "https://www.investing.com/equities/oppenheimer-holdings-inc"
+    },
+    "PYPL": {
+        "link": "https://www.investing.com/equities/paypal-holdings-inc"
+    },
+    "DOC": {
+        "link": "https://www.investing.com/equities/physicns-rlty-tr"
+    },
+    "2318": {
+        "link": "https://www.investing.com/equities/ping-an"
+    },
+    "PNC": {
+        "link": "https://www.investing.com/equities/pnc-fin-serv"
+    },
+    "PSSA3": {
+        "link": "https://www.investing.com/equities/porto-seguro-on-ej-nm"
+    },
+    "PRU": {
+        "link": "https://www.investing.com/equities/prudential-fin"
+    },
+    "PSA": {
+        "link": "https://www.investing.com/equities/public-stg-mld"
+    },
+    "RECM": {
+        "link": "https://www.investing.com/equities/rural-electrification"
+    },
+    "RF": {
+        "link": "https://www.investing.com/equities/regions-fin"
+    },
+    "SDR": {
+        "link": "https://www.investing.com/equities/schroders"
+    },
+    "SEIC": {
+        "link": "https://www.investing.com/equities/sei-investments"
+    },
+    "STAN": {
+        "link": "https://www.investing.com/equities/standard-chartered"
+    },
+    "SBI": {
+        "link": "https://www.investing.com/equities/state-bank-of-india"
+    },
+    "SULA11": {
+        "link": "https://www.investing.com/equities/sul-america-unt-n2"
+    },
+    "SSSS": {
+        "link": "https://www.investing.com/equities/gsv-capital-corp"
+    },
+    "GEO": {
+        "link": "https://www.investing.com/equities/geo-group-inc"
+    },
+    "UBSG": {
+        "link": "https://www.investing.com/equities/ubs-group-n"
+    },
+    "V": {
+        "link": "https://www.investing.com/equities/visa-inc"
+    },
+    "WFC": {
+        "link": "https://www.investing.com/equities/wells-fargo"
+    },
+    "WBK": {
+        "link": "https://www.investing.com/equities/westpac-banking"
+    },
+    "YESB": {
+        "link": "https://www.investing.com/equities/yes-bank"
+    },
+    "ABBV": {
+        "link": "https://www.investing.com/equities/abbvie-inc"
+    },
+    "ACHC": {
+        "link": "https://www.investing.com/equities/acadia-healthcare"
+    },
+    "AMGN": {
+        "link": "https://www.investing.com/equities/amgen-inc"
+    },
+    "AMN": {
+        "link": "https://www.investing.com/equities/amn-healthcare-services-inc"
+    },
+    "AZN": {
+        "link": "https://www.investing.com/equities/astrazeneca-plc-ads"
+    },
+    "ARBN": {
+        "link": "https://www.investing.com/equities/aurobindo-pharma"
+    },
+    "ACB": {
+        "link": "https://www.investing.com/equities/aurora-cannabis"
+    },
+    "BAX": {
+        "link": "https://www.investing.com/equities/baxter-intl"
+    },
+    "BMY": {
+        "link": "https://www.investing.com/equities/bristol-myer-squiib"
+    },
+    "CGIX": {
+        "link": "https://www.investing.com/equities/cancer-gent"
+    },
+    "CSII": {
+        "link": "https://www.investing.com/equities/cardiovascular"
+    },
+    "CPRX": {
+        "link": "https://www.investing.com/equities/catalyst-pharmaceuticals"
+    },
+    "GPAR3": {
+        "link": "https://www.investing.com/equities/companhia-celg-de-participacoes"
+    },
+    "CNC": {
+        "link": "https://www.investing.com/equities/centene"
+    },
+    "CIPL": {
+        "link": "https://www.investing.com/equities/cipla"
+    },
+    "REDY": {
+        "link": "https://www.investing.com/equities/dr-reddys-laboratories"
+    },
+    "ENDP": {
+        "link": "https://www.investing.com/equities/endo-pharmaceuticals"
+    },
+    "GILD": {
+        "link": "https://www.investing.com/equities/gilead-sciences-inc"
+    },
+    "GSK": {
+        "link": "https://www.investing.com/equities/glaxosmithklein-exch"
+    },
+    "GMED": {
+        "link": "https://www.investing.com/equities/globus-medical"
+    },
+    "GRAN": {
+        "link": "https://www.investing.com/equities/granules-india-ltd"
+    },
+    "HBIO": {
+        "link": "https://www.investing.com/equities/harvard-bioscienc"
+    },
+    "HYPE3": {
+        "link": "https://www.investing.com/equities/hypermarcas-on-nm"
+    },
+    "ILMN": {
+        "link": "https://www.investing.com/equities/illumina,-inc."
+    },
+    "600276": {
+        "link": "https://www.investing.com/equities/hengrui-medi"
+    },
+    "JNJ": {
+        "link": "https://www.investing.com/equities/johnson-johnson"
+    },
+    "MDC": {
+        "link": "https://www.investing.com/equities/mdc-holdings-inc"
+    },
+    "MRK": {
+        "link": "https://www.investing.com/equities/merck---co"
+    },
+    "MYGN": {
+        "link": "https://www.investing.com/equities/myriad-genetics"
+    },
+    "GNDI3": {
+        "link": "https://www.investing.com/equities/notre-dame-intermedica-participacoe"
+    },
+    "NVS": {
+        "link": "https://www.investing.com/equities/novartis-ag"
+    },
+    "PFE": {
+        "link": "https://www.investing.com/equities/pfizer"
+    },
+    "PIRA": {
+        "link": "https://www.investing.com/equities/piramal-healthcare"
+    },
+    "PBH": {
+        "link": "https://www.investing.com/equities/prestige-brand-holdings-inc"
+    },
+    "REGN": {
+        "link": "https://www.investing.com/equities/regeneron-phar."
+    },
+    "300760": {
+        "link": "https://www.investing.com/equities/shenzhen-mindray-bio-medical"
+    },
+    "TAK": {
+        "link": "https://www.investing.com/equities/takeda-pharmaceutical-co-ltd"
+    },
+    "TEVA": {
+        "link": "https://www.investing.com/equities/teva-pharmaceutical-inds-ltd"
+    },
+    "TVTY": {
+        "link": "https://www.investing.com/equities/healthways"
+    },
+    "UNH": {
+        "link": "https://www.investing.com/equities/united-health-group"
+    },
+    "ZGNX": {
+        "link": "https://www.investing.com/equities/zogenix"
+    },
+    "APD": {
+        "link": "https://www.investing.com/equities/air-prods---chem"
+    },
+    "AKSO": {
+        "link": "https://www.investing.com/equities/aksh-optifibre-ltd"
+    },
+    "ACH": {
+        "link": "https://www.investing.com/equities/aluminum-corp-of-china"
+    },
+    "600585": {
+        "link": "https://www.investing.com/equities/anhui-conch"
+    },
+    "ASH": {
+        "link": "https://www.investing.com/equities/ashland-inc"
+    },
+    "ASPN": {
+        "link": "https://www.investing.com/equities/asian-paints"
+    },
+    "ATLP": {
+        "link": "https://www.investing.com/equities/atul"
+    },
+    "BECN": {
+        "link": "https://www.investing.com/equities/beacon-roofing"
+    },
+    "BRGR": {
+        "link": "https://www.investing.com/equities/berger-paints-(i)"
+    },
+    "BHP": {
+        "link": "https://www.investing.com/equities/bhp-billiton-ltd-nyse-exch"
+    },
+    "BRKM5": {
+        "link": "https://www.investing.com/equities/braskem-pna-n1"
+    },
+    "CAR": {
+        "link": "https://www.investing.com/equities/avis-budget"
+    },
+    "CHNR": {
+        "link": "https://www.investing.com/equities/china-natural"
+    },
+    "CLW": {
+        "link": "https://www.investing.com/equities/clearwater-paper-corp"
+    },
+    "CSNA3": {
+        "link": "https://www.investing.com/equities/sid-nacional-on"
+    },
+    "EMN": {
+        "link": "https://www.investing.com/equities/eastman-chem"
+    },
+    "FERG": {
+        "link": "https://www.investing.com/equities/wolseley"
+    },
+    "FMC": {
+        "link": "https://www.investing.com/equities/fmc-corp"
+    },
+    "FCX": {
+        "link": "https://www.investing.com/equities/freeport-mcm"
+    },
+    "FFHL": {
+        "link": "https://www.investing.com/equities/fuwei-films-(holdings)-co."
+    },
+    "GGBR4": {
+        "link": "https://www.investing.com/equities/gerdau-pn-n1"
+    },
+    "ROCK": {
+        "link": "https://www.investing.com/equities/gibraltar-industries"
+    },
+    "HALC": {
+        "link": "https://www.investing.com/equities/hindalco-industries"
+    },
+    "IOSP": {
+        "link": "https://www.investing.com/equities/innospec-inc"
+    },
+    "JMAT": {
+        "link": "https://www.investing.com/equities/johnson-matthey"
+    },
+    "KALU": {
+        "link": "https://www.investing.com/equities/kaiser-aluminum-c"
+    },
+    "KL": {
+        "link": "https://www.investing.com/equities/crocodile-gold-corp"
+    },
+    "KLBN11": {
+        "link": "https://www.investing.com/equities/klabin-unt"
+    },
+    "MNDI": {
+        "link": "https://www.investing.com/equities/mond"
+    },
+    "NP": {
+        "link": "https://www.investing.com/equities/neenah-paper-inc"
+    },
+    "NTIC": {
+        "link": "https://www.investing.com/equities/northern-technolo"
+    },
+    "PKX": {
+        "link": "https://www.investing.com/equities/posco"
+    },
+    "KWR": {
+        "link": "https://www.investing.com/equities/quaker-chemical-corp"
+    },
+    "ROLL": {
+        "link": "https://www.investing.com/equities/rbc-bearings-inc"
+    },
+    "RIO": {
+        "link": "https://www.investing.com/equities/rio-tinto-plc-exch"
+    },
+    "RGLD": {
+        "link": "https://www.investing.com/equities/royal-gold-inc."
+    },
+    "SSRM": {
+        "link": "https://www.investing.com/equities/silver-standard-resources"
+    },
+    "SUZB3": {
+        "link": "https://www.investing.com/equities/suzano-papel-celulose"
+    },
+    "TISC": {
+        "link": "https://www.investing.com/equities/tata-steel"
+    },
+    "ULTC": {
+        "link": "https://www.investing.com/equities/ultratech-cement"
+    },
+    "X": {
+        "link": "https://www.investing.com/equities/us-steel-corp"
+    },
+    "VALE3": {
+        "link": "https://www.investing.com/equities/vale-on-n1"
+    },
+    "VDAN": {
+        "link": "https://www.investing.com/equities/sesa-goa"
+    },
+    "AC": {
+        "link": "https://www.investing.com/equities/associated-capital-group-inc"
+    },
+    "AAL": {
+        "link": "https://www.investing.com/equities/american-airlines-group"
+    },
+    "ARCB": {
+        "link": "https://www.investing.com/equities/arkansas-best-corp"
+    },
+    "ASGN": {
+        "link": "https://www.investing.com/equities/on-assignment"
+    },
+    "BHEL": {
+        "link": "https://www.investing.com/equities/bharat-heavy-electricals"
+    },
+    "BAC": {
+        "link": "https://www.investing.com/equities/bank-of-america"
+    },
+    "BNZL": {
+        "link": "https://www.investing.com/equities/bunzl"
+    },
+    "CJT": {
+        "link": "https://www.investing.com/equities/cargojet-inc."
+    },
+    "CCRO3": {
+        "link": "https://www.investing.com/equities/ccr-sa-on-nm"
+    },
+    "CEA": {
+        "link": "https://www.investing.com/equities/china-eastern-airlines-corp-ltd"
+    },
+    "ZNH": {
+        "link": "https://www.investing.com/equities/china-southern-airlines-co-ltd"
+    },
+    "3311": {
+        "link": "https://www.investing.com/equities/silitech-tech"
+    },
+    "CYD": {
+        "link": "https://www.investing.com/equities/china-yuchai-international-ltd"
+    },
+    "DY": {
+        "link": "https://www.investing.com/equities/dycom-industries-inc"
+    },
+    "DAL": {
+        "link": "https://www.investing.com/equities/delta-air-lines-new"
+    },
+    "PLOW": {
+        "link": "https://www.investing.com/equities/douglas-dynamics-inc"
+    },
+    "ECLE": {
+        "link": "https://www.investing.com/equities/eclerx-services"
+    },
+    "EMBR3": {
+        "link": "https://www.investing.com/equities/embraer-on-nm"
+    },
+    "FCN": {
+        "link": "https://www.investing.com/equities/fti-consulting-inc"
+    },
+    "GSH": {
+        "link": "https://www.investing.com/equities/guangshen-railway-comp-ltd"
+    },
+    "HTLD": {
+        "link": "https://www.investing.com/equities/heartland-express"
+    },
+    "JBLU": {
+        "link": "https://www.investing.com/equities/jet-blue"
+    },
+    "KSU": {
+        "link": "https://www.investing.com/equities/kansas-city-southern-inc"
+    },
+    "LART": {
+        "link": "https://www.investing.com/equities/larsen---toubro"
+    },
+    "NCI": {
+        "link": "https://www.investing.com/equities/national-car-ind"
+    },
+    "PCAR": {
+        "link": "https://www.investing.com/equities/paccar-inc"
+    },
+    "RAIL3": {
+        "link": "https://www.investing.com/equities/all-amer-lat-on-nm"
+    },
+    "600009": {
+        "link": "https://www.investing.com/equities/sh-airport"
+    },
+    "SKYW": {
+        "link": "https://www.investing.com/equities/skywest"
+    },
+    "SNA": {
+        "link": "https://www.investing.com/equities/snapon-inc"
+    },
+    "LUV": {
+        "link": "https://www.investing.com/equities/sth-west-airlines"
+    },
+    "SAVE": {
+        "link": "https://www.investing.com/equities/spirit-airlines"
+    },
+    "MIDD": {
+        "link": "https://www.investing.com/equities/the-middleby-corp"
+    },
+    "SHYF": {
+        "link": "https://www.investing.com/equities/spartan-motors"
+    },
+    "TWI": {
+        "link": "https://www.investing.com/equities/titan-international"
+    },
+    "VRSK": {
+        "link": "https://www.investing.com/equities/verisk-analytics-inc"
+    },
+    "WNC": {
+        "link": "https://www.investing.com/equities/wabash-national"
+    },
+    "WEGE3": {
+        "link": "https://www.investing.com/equities/weg-on-ej-nm"
+    },
+    "Cayman": {
+        "link": "https://www.investing.com/equities/zto-express-cayman-inc"
+    },
+    "ADBE": {
+        "link": "https://www.investing.com/equities/adobe-sys-inc"
+    },
+    "BABA": {
+        "link": "https://www.investing.com/equities/alibaba"
+    },
+    "GOOG": {
+        "link": "https://www.investing.com/equities/google-inc-c"
+    },
+    "AAPL": {
+        "link": "https://www.investing.com/equities/apple-computer-inc"
+    },
+    "ANET": {
+        "link": "https://www.investing.com/equities/arista-networks"
+    },
+    "ASTM": {
+        "link": "https://www.investing.com/equities/astra-micro-wave-products-ltd"
+    },
+    "BIDU": {
+        "link": "https://www.investing.com/equities/baidu.com"
+    },
+    "BNFT": {
+        "link": "https://www.investing.com/equities/benefitfocu"
+    },
+    "CTSH": {
+        "link": "https://www.investing.com/equities/cognizant-technology-solutio"
+    },
+    "CSU": {
+        "link": "https://www.investing.com/equities/capital-senior-living-corp"
+    },
+    "DSCV": {
+        "link": "https://www.investing.com/equities/acal-plc"
+    },
+    "DXC": {
+        "link": "https://www.investing.com/equities/comp-science"
+    },
+    "ENGH": {
+        "link": "https://www.investing.com/equities/enghouse-systems-limited"
+    },
+    "FB": {
+        "link": "https://www.investing.com/equities/facebook-inc"
+    },
+    "601138": {
+        "link": "https://www.investing.com/equities/foxconn"
+    },
+    "GRPN": {
+        "link": "https://www.investing.com/equities/groupon-inc"
+    },
+    "2415": {
+        "link": "https://www.investing.com/equities/human-holdings-co-ltd"
+    },
+    "HCLT": {
+        "link": "https://www.investing.com/equities/hcl-technologies"
+    },
+    "INFY": {
+        "link": "https://www.investing.com/equities/infosys"
+    },
+    "JUST": {
+        "link": "https://www.investing.com/equities/just-dial-ltd"
+    },
+    "MANH": {
+        "link": "https://www.investing.com/equities/manhattan-associa"
+    },
+    "3690": {
+        "link": "https://www.investing.com/equities/lockon-co-ltd"
+    },
+    "MSFT": {
+        "link": "https://www.investing.com/equities/microsoft-corp"
+    },
+    "MINT": {
+        "link": "https://www.investing.com/equities/mindtree"
+    },
+    "NTES": {
+        "link": "https://www.investing.com/equities/netease.com"
+    },
+    "NIIT": {
+        "link": "https://www.investing.com/equities/niit"
+    },
+    "NXPI": {
+        "link": "https://www.investing.com/equities/nxp-semiconductors"
+    },
+    "ORCL": {
+        "link": "https://www.investing.com/equities/oracle-corp"
+    },
+    "SGE": {
+        "link": "https://www.investing.com/equities/sage-group"
+    },
+    "SHOP": {
+        "link": "https://www.investing.com/equities/shopify-inc"
+    },
+    "SINA": {
+        "link": "https://www.investing.com/equities/sina-corp"
+    },
+    "WORK": {
+        "link": "https://www.investing.com/equities/slack-technologies-inc"
+    },
+    "SOHU": {
+        "link": "https://www.investing.com/equities/sohu-com-inc"
+    },
+    "TEML": {
+        "link": "https://www.investing.com/equities/tech-mahindra"
+    },
+    "PKE": {
+        "link": "https://www.investing.com/equities/park-electrochemical-corp"
+    },
+    "NCTY": {
+        "link": "https://www.investing.com/equities/the9-ltd"
+    },
+    "TWTR": {
+        "link": "https://www.investing.com/equities/twitter-inc"
+    },
+    "UTSI": {
+        "link": "https://www.investing.com/equities/utstarcom-inc"
+    },
+    "WIPR": {
+        "link": "https://www.investing.com/equities/wipro-ltd"
+    },
+    "ZNGA": {
+        "link": "https://www.investing.com/equities/zynga-inc"
+    },
+    "AEP": {
+        "link": "https://www.investing.com/equities/american-electric"
+    },
+    "AWK": {
+        "link": "https://www.investing.com/equities/american-water-works-inc"
+    },
+    "T": {
+        "link": "https://www.investing.com/equities/at-t"
+    },
+    "BCE": {
+        "link": "https://www.investing.com/equities/bce"
+    },
+    "BRTI": {
+        "link": "https://www.investing.com/equities/bharti-airtel"
+    },
+    "CU": {
+        "link": "https://www.investing.com/equities/canadian-utilities-ltd"
+    },
+    "ELET3": {
+        "link": "https://www.investing.com/equities/eletrobras-on"
+    },
+    "ELET6": {
+        "link": "https://www.investing.com/equities/eletrobras-pnb"
+    },
+    "GGG": {
+        "link": "https://www.investing.com/equities/graco-inc"
+    },
+    "WAT": {
+        "link": "https://www.investing.com/equities/waters-corp"
+    },
+    "CHL": {
+        "link": "https://www.investing.com/equities/china-mobile-limited-exch"
+    },
+    "CHA": {
+        "link": "https://www.investing.com/equities/china-telecom-corp-ltd"
+    },
+    "CHU": {
+        "link": "https://www.investing.com/equities/china-unicom-(hong-kong)-ltd"
+    },
+    "600900": {
+        "link": "https://www.investing.com/equities/yangtze-power"
+    },
+    "SBSP3": {
+        "link": "https://www.investing.com/equities/sabesp-on"
+    },
+    "D": {
+        "link": "https://www.investing.com/equities/dominion-res"
+    },
+    "ENGI11": {
+        "link": "https://www.investing.com/equities/energisa-sa"
+    },
+    "CMIG4": {
+        "link": "https://www.investing.com/equities/cemig-pn-n1"
+    },
+    "EGIE3": {
+        "link": "https://www.investing.com/equities/tractebel-on-nm"
+    },
+    "EQTL3": {
+        "link": "https://www.investing.com/equities/equatorial-on-nm"
+    },
+    "WTRG": {
+        "link": "https://www.investing.com/equities/aqua-america-inc."
+    },
+    "FE": {
+        "link": "https://www.investing.com/equities/first-energy"
+    },
+    "GAIL": {
+        "link": "https://www.investing.com/equities/gail-(india)"
+    },
+    "GOGO": {
+        "link": "https://www.investing.com/equities/gogo-inc"
+    },
+    "GTT": {
+        "link": "https://www.investing.com/equities/global-tel-"
+    },
+    "GJIP": {
+        "link": "https://www.investing.com/equities/gujarat-industries-power"
+    },
+    "HNP": {
+        "link": "https://www.investing.com/equities/huaneng-power-intl"
+    },
+    "MTNL": {
+        "link": "https://www.investing.com/equities/mahanagar-telephone-nigam"
+    },
+    "MSEX": {
+        "link": "https://www.investing.com/equities/middlesex-water"
+    },
+    "NFG": {
+        "link": "https://www.investing.com/equities/national-fuel-gas-comp"
+    },
+    "NTPC": {
+        "link": "https://www.investing.com/equities/ntpc"
+    },
+    "PCG": {
+        "link": "https://www.investing.com/equities/pacific-gas-electric"
+    },
+    "PGRD": {
+        "link": "https://www.investing.com/equities/power-grid-corp.-of-india"
+    },
+    "SRE": {
+        "link": "https://www.investing.com/equities/sempra-energy"
+    },
+    "SVT": {
+        "link": "https://www.investing.com/equities/servotronics"
+    },
+    "SJW": {
+        "link": "https://www.investing.com/equities/sjw-corp"
+    },
+    "SO": {
+        "link": "https://www.investing.com/equities/southern-co"
+    },
+    "S": {
+        "link": "https://www.investing.com/equities/sherritt-international-corp"
+    },
+    "SSE": {
+        "link": "https://www.investing.com/equities/scottish---southern-energy"
+    },
+    "TTPW": {
+        "link": "https://www.investing.com/equities/tata-power-company"
+    },
+    "VIVT4": {
+        "link": "https://www.investing.com/equities/telef-brasil-pn"
+    },
+    "YORW": {
+        "link": "https://www.investing.com/equities/the-york-water-company"
+    },
+    "UGI": {
+        "link": "https://www.investing.com/equities/ugi"
+    },
+    "VZ": {
+        "link": "https://www.investing.com/equities/verizon-communications"
+    },
+    "VOD": {
+        "link": "https://www.investing.com/equities/vodafone-group-plc-exch"
+    }
+}
