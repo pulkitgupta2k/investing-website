@@ -1,0 +1,42 @@
+[
+    {
+        "number": 0,
+        "question": "What are units of a stock called",
+        "options": [
+            "Shares",
+            "Divisions",
+            "Bonds"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 1,
+        "question": "Which type of stock usually entitles the owner to vote at the shareholders meeting?",
+        "options": [
+            "Preferred Stocks",
+            "Common Stocks",
+            "Both i and ii"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 2,
+        "question": "Who issued the first common stock",
+        "options": [
+            "Dutch East India Company ",
+            "British East India Company",
+            "Toraya Confectionary"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 3,
+        "question": "Shareholders are the",
+        "options": [
+            "Employees of the company",
+            "Owners of the company",
+            "None of the above"
+        ],
+        "ans": 2
+    }
+]

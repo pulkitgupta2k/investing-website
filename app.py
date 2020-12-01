@@ -52,9 +52,17 @@ def financials(ticker):
 def module(num):
     return render_template(f"modules/{num}.html")
 
-@app.route("/test/<num>/")
+@app.route("/test/<num>/", methods=["GET", "POST"])
 def test(num):
-    return render_template(f"tests/{num}.html")
+    if request.method == "GET":
+        with open(f"questions/{num}.json", "r") as f:
+            data = json.load(f)
+        return render_template(f"test.html", data = data, num=num)
+    if request.method == "POST":
+        choices = dict(request.form)
+        with open(f"questions/{num}.json", "r") as f:
+            data = json.load(f)
+        return render_template(f"test_ans.html", data = data, num=num, choices = choices)
 
 if __name__ == "__main__":
     app.run(debug=True)

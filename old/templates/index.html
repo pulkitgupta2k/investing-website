@@ -1,5 +1,0 @@
-<h3><a href="{{ url_for('filter') }}">FILTER</a></h3>
-
-{% for key,value in data.items() %}
-    <a href = "{{ url_for('company_data', name=key ) }}">{{ value['Name'] }} - ({{ key }})<br></a>
-{% endfor %}

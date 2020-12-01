@@ -1,0 +1,47 @@
+{% extends "layout.html" %}
+{% block title %}What is Money?{% endblock %}
+
+{% block body %}
+
+
+<div class="grid min-h-screen place-items-center">
+    <div class="p-12 bg-white">
+        <h1 class="text-xl font-semibold">Hello there 👋, <span class="font-normal">Here are the answers</span>
+        </h1>
+
+        {% for dic in data %}
+        <p class="block my-4 text-m font-bold text-gray-600 uppercase">{{ dic["question"] }}
+            {% if dic['ans'] == choices[dic['number']|string]|int %}
+            <span>
+                ✔
+            </span>
+            {% endif %}
+        </p>
+        {% for option in dic["options"] %}
+        <div class="block">
+
+            {% if dic['ans'] == choices[dic['number']|string]|int and loop.index == dic['ans'] %}
+
+            <label for="{{ loop.index }}" class="mt-2 text-xs font-bold text-green-600 uppercase ">{{ option }}</label>
+
+            {% elif dic['ans'] != choices[dic['number']|string]|int and loop.index ==choices[dic['number']|string]|int %}
+            <label for="{{ loop.index }}" class="mt-2 text-xs font-bold text-yellow-500 uppercase ">{{ option }}</label>
+
+
+            {% elif dic['ans'] != choices[dic['number']|string]|int and loop.index == dic['ans'] %}
+            <label for="{{ loop.index }}"
+                class="mt-2 text-xs font-bold text-green-600 uppercase ">{{ option }}</label>
+            {% else %}
+            <label for="{{ loop.index }}"
+                class="mt-2 text-xs font-semibold text-gray-600 uppercase ">{{ option }}</label>
+            {% endif %}
+
+        </div>
+        {% endfor %}
+        {% endfor %}
+    </div>
+</div>
+
+
+
+{% endblock %}

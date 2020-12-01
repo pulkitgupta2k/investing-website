@@ -1,0 +1,212 @@
+{% extends "layout.html" %}
+{% block title %}What are stocks?{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/types-stocks.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <!-- <a href="#"
+                class="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Nutrition</a> -->
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                Types of Stocks
+            </h2>
+            <!-- <div class="flex mt-3">
+                <img src="https://randomuser.me/api/portraits/men/97.jpg"
+                    class="h-10 w-10 rounded-full mr-2 object-cover" />
+                <div>
+                    <p class="font-semibold text-gray-200 text-sm"> Mike Sullivan </p>
+                    <p class="font-semibold text-gray-400 text-xs"> 14 Aug </p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+        <div class="border-l-4 border-gray-500 pl-4 my-6 italic rounded">
+            Stocks can be classified into multiple categories on various parameters – size of the company, dividend
+            payment, industry, risk, volatility, as well as fundamentals.
+        </div>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Stocks on the basis of ownership rules</h2>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Common stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>Common stock is a security that represents ownership in a corporation</li>
+            <li>In a liquidation, common stockholders receive whatever assets remain after creditors, bondholders, and
+                preferred stockholders are paid</li>
+            <li>There are different varieties of stocks traded in the market. For example, value stocks are stocks
+                that are lower in price in relation to their fundamentals. Growth stocks are companies that tend to
+                increase in value due to growing earnings.</li>
+            <li>Investors should diversify their portfolio by putting money into different securities based on their
+                appetite for risk.</li>
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Preferred stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>Preference shares (preferred stock) are company stock with dividends that are paid to shareholders
+                before common stock dividends are paid out.</li>
+            <li>There are four types of preferred stock - cumulative (guaranteed), non-cumulative, participating and
+                convertible.</li>
+            <li>Preference shares are ideal for risk-averse investors and they are callable (the issuer can redeem them
+                at any time).</li>
+
+        </ol>
+
+
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5"> Stocks on the basis of market capitalisation</h2>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Small-cap stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>A small cap is generally a company with a market capitalisation of between $300 million and $2 billion.
+            </li>
+            <li>The advantage of investing in small cap stocks is the opportunity to beat institutional investors
+                through growth opportunities.</li>
+            <li>Small cap stocks have historically outperformed large cap stocks but have also been more volatile and
+                riskier investments.</li>
+
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Mid-cap stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>Mid-cap is the term given to companies with a market cap (capitalisation)—or market value—between $2
+                billion and $10 billion.</li>
+            <li>For companies, some of the appealing features of mid-cap companies are that they are expected to grow
+                and increase profits, market share. and productivity; they are in the middle of their growth curve.</li>
+            <li>Mid-cap stocks are useful in portfolio diversification because they provide a balance of growth and
+                stability.</li>
+
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Large-cap stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>Large cap (sometimes called "big cap") refers to a company with a market capitalisation value of more
+                than $10 billion. </li>
+            <li>Large cap is a shortened version of the term "large market capitalisation."</li>
+            <li>Market capitalization is calculated by multiplying the number of a company's shares outstanding by its
+                stock price per share. </li>
+
+        </ol>
+
+
+
+
+
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Stocks on the basis of dividend payments</h2>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Income stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>Income stocks are stocks that offer regular and steady income, usually in the form of dividends, over a
+                period of time with low exposure to risk.</li>
+            <li>Most income stocks have lower levels of volatility than the overall stock market, and offer
+                higher-than-market dividend yields.</li>
+            <li>Ideal income stocks would also show a history of increasing dividends on a regular basis so as to keep
+                up with inflation, which eats away at future cash payments.</li>
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Growth stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>A growth stock is any share in a company that is anticipated to grow at a rate significantly above the
+                average growth for the market. </li>
+            <li>These stocks generally do not pay dividends. </li>
+            <li>This is because the issuers of growth stocks are usually companies that want to reinvest any earnings
+                they accrue in order to accelerate growth in the short term. </li>
+            <li>When investors invest in growth stocks, they anticipate that they will earn money through capital gains
+                when they eventually sell their shares in the future.</li>
+            <li> They may not have earnings at the present moment but are expected to in the future.</li>
+
+        </ol>
+
+
+
+
+
+
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Stocks on the basis of risk</h2>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Blue chip stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>A blue-chip stock is a huge company with an excellent reputation. </li>
+            <li>These are typically large, well-established and financially sound companies that have operated for many
+                years and that have dependable earnings, often paying dividends to investors. </li>
+            <li>A blue-chip stock typically has a market capitalization in the billions, is generally the market leader
+                or among the top three companies in its sector, and is more often than not a household name. </li>
+            <li>For all of these reasons, blue-chip stocks are among the most popular to buy among investors. Some
+                examples of blue-chip stocks are IBM Corp., Coca-Cola Co. and Boeing Co.</li>
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Penny stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>A penny stock refers to a small company's stock that typically trades for less than $5 per share. </li>
+            <li>Penny stocks are most suitable for investors who have a high tolerance for risk</li>
+            <li>Although some penny stocks trade on large exchanges such as the NYSE, most penny stocks trade via over
+                the counter through the OTC Bulletin Board (OTCBB). </li>
+            <li>While there can be sizeable gains in trading penny stocks, there are also equal risks of losing a
+                significant amount of an investment in a short period.</li>
+        </ol>
+
+
+
+
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Stocks on the basis of price trends</h2>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Cyclical stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>Cyclical stocks are affected by macroeconomic changes, where its returns follow the cycles of an
+                economy.</li>
+            <li>Cyclical stocks usually have higher volatility and are expected to produce higher returns during periods
+                of economic strength.</li>
+            <li>Cyclical stocks are the opposite of defensive stocks. Cyclical stocks include discretionary companies,
+                such as Starbucks or Nike.</li>
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">
+            <li>Defensive stocks</li>
+        </h2>
+        <ol class="arrow-list py-5">
+            <li>A defensive stock is a stock that provides consistent dividends and stable earnings regardless of the
+                state of the overall stock market. </li>
+            <li>Well-established companies, such as Procter & Gamble, Johnson & Johnson, Philip Morris International,
+                and Coca-Cola, are considered defensive stocks. </li>
+            <li>Defensive stocks offer the substantial benefit of similar long-term gains with lower risk than other
+                stocks. </li>
+            <li>On the downside, the low volatility of defensive stocks often leads to smaller gains during bull markets
+                and a cycle of mistiming the market.</li>
+        </ol>
+
+        <a href="{{ url_for('test', num=3) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,53 @@
+[
+    {
+        "number": 0,
+        "question": "A Mid cap company is generally a stock with a market capitalization between",
+        "options": [
+            "$500m-$1b",
+            "More than $10b",
+            "$2b-$10b"
+        ],
+        "ans": 3
+    },
+    {
+        "number": 1,
+        "question": "Which of the following refers to a small company's stock that typically trades for less than $5 per share?",
+        "options": [
+            "Penny stock",
+            "Common Stocks",
+            "Preferred stocks "
+        ],
+        "ans": 1
+    },
+    {
+        "number": 2,
+        "question": "Find the odd one out ",
+        "options": [
+            "Income Stocks",
+            "Growth stocks ",
+            "Small- Cap stocks "
+        ],
+        "ans": 3
+    },
+    {
+        "number": 3,
+        "question": "Which of the following is the opposite of defensive stock?",
+        "options": [
+            "Growth stock",
+            "Common stock",
+            "Cyclical stock"
+        ],
+        "ans": 2
+    },
+    
+    {
+        "number": 4,
+        "question": "Which of the following are stocks on the basis of risk?",
+        "options": [
+            "Cyclical and Defensive ",
+            "Blue chip and Penny",
+            "Growth and Income"
+        ],
+        "ans": 2
+    }
+]
