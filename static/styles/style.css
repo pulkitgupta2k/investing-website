@@ -1,0 +1,59 @@
+ol.line-list {
+    counter-reset: section;
+  }
+  ol.line-list>li {
+    background-image: linear-gradient(180deg, #ddd 0%, #ddd 100%);
+    background-repeat: no-repeat;
+    background-size: 2px 100%;
+    background-position: 1rem center;
+    display: block;
+    min-height: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  ol.line-list>li::before {
+    background: #ff6b6b;
+    border-radius: 50%;
+    color: #fff;
+    counter-increment: section;
+    content: counter(section);
+    counter-increment: section;
+    display: block;
+    left: 0;
+    line-height: 1.8;
+    position: absolute;
+    text-align: center;
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  ol.arrow-list>li {
+    background-repeat: no-repeat;
+    background-size: 2px 100%;
+    background-position: 1rem center;
+    display: block;
+    min-height: 2rem;
+    padding-bottom: 1rem;
+    padding-left: 3rem;
+    margin-bottom: 0;
+    position: relative;
+  }
+  
+  .entry-content ol>li {
+    list-style-type: decimal;
+  }
+  ol.arrow-list>li::before {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    display: block;
+    width: 28px;
+    height: 28px;
+    content: "";
+    background: url(/static/images/arrow_list.png) no-repeat center center;
+    background-size: contain;
+  }

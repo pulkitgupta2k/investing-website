@@ -1,0 +1,96 @@
+{% extends "layout.html" %}
+{% block title %}What is Money?{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/money.jpeg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <!-- <a href="#"
+                class="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Nutrition</a> -->
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                What is Money?
+            </h2>
+            <!-- <div class="flex mt-3">
+                <img src="https://randomuser.me/api/portraits/men/97.jpg"
+                    class="h-10 w-10 rounded-full mr-2 object-cover" />
+                <div>
+                    <p class="font-semibold text-gray-200 text-sm"> Mike Sullivan </p>
+                    <p class="font-semibold text-gray-400 text-xs"> 14 Aug </p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+        <ol class="line-list mb-5">
+            <li> Money is a medium of exchange; it allows people to obtain what they need to live. </li>
+            <li> Money makes the world go around. </li>
+            <li> Economies rely on the exchange of money for products and services. </li>
+            <li> Economists define money, where it comes from, and what it's worth. </li>
+            <li> Money is commonly referred to as currency. </li>
+            <li> Economically, each country has its own money system</li>
+
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Types of Money</h2>
+
+        <ol class="arrow-list">
+            <li>Commodity money</li>
+            <li>Fiat money</li>
+            <li>Fiduciary money</li>
+        </ol>
+
+
+
+        <div class="border-l-4 border-gray-500 pl-4 my-6 italic rounded">
+            We are going to discuss Fiat money since it the most common form of money.
+        </div>
+
+        <ol class="line-list">
+            <li>Fiat money is a government-issued currency that isn't backed by a commodity such as gold. </li>
+            <li>Fiat money gives central banks greater control over the economy because they can control how much money
+                is printed.</li>
+            <li>Most modern paper currencies, such as the U.S. dollar, Indian Rupee, are fiat currencies.</li>
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">How Does Fiat Money Work</h2>
+
+        <ol class="arrow-list">
+            <li>Fiat money only has value because the government maintains that value, or because two parties in a
+                transaction agree on its value.</li>
+            <li> Fiat money is inconvertible and cannot be redeemed.</li>
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Advantages</h2>
+
+        <ol class="line-list">
+            <li>Fiat money serves as a good currency if it can handle the roles that a nation's economy needs of its
+                monetary unit—storing value, providing a numerical account, and facilitating exchange.</li>
+            <li>Since fiat money is not a scarce or fixed resource like gold, central banks have much greater control
+                over its supply, which gives them the power to manage economic variables such as credit supply,
+                liquidity, interest rates, and money velocity. </li>
+        </ol>
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Disadvantages</h2>
+
+        <ol class="line-list">
+            <li>The mortgage crisis of 2007 and subsequent financial meltdown, however, tempered the belief that central
+                banks could necessarily prevent depressions or serious recessions by regulating the money supply. </li>
+            <li>A currency tied to gold, for example, is generally more stable than fiat money because of the limited
+                supply of gold.</li>
+            <li>There are more opportunities for the creation of bubbles with fiat money due to its unlimited supply.
+            </li>
+        </ol>
+        <a href="{{ url_for('test', num=1) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+<!-- main end
+{% endblock %}

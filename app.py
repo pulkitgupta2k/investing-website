@@ -4,12 +4,16 @@ from pprint import pprint
 
 app = Flask(__name__)
 
-@app.route("/", methods=["GET", "POST"])
+@app.route("/")
 def index():
+    return render_template("index.html")
+
+@app.route("/stock-screener", methods=["GET", "POST"])
+def stock_screener():
     if request.method == "GET":
         with open("common.json", "r") as f:
             common = json.load(f)
-        return render_template("index.html", common = common)
+        return render_template("stock-screener.html", common = common)
     if request.method == "POST":
         with open("common.json", "r") as f:
             common = json.load(f)
@@ -30,7 +34,7 @@ def index():
                 float(request.form["div_pay_begin"]) <= float(value["ratios"]["div_pay"] or 0) <= float(request.form["div_pay_end"]) :
                 ret_common[key] = value
 
-        return render_template("index.html", common = ret_common)
+        return render_template("stock-screener.html", common = ret_common)
 
 @app.route("/company/<ticker>/", methods=["GET"])
 def company(ticker):
@@ -43,6 +47,14 @@ def financials(ticker):
     with open(f"data/{ticker}.json") as f:
         data = json.load(f)
     return render_template("financials.html", data = data)
+
+@app.route("/module/<num>/", methods=["GET"])
+def module(num):
+    return render_template(f"modules/{num}.html")
+
+@app.route("/test/<num>/")
+def test(num):
+    return render_template(f"tests/{num}.html")
 
 if __name__ == "__main__":
     app.run(debug=True)

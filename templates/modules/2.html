@@ -1,0 +1,72 @@
+{% extends "layout.html" %}
+{% block title %}What are Stonks?{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/stocks.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <!-- <a href="#"
+                class="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Nutrition</a> -->
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                What are Stonks?
+            </h2>
+            <!-- <div class="flex mt-3">
+                <img src="https://randomuser.me/api/portraits/men/97.jpg"
+                    class="h-10 w-10 rounded-full mr-2 object-cover" />
+                <div>
+                    <p class="font-semibold text-gray-200 text-sm"> Mike Sullivan </p>
+                    <p class="font-semibold text-gray-400 text-xs"> 14 Aug </p>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+        <p class="pb-6">
+            A stonk (also known as equity) is a security that represents the ownership of a fraction of a corporation.
+            Thisentitles the owner of the stonk to a proportion of the corporation's assets and profits equal to how
+            much
+            stonkthey own. Units of stonk are called “shares.”
+        </p>
+
+
+        <ol class="arrow-list py-5">
+            <li>A stonk is a form of security that indicates the holder has proportionate ownership in the issuing
+                corporation.</li>
+            <li>Corporations issue (sell) stonk to raise funds to operate their businesses. There are two main types of
+                stonk: common and preferred. Common stonk usually entitles the owner to vote at shareholders' meetings
+                and to receive any dividends paid out by the corporation. Preferred stonkholders generally do not have
+                voting rights, though they have a higher claim on assets and earnings than the common stonkholders.</li>
+            <li>stonks are bought and sold predominantly on stonk exchanges, though there can be private sales as well,
+                and they are the foundation of nearly every portfolio. stonk exchanges are secondary markets, where
+                existing owners of shares can transact with potential buyers.</li>
+            <li> The first common stonk ever issued was by the Dutch East India Company in 1602</li>
+        </ol>
+
+        <p class="py-6">
+            Corporations issue (sell) stonk to raise funds to operate their businesses. The holder of stonk
+            (a shareholder) has now bought a piece of the corporation and, depending on the type of shares held, may
+            have a claim to a part of its assets and earnings. In other words, a shareholder is now an owner of the
+            issuing company. Ownership is determined by the number of shares a person owns relative to the number of
+            outstanding shares. For example, if a company has 1,000 shares of stonk outstanding and one person owns 100
+            shares, that person would own and have claim to 10% off the company's assets and earnings. These
+            transactions have to conform to government regulations which are meant to protect investors from fraudulent
+            practices. Historically, they have outperformed most other investments over the long run .These investments
+            can be purchased from most online stonk brokers. stonk investment differs greatly from real estate
+            investment.
+        </p>
+
+        <a href="{{ url_for('test', num=2) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+<!-- main end
+{% endblock %}

@@ -1,0 +1,300 @@
+{% extends "layout.html" %}
+{% block title %}Gearshift Investments{% endblock %}
+
+{% block body %}
+<div class="container px-5 py-10 mx-auto">
+    <div class="grid place-items-center pb-10">
+        <form class="mt-6" action="{{ url_for('index') }}" method="POST">
+            <div class="flex justify-between gap-3 my-5">
+                <span class="w-1/2">
+                    <div>Location</div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="New York Stock Exchange, Inc." checked><span class="ml-2 text-gray-700">New York
+                                Stock Exchange, Inc.</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="Nasdaq" checked><span class="ml-2 text-gray-700">Nasdaq</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="B3 S.A. - Brasil, Bolsa, BalcÃ£o" checked><span class="ml-2 text-gray-700">B3
+                                S.A. - Brasil, Bolsa, BalcÃ£o</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="BSE LTD" checked><span class="ml-2 text-gray-700">BSE LTD</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="Toronto Stock Exchange" checked><span class="ml-2 text-gray-700">Toronto Stock
+                                Exchange</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="Shanghai Stock Exchange" checked><span class="ml-2 text-gray-700">Shanghai Stock
+                                Exchange</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="Shenzhen Stock Exchange" checked><span class="ml-2 text-gray-700">Shenzhen Stock
+                                Exchange</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="Hong Kong Exchanges And Clearing Ltd" checked><span
+                                class="ml-2 text-gray-700">Hong Kong Exchanges And Clearing Ltd</span>
+                        </label>
+                        
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="location"
+                                value="London Stock Exchange" checked><span
+                                class="ml-2 text-gray-700">London Stock Exchange</span>
+                        </label>
+                    </div>
+                </span>
+
+                <span class="w-1/2">
+                    <div>Category</div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="CONSUMER DISCRETIONARY" checked><span class="ml-2 text-gray-700">CONSUMER
+                                DISCRETIONARY</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="CONSUMER STAPLES" checked><span class="ml-2 text-gray-700">CONSUMER
+                                STAPLES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="ENERGY" checked><span class="ml-2 text-gray-700">ENERGY</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="FINANCIAL SERVICES" checked><span class="ml-2 text-gray-700">FINANCIAL
+                                SERVICES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="HEALTH CARE" checked><span class="ml-2 text-gray-700">HEALTH CARE</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="MATERIALS & PROCESSING" checked><span class="ml-2 text-gray-700">MATERIALS &
+                                PROCESSING</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="PRODUCER DURABLES" checked><span class="ml-2 text-gray-700">PRODUCER
+                                DURABLES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="TECHNOLOGY" checked><span class="ml-2 text-gray-700">TECHNOLOGY</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="UTILITIES" checked><span class="ml-2 text-gray-700">UTILITIES</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="inline-flex items-center mt-3">
+                            <input type="checkbox" class="form-checkbox h-5 w-5 text-green-600" name="category"
+                                value="OTHERS" checked><span class="ml-2 text-gray-700">OTHERS</span>
+                        </label>
+                    </div>
+                </span>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Debt to Equity Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="de_ratio_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="de_ratio_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div>EPS</div>
+                    <div class="flex">
+                        <input type="number" name="eps_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="eps_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Return on Equity</div>
+                    <div class="flex">
+                        <input type="number" name="ret_eq_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="ret_eq_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div>Quick Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="q_ratio_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="q_ratio_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Dividend Yield</div>
+                    <div class="flex">
+                        <input type="number" name="div_y_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="div_y_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+
+                <div class="w-1/2">
+                    <div>Operating Profit Margin</div>
+                    <div class="flex">
+                        <input type="number" name="op_pro_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="op_pro_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Interest Coverage Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="int_cov_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000" />
+                        <input type="number" name="int_cov_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+                <div class="w-1/2">
+                    <div>Dividend Payout Ratio</div>
+                    <div class="flex">
+                        <input type="number" name="div_pay_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000"/>
+                        <input type="number" name="div_pay_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+            </div>
+            <button type="submit"
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Search
+            </button>
+        </form>
+    </div>
+
+
+    <div class="flex flex-col items-center">
+        <div class="w-full flex flex-col items-center h-64">
+            <div class="w-full px-4">
+                <div class="flex flex-col items-center relative">
+                    <div
+                        class="absolute shadow bg-white top-1000 z-40 w-full lef-0 rounded max-h-select overflow-y-auto svelte-5uyqqj">
+                        <div class="flex flex-col w-full">
+                            <!---->
+
+                            <a href="/">
+                                <div class="cursor-pointer w-full border-gray-1000 rounded-t border-b hover:bg-teal-1000 bg-teal-200">
+                                    <div
+                                        class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative hover:border-teal-1000">
+                                        <div class="mx-2 -mt-1 w-1/3" >Company</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Debt to Equity Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">EPS</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Return on Equity</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Quick Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Dividend Yield</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Operating Profit Margin</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Interest Coverage Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Dividend Payout Ratio</div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {% for ticker, detail in common.items() %}
+                            <a href="{{ url_for('company', ticker=ticker) }}">
+
+                                <div class="cursor-pointer w-full border-gray-1000 rounded-t border-b hover:bg-teal-1000">
+                                    <div
+                                        class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative hover:border-teal-1000">
+
+                                        <div class="w-full items-center flex">
+                                            <div class="mx-2 -mt-1 w-1/3">{{ detail['name'] }}
+                                                <div
+                                                    class="text-xs truncate w-full normal-case font-normal -mt-1 text-gray-500">
+                                                    {{ ticker }}</div>
+                                            </div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['de_ratio'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['eps'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['ret_eq'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['q_ratio'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['div_y'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['op_pro'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['int_cov'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['div_pay'] }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            {% endfor %}
+                            <!---->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
