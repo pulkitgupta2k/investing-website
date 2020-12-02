@@ -70,5 +70,8 @@ def test(num):
                 
         return render_template(f"test_ans.html", data = data, num=num, choices = choices, score=score)
 
+@app.route("/loaderio-96afe2fea8314b6f56d9537de31c33a3/")
+def testing():
+    return "loaderio-96afe2fea8314b6f56d9537de31c33a3"
 if __name__ == "__main__":
     app.run(debug=True)
