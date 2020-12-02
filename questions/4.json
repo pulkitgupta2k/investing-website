@@ -1,0 +1,51 @@
+[
+    {
+        "number": 0,
+        "question": "Stock exchanges come under which category of markets?",
+        "options": [
+            "Primary market",
+            "Secondary market",
+            "None of the above "
+        ],
+        "ans": 2
+    },
+    {
+        "number": 1,
+        "question": "Which of the following is not a function of stock markets?",
+        "options": [
+            "Investor Protection",
+            "Inefficient Price Discovery",
+            "Fair dealing in security transactions "
+        ],
+        "ans": 2
+    },
+    {
+        "number": 2,
+        "question": "Securities and Exchange Board of India is an example of-",
+        "options": [
+            "Stock Exchange ",
+            "Stock",
+            "Market Regulator"
+        ],
+        "ans": 3
+    },
+    {
+        "number": 3,
+        "question": "State True/ False- Can a company buyback or delist their shares?",
+        "options": [
+            "True",
+            "False"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 4,
+        "question": "Where do regular activities of buying, selling, and issuance of shares of publicly-held companies take place?",
+        "options": [
+            "Institutionalised formal exchanges",
+            "Over-the-counter (OTC) marketplaces",
+            "Both i) and ii)"
+        ],
+        "ans": 3
+    }
+]

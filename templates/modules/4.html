@@ -1,0 +1,100 @@
+{% extends "layout.html" %}
+{% block title %}What is the stock market?{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/stock-market.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                What is the stock market
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+        <ol class="arrow-list py-5">
+            <li>The stock market refers to the collection of markets and exchanges where regular activities of buying,
+                selling, and issuance of shares of publicly-held companies take place. </li>
+            <li>Such financial activities are conducted through institutionalised formal exchanges or over-the-counter
+                (OTC) marketplaces which operate under a defined set of regulations. </li>
+            <li>There can be multiple stock trading venues in a country or a region which allow transactions in stocks
+                and other forms of securities.</li>
+            <li>Stock markets are where individual and institutional investors come together to buy and sell shares in a
+                public venue.</li>
+            <li>Nowadays these exchanges exist as electronic marketplaces.</li>
+            <li>Stock exchanges are secondary markets, where existing owners of shares can transact with potential
+                buyers.</li>
+            <li>Though it is called a stock market or equity market and is primarily known for trading stocks/equities,
+                other financial securities - like exchange traded funds (ETF), corporate bonds and derivatives based on
+                stocks, commodities, currencies, and bonds - are also traded in the stock markets.</li>
+            <li>The stock exchange acts as a facilitator for this capital raising process and receives a fee for its
+                services from the company and its financial partners. </li>
+            <li>This constitutes the secondary market. The stock exchange earns a fee for every trade that occurs on its
+                platform during the secondary market activity. </li>
+            <li>The stock exchange shoulders the responsibility of ensuring price transparency, liquidity, price
+                discovery and fair dealings in such trading activities. </li>
+            <li>As almost all major stock markets across the globe now operate electronically, the exchange maintains
+                trading systems that efficiently manage the buy and sell orders from various market participants. </li>
+            <li>They perform the price matching function to facilitate trade execution at a price fair to both buyers
+                and sellers. </li>
+            <li>A listed company may also offer new, additional shares through other offerings at a later stage, like
+                through rights issue or through follow-on offers. </li>
+            <li>They may even buyback or delist their shares. The stock exchange facilitates such transactions. </li>
+            <li>The stock exchange often creates and maintains various market-level and sector-specific indicators, like
+                the S&P 500 index or Nasdaq 100 index, which provide a measure to track the movement of the overall
+                market. </li>
+            <li>The stock exchanges also maintain all company news, announcements, and financial reporting, which can be
+                usually accessed on their official websites</li>
+        </ol>
+
+
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">FUNCTIONS OF A STOCK MARKET</h2>
+
+        <ol class="arrow-list py-5">
+            <li>Fair Dealing in Securities Transactions: Depending on the standard rules of demand and supply, the stock
+                exchange needs to ensure that all interested market participants have instant access to data for all buy
+                and sell orders thereby helping in the fair and transparent pricing of securities.</li>
+            <li>Efficient Price Discovery: Stock markets need to support an efficient mechanism for price discovery,
+                which refers to the act of deciding the proper price of a security and is usually performed by assessing
+                market supply and demand and other factors associated with the transactions.</li>
+            <li>
+                Liquidity Maintenance: While getting the number of buyers and sellers for a particular financial
+                security are out of control for the stock market, it needs to ensure that whosoever is qualified and
+                willing to trade gets instant access to place orders which should get executed at the fair price.
+            </li>
+
+            <li>Security and Validity of Transactions: While more participants are important for efficient working of a
+                market, the same market needs to ensure that all participants are verified and remain compliant with the
+                necessary rules and regulations, leaving no room for default by any of the parties. </li>
+            <li>Support All Eligible Types of Participants: A marketplace is made by a variety of participants, which
+                include market makers, investors, traders, speculators, and hedgers. All these participants operate in
+                the stock market with different roles and functions.</li>
+            <li>Investor Protection: Along with wealthy and institutional investors, a very large number of small
+                investors are also served by the stock market for their small amount of investments. These investors may
+                have limited financial knowledge, and may not be fully aware of the pitfalls of investing in stocks and
+                other listed instruments. The stock exchange must implement necessary measures to offer the necessary
+                protection to such investors to shield them from financial loss and ensure customer trust.</li>
+            <li>Balanced Regulation: Listed companies are largely regulated and their dealings are monitored by market
+                regulators, like the Securities and Exchange Board of India of the U.S. Additionally, exchanges also
+                mandate certain requirements – like, timely filing of quarterly financial reports and instant reporting
+                of any relevant developments - to ensure all market participants become aware of corporate happenings.
+                Failure to adhere to the regulations can lead to suspension of trading by the exchanges and other
+                disciplinary measures.</li>
+
+        </ol>
+
+        <a href="{{ url_for('test', num=3) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}
