@@ -62,7 +62,13 @@ def test(num):
         choices = dict(request.form)
         with open(f"questions/{num}.json", "r") as f:
             data = json.load(f)
-        return render_template(f"test_ans.html", data = data, num=num, choices = choices)
+
+        score = 0
+        for q,a in choices.items():
+            if data[int(q)]['ans'] == int(a):
+                score+=1
+                
+        return render_template(f"test_ans.html", data = data, num=num, choices = choices, score=score)
 
 if __name__ == "__main__":
     app.run(debug=True)

@@ -6,8 +6,15 @@
 
 <div class="grid min-h-screen place-items-center">
     <div class="p-12 bg-white">
-        <h1 class="text-xl font-semibold">Hello there 👋, <span class="font-normal">Here are the answers</span>
+        {% if score*2 >= data|length  %}
+        <h1 class="text-xl font-bold text-green-600"> Good Job 👏
         </h1>
+        {% else %}
+        <h1 class="text-xl font-bold text-red-600"> Better luck next time 😕
+        </h1>
+        {% endif %}
+        <h1 class="text-xl mb-10">You scored <span class="font-bold">{{ score }} / {{ data | length }}</span> </h1>
+        
 
         {% for dic in data %}
         <p class="block my-4 text-m font-bold text-gray-600 uppercase">{{ dic["question"] }}
