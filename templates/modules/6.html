@@ -1,0 +1,120 @@
+{% extends "layout.html" %}
+{% block title %}Basic Terms{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/terms.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                Basic Terms
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+        <ol class="arrow-list py-5">
+            <li><span class="font-bold">Share market:</span> Anywhere you can buy or sell shares. All stock exchanges
+                across India are part of the Indian share market. Any shares that you buy or sell outside the exchanges
+                are also part of this share market.
+            </li>
+            <li><span class="font-bold">Stock exchange:</span> This is a specific facility where stocks are listed for
+                sale/purchase. All stock exchanges in India are now digital, and you can access them online through a
+                brokerage firm.
+            </li>
+            <li><span class="font-bold">Bonds:</span> When you invest in a bond, you are essentially loaning money to a
+                company or government. Provided that nothing bad happens, like a bankruptcy, you cash in the bond on the
+                maturity date and collect some interest.
+            </li>
+            <li><span class="font-bold">Stocks:</span> When you buy stock in a company, you're purchasing a tiny bit of
+                ownership in the firm. Generally, the better the company performs, the more your share of stock is
+                worth. If the company doesn't do so well, your stock may be worth less.
+            </li>
+            <li><span class="font-bold">Mutual fund:</span> In layman's terms, this is a pile of money that comes from a
+                lot of investors like you and is then invested in assets like stocks and bonds. A mutual fund may hold
+                hundreds of stocks, with the purpose of spreading the risk. In most cases, money managers make buy and
+                sell decisions for mutual funds, which brings us to our next definition.
+            </li>
+            <li><span class="font-bold">Index funds:</span> This is a popular type of mutual fund because its costs are
+                generally low – think more like 0.2 percent. But if you really want to understand index funds, you first
+                need to understand indexes, which are essentially collections of stocks that represent a slice of the
+                economy. By tracking the performance of a group of stocks, indexes give investors a sense of how the
+                stock or bond market, or a portion of it, is doing. And by investing in an index fund, you are
+                essentially betting on the success of the basket of companies it contains.
+            </li>
+            <li><span class="font-bold">Asset: </span> is any resource that has economic value to the owner, being an individual
+                    or a company.
+            </li>
+            <li><span class="font-bold">Capital:</span> It is an asset that enables an individual or company to perform
+                economic activities. For example, a fishing rod is a capital for a fisherman as it helps him generate
+                revenue.
+            </li>
+            <li><span class="font-bold">Return on invested capital:</span> It is a calculation that determines how well a
+                company has used its capital to generate returns—the efficiency of a company to create value relative to
+                what is invested.
+            </li>
+            <li><span class="font-bold">Common stock:</span> is equity ownership of a company. Common stockholders can vote on
+                    corporate policies and elect the board of directors.
+            </li>
+            <li><span class="font-bold">Blue-chip:</span> stock represents a huge company that is financially stable, having
+                    operated for many years and often pays dividends to its investors
+            </li>
+            <li><span class="font-bold">Preferred stock or shares:</span> represents a form of hybrid stock ownership in a
+                    company. Holders of preferred stock have a high claim to dividends and asset distribution.
+            </li>
+            <li><span class="font-bold">Asset allocation:</span> is implementing a particular investment strategy to try and
+                    balance risk and reward.
+            </li>
+            <li><span class="font-bold">Stockbroker:</span> is a professional who, on behalf of his clients, places buying and
+                    selling orders for stocks and securities. He acts as an intermediary between the investor and
+                    securities exchange.
+            </li>
+            <li><span class="font-bold">Market capitalisation:</span> is the market value of a companies shares that have been
+                    publicly traded and are outstanding. It is arrived at by multiplying the company’s outstanding
+                    shares with the current market price per share.
+            </li>
+            <li><span class="font-bold">A balance sheet :</span>is a statement that indicates the assets, liabilities and
+                    capital of a business at a particular point in time. It indicates the financial condition of a
+                    business at that particular time.
+            </li>
+            <li><span class="font-bold">The dividend yield:</span> is a financial ratio that indicates how much a company pays
+                    in the form of dividends relative to the stock price.
+            </li>
+            <li><span class="font-bold">Volatility:</span> in finance is the variation of the trading prices over some time. It
+                    measures past market prices over a series of time.
+            </li>
+            <li><span class="font-bold">Derivative:</span> in finance refers to a product whose value comes from or is dependent
+                    on the value of an underlying asset. Derivatives can be traded on an exchange or over the counter.
+            </li>
+            <li><span class="font-bold">Ask price:</span> The lowest price a seller is willing to accept while selling.
+            </li>
+            <li><span class="font-bold">Bear market:</span> A bear market is when a market experiences prolonged price
+                declines. It typically describes a condition in which securities prices fall 20% or more from recent
+                highs amid widespread pessimism and negative investor sentiment.
+            </li>
+            <li><span class="font-bold">Bull Market:</span> A bull market is the condition of a financial market in which
+                prices are rising or are expected to rise.
+            </li>
+            <li><span class="font-bold">Bid Price:</span> A bid price is a price which is offered for a commodity,
+                service, or contract. It is colloquially known as a “bid” in many markets and jurisdictions. Generally,
+                a bid is lower than an asking price, or “ask”, and the difference between them is called a bid-ask
+                spread.
+            </li>
+            <li><span class="font-bold">Book Value:</span> Book value is equal to the cost of carrying an asset on a
+                company's balance sheet, and firms calculate it netting the asset against its accumulated depreciation.
+            </li>
+        </ol>
+
+        <a href="{{ url_for('test', num=6) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}

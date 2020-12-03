@@ -1,0 +1,38 @@
+[
+    {
+        "number": 0,
+        "question": "In which approach do we analyze the countries first?",
+        "options": [
+            "Top- Down approach",
+            "Bottom -Up Approach"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 1,
+        "question": "Which approach focuses on the micro attributes of an individual stock?",
+        "options": [
+            "Bottom-Up approach",
+            "Top-Down approach"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 2,
+        "question": "Which of the following is correct about the top-down approach?",
+        "options": [
+            "Investors who use this approach believe that if the sector is doing well then the stocks in those industries will also do well.",
+            "Investors use this approach to identify profitable opportunities through the idiosyncrasies of a company�s attributes and its valuations in comparison to the market. "
+        ],
+        "ans": 1
+    },
+    {
+        "number": 3,
+        "question": "Which approach follows this order- (1. Company 2. industry 3. sector 4. Economy)",
+        "options": [
+            "Bottom -Up approach ",
+            "Top-Down approach"
+        ],
+        "ans": 1
+    }
+]

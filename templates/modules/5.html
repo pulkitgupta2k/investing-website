@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+{% block title %}How Does The Stock Market Work{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/stock-market-works.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                How Does The Stock Market Work
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+        <ol class="arrow-list py-5">
+            <li>In a nutshell, stock markets provide a secure and regulated environment where market participants can
+                transact in shares and other eligible financial instruments with confidence with zero- to
+                low-operational risk. </li>
+            <li>Operating under the defined rules as stated by the regulator, the stock markets act as primary markets
+                and as secondary markets. </li>
+            <li>As a primary market, the stock market allows companies to issue and sell their shares to the common
+                public for the first time through the process of initial public offerings (IPO).
+                This activity helps companies raise necessary capital from investors.
+            </li>
+            <li>It essentially means that a company divides itself into a number of shares (say, 20 million shares) and
+                sells a part of those shares (say, 5 million shares) to common public at a price (say, $10 per share).
+            </li>
+            <li>To facilitate this process, a company needs a marketplace where these shares can be sold. This
+                marketplace is provided by the stock market. </li>
+            <li>If everything goes as per the plans, the company will successfully sell the 5 million shares at a price
+                of $10 per share and collect $50 million worth of funds. </li>
+            <li>Investors will get the company shares which they can expect to hold for their preferred duration, in
+                anticipation of rising in share price and any potential income in the form of dividend payments.
+                The stock exchange acts as a facilitator for this capital raising process and receives a fee for its
+                services from the company and its financial partners.
+            </li>
+            <li>The stock market also offers a fascinating example of the laws of supply and demand at work in real
+                time. </li>
+            <li>For every stock transaction, there must be a buyer and a seller. Because of the immutable laws of supply
+                and demand, if there are more buyers for a specific stock than there are sellers of it, the stock price
+                will trend up. </li>
+            <li>Conversely, if there are more sellers of the stock than buyers, the price will trend down. Some stock
+                markets rely on professional traders to maintain continuous bids and offers since a motivated buyer or
+                seller may not find each other at any given moment.
+                These are known as specialists or market makers.
+            </li>
+            <li>A two-sided market consists of the bid and the offer, and the spread is the difference in price between
+                the bid and the offer. </li>
+            <li>In addition to individual stocks, many investors are concerned with stock indices (also called indexes).
+            </li>
+            <li>Indices represent aggregated prices of a number of different stocks, and the movement of an index is the
+                net effect of the movements of each individual component. </li>
+            <li>When people talk about the stock market, they often are actually referring to one of the major indices
+                such as the Dow Jones Industrial Average (DJIA) or the S&P 500 or Nifty 50. </li>
+            <li>A market index is a popular measure of stock market performance. Most market indices are market-cap
+                weighted—which means that the weight of each index constituent is proportional to its market
+                capitalisation—although a few like the Dow Jones Industrial Average (DJIA) are price-weighted. </li>
+        </ol>
+
+
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Index Examples</h2>
+
+
+        <ol class="line-list py-5">
+            <li>S&P 500</li>
+            <li>Nasdaq Composite</li>
+            <li>Russell Indices (Russell 1000, Russell 2000)</li>
+            <li>TSX Composite (Canada)</li>
+            <li>FTSE Index (UK)</li>
+            <li>Nikkei 225 (Japan)</li>
+            <li>Dax Index (Germany)</li>
+            <li>CAC 40 Index (France)</li>
+            <li>CSI 300 Index (China)</li>
+            <li>Sensex (India)</li>
+
+        </ol>
+
+        <a href="{{ url_for('test', num=5) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}

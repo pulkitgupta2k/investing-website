@@ -1,0 +1,42 @@
+[
+    {
+        "number": 0,
+        "question": "What will be the effect on price if there are more sellers of the stock than buyers?",
+        "options": [
+            "Price will remain the same ",
+            "Price will trend up",
+            "Price will trend down "
+        ],
+        "ans": 3
+    },
+    {
+        "number": 1,
+        "question": "What is the index of India called?",
+        "options": [
+            "S &P 500",
+            "FTSE index",
+            "Sensex "
+        ],
+        "ans": 3
+    },
+    {
+        "number": 2,
+        "question": "In a stock market, what does spread refer to?",
+        "options": [
+            "It is the difference in price between the bid and the offer ",
+            "It is the yield difference between two different securities with the same maturity date",
+            "None of the above  "
+        ],
+        "ans": 1
+    },
+    {
+        "number": 3,
+        "question": "TSX composite is the index of which country?",
+        "options": [
+            "China",
+            "Japan",
+            "Canada"
+        ],
+        "ans": 3
+    }
+]

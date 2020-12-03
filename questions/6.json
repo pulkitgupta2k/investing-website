@@ -1,0 +1,52 @@
+[
+    {
+        "number": 0,
+        "question": "A balance sheet indicates which of the following?",
+        "options": [
+            "Assets and liabilities of the business",
+            "Capital of the business",
+            "Both i) and ii) "
+        ],
+        "ans": 3
+    },
+    {
+        "number": 1,
+        "question": "Which of the following is a calculation that determines how well a company has used its capital to generate returns?",
+        "options": [
+            "Book Value ",
+            "Dividend yield ",
+            "Return on invested capital "
+        ],
+        "ans": 3
+    },
+    {
+        "number": 2,
+        "question": "What is a fishing rod for a fisherman keeping in mind that it helps him generate revenue?",
+        "options": [
+            "Capital ",
+            "Asset",
+            "Liability"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 3,
+        "question": "What is referred to as a pile of money that comes from a lot of investors and is then invested in assets like stocks?",
+        "options": [
+            "Government Bonds ",
+            "Mutual funds ",
+            "Exchange traded funds"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 4,
+        "question": "What is referred to as a condition when a market experiences prolonged price decline?",
+        "options": [
+            "Bull market",
+            "Bear market ",
+            "None of the above "
+        ],
+        "ans": 2
+    }
+]

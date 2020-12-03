@@ -1,0 +1,69 @@
+{% extends "layout.html" %}
+{% block title %}Types Of Investing Approaches{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/approach.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                Types Of Investing Approaches
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">Investing approaches can be broadly classified into two types:-
+        </h2>
+
+
+        <ol class="arrow-list py-5">
+            <li>Top-Down Approach </li>
+            <li>Bottom-Up Approach</li>
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">TOP-DOWN APPROACH</h2>
+        <p class="pb-6">
+            The top-down approach to investing focuses on the big picture, or how the overall economy and macroeconomic
+            factors drive the markets and, ultimately, stock prices. They will also look at the performance of sectors
+            or industries. These investors believe that if the sector is doing well, chances are, the stocks in those
+            industries will also do well.
+        </p>
+        <p class="pb-6">
+            In the top-down investment approach, we first analyse the countries according to the macro factors; then we
+            move on to the sector and industry analysis; and finally to the company analysis. We can select the factors
+            on the basis of which we will analyse these according to our requirements and suitability. We will talk
+            about several factors further in out E-learning module.
+        </p>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">BOTTOM UP APPROACH</h2>
+        <p class="pb-6">
+            Generally, the bottom-up approach focuses its analysis on specific characteristics and micro attributes of
+            an individual stock. In bottom-up investing concentration is on business-by-business or sector-by-sector
+            fundamentals. This analysis seeks to identify profitable opportunities through the idiosyncrasies of a
+            company’s attributes and its valuations in comparison to the market
+        </p>
+        <p class="pb-6">
+            Bottom-up investing begins its research at the company level but does not stop there. These analyses weigh
+            company fundamentals heavily but also look at the sector, and microeconomic factors as well. As such,
+            bottom-up investing can be somewhat broad across an entire industry or laser-focused on identifying key
+            attributes. The bottom-up approach is exactly the opposite of the top-down approach. First we identify the
+            company by fundamental analysis, then we analyse the respective industry and sector and finally we analyse
+            the country.
+        </p>
+
+        <a href="{{ url_for('test', num=7) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}
