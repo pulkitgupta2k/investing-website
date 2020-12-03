@@ -1,0 +1,92 @@
+{% extends "layout.html" %}
+{% block title %}Growth Investing{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/growth.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                Growth Investing
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">What Are Growth Stocks
+        </h2>
+
+
+        <ol class="arrow-list py-5">
+            <li>A growth stock is any share in a company that is anticipated to grow at a rate significantly above the
+                average growth for the market. </li>
+            <li>These stocks generally do not pay dividends. </li>
+            <li>This is because the issuers of growth stocks are usually companies that want to reinvest any earnings
+                they accrue in order to accelerate growth in the short term. </li>
+            <li> When investors invest in growth stocks, they anticipate that they will earn money through capital gains
+                when they eventually sell their shares in the future. </li>
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">What Is Growth Investing?</h2>
+
+        <ol class="line-list">
+            <li>Growth investing is an investment style and strategy that is focused on increasing an investor's
+                capital.
+            </li>
+            <li>Growth investors typically invest in growth stocks—that is, young or small companies whose earnings are
+                expected to increase at an above-average rate compared to their industry sector or the overall market.
+            </li>
+            <li>Growth investing is highly attractive to many investors because buying stock in emerging companies can
+                provide impressive returns if the companies are successful.
+            </li>
+            <li>However, such companies are untried, and thus often pose a fairly high risk.
+            </li>
+            <li>Growth investing is a stock-buying strategy that focuses on companies expected to grow at an
+                above-average rate compared to their industry or the market.
+            </li>
+            <li>Growth investors tend to favour small, young companies poised to expand, expecting to profit by a rise
+                in their stock prices.
+            </li>
+            <li>Growth investors look at five key factors when evaluating stocks: historical and future earnings growth,
+                profit margins, returns on equity, and share price performance.
+            </li>
+            <li>Ultimately, growth investors try to increase their wealth through long- or short-term capital
+                appreciation.
+            </li>
+            <li>Growth investors typically look for investments in rapidly expanding industries (or even entire markets)
+                where new technologies and services are being developed, and look for profits through capital
+                appreciation—that is, the gains they'll achieve when they sell their stock, as opposed to dividends they
+                receive while they own it.
+            </li>
+            <li>In fact, most growth-stock companies reinvest their earnings back into the business, rather than pay a
+                dividend to shareholders.
+            </li>
+            <li>They tend to be small, young companies (or companies that have just started trading publicly) with
+                excellent potential.
+            </li>
+            <li>The idea is that the company will prosper and expand, and this growth in earnings and/or revenues will
+                eventually translate into higher stock prices in the future.
+            </li>
+            <li>Because investors seek to maximise their capital gains, growth investing is also known as a capital
+                growth or a capital appreciation strategy.
+            </li>
+            <li>One notable name among growth investors is Thomas Rowe Price, Jr., aka the father of growth investing
+            </li>
+
+        </ol>
+
+        <a href="{{ url_for('test', num=8) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}

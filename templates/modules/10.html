@@ -1,0 +1,145 @@
+{% extends "layout.html" %}
+{% block title %}Fundamental Analysis and Technical Analysis{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/fund.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                Fundamental Analysis and Technical Analysis
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">There are two major methods for analysing a stock. Those are –
+        </h2>
+
+
+        <ol class="arrow-list py-5">
+            <li>Fundamental Analysis </li>
+            <li>Technical Analysis</li>
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Fundamental Analysis</h2>
+        <p class="pb-6">
+            Fundamental analysis involves the process of understanding a stock’s intrinsic value through the analysis of
+            various factors, which includes everything starting from the overall economy and industry conditions to the
+            financial strength including earnings, expenses, assets and liabilities and management of individual
+            companies.
+        </p>
+        <p class="pb-6">
+            Fundamental analysis is an extensive process since it takes into account both macro factors like country’s
+            economic and industrial conditions and microeconomic factors that can influence the price of stocks to
+            facilitate a comprehensive analysis. The method uses several qualitative and quantitative factors to
+            determine how good a stock is.
+        </p>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">Some of the qualitative indicators studied in this method are:
+        </h2>
+        <ol class="arrow-list">
+            <li>Management competency
+            </li>
+            <li>Competitive edge
+            </li>
+            <li>Business model and business cycles
+            </li>
+            <li>Corporate governance
+            </li>
+            <li>Growth
+            </li>
+            <li>Customer base
+            </li>
+        </ol>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">Some of the qualitative indicators studied in this method
+            are:
+        </h2>
+
+        <ol class="arrow-list">
+            <li>Company’s annual revenue
+            </li>
+            <li>Total profit
+            </li>
+            <li>Tangible assets
+            </li>
+            <li>Accounting ratios</li>
+
+        </ol>
+        <p class="pb-6">
+            Apart from these, a fundamental analyst must also be aware of the socio-economic and political factors
+            that might influence a stock’s value in the future.
+        </p>
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">Interpretation </h2>
+
+        <p class="pb-6">
+            As per the fundamental analysis, if the intrinsic value of a stock is less than its market price then that
+            security is undervalued. Alternately if the intrinsic value of a stock is more than its market price then
+            that security is overvalued.</p>
+        <p class="pb-6">
+            Investors who rely on this determination will then buy a stock if it is undervalued in the expectation to
+            yield significantly higher returns in the long-run. Similarly they will sell a stock when it is overvalued
+            since they think its prices will soon fall.
+        </p>
+        <p class="pb-6">
+            In short, fundamental analysis is an approach that is undertaken by investors and works on the principle of
+            “ buy and hold”. Investors who go by fundamental analysis, base their decisions to buy a stock on a
+            comprehensive understanding of a company and hold their investments for a longer period.
+        </p>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">Technical Analysis </h2>
+        <p class="pb-6">
+            While a fundamental analysis of a stock accounts for an array of factors, technical analysis solely takes
+            historical data directly related to the particular stock into account. That is the primary difference
+            between fundamental analysis and technical analysis.
+        </p>
+        <p class="pb-6">
+            In short, technical analysis is predominantly based on patterned price movements. Technical analysts use
+            various charts to identify patterns and market trends by utilising differing forms of technical chart types
+            and other chart functions. Interpreting charts is very critical and requires in-depth knowledge about
+            technical analysis.
+        </p>
+        <p class="pb-6">
+            There are three main types of technical analysis charts. They are all created using the same price data but
+            display the data in different ways.
+        </p>
+        <li>Candlestick
+        </li>
+        <li>Bar
+        </li>
+        <li>Line charts
+        </li>
+        <h2 class="text-xl text-gray-800 font-bold my-5">Interpretation </h2>
+        <p class="pb-6">
+            Analysts of this school infer price ranges from a stock’s historical performance patterns which function as
+            a buying and selling signal, also known as support and resistance respectively. That is another point of
+            distinction between the fundamental analysis and technical analysis.
+        </p>
+        <p class="pb-6">
+            If the price of a stock is moving toward the lower limit of the price-range or support, then traders will
+            want to buy the stock, because they believe once the price reaches the lower limit, it will shoot up from
+            thereon.
+        </p>
+        <p class="pb-6">
+            Similarly, if a stock’s price is surging towards the upper limit of the price range, then it signals traders
+            to sell the stock because
+        </p>
+
+
+        <a href="{{ url_for('test', num=10) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}

@@ -1,0 +1,49 @@
+[
+    {
+        "number": 0,
+        "question": "Do growth stocks generally pay dividends?",
+        "options": [
+            "Yes ",
+            "No"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 1,
+        "question": "What is growth investing also known as?",
+        "options": [
+            "Asset growth strategy",
+            "Capital growth strategy"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 2,
+        "question": "Which of the following factor do growth investors look at while evaluating stocks?",
+        "options": [
+            "Free cash flow",
+            "Price to book ratio",
+            "Return on equity"
+        ],
+        "ans": 3
+    },
+    {
+        "number": 3,
+        "question": "Which of the following is incorrect about growth investing?",
+        "options": [
+            "Growth investors typically invest in young or small companies whose earnings are expected to increase at an above-average rate and seek companies that offer strong earnings growth",
+            "Growth investors typically look for investments in rapidly expanding industries (or even entire markets) where new technologies and services are being developed ",
+            "Growth investors seek stocks that appear to be undervalued in the marketplace"
+        ],
+        "ans": 3
+    },
+    {
+        "number": 4,
+        "question": "State true or false: Is growth investing risky?",
+        "options": [
+            "True ",
+            "False"
+        ],
+        "ans": 1
+    }
+]

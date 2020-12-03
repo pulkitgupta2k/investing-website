@@ -1,0 +1,48 @@
+[
+    {
+        "number": 0,
+        "question": "Solely focusing on analyzing the analysis charts of a stock comes under which method?",
+        "options": [
+            "Fundamental analysis",
+            "Technical analysis"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 1,
+        "question": "Which method works on the principle of �buy and hold�?",
+        "options": [
+            "Fundamental analysis ",
+            "Technical analysis"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 2,
+        "question": "What is buying signal of a stock known as?",
+        "options": [
+            "Support",
+            "Resistance"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 3,
+        "question": "Which type of analysis is predominantly based on patterned price movements?",
+        "options": [
+            "Technical analysis",
+            "Fundamental analysis "
+        ],
+        "ans": 1
+    },
+ {
+        "number": 4,
+        "question": "Which of the following does not come under a qualitative factor to analyze stocks?",
+        "options": [
+            "Competitive edge ",
+            "Business model",
+            "Tangible assets "
+        ],
+        "ans": 3
+    }
+]

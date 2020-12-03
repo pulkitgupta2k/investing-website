@@ -1,0 +1,89 @@
+{% extends "layout.html" %}
+{% block title %}Value Investing{% endblock %}
+
+{% block body %}
+<main class="">
+    <div class="mb-4 md:mb-0 w-full max-w-screen-md mx-auto relative" style="height: 24em;">
+        <div class="absolute left-0 bottom-0 w-full h-full z-10"
+            style="background-image: linear-gradient(180deg,transparent,rgba(0,0,0,.7));"></div>
+        <img src="{{ url_for('static',filename='images/value.jpg') }}"
+            class="absolute left-0 top-0 w-full h-full z-0 object-cover" />
+        <div class="p-4 absolute bottom-0 left-0 z-20">
+            <h2 class="text-4xl font-bold text-gray-100 leading-tight">
+                Value Investing
+            </h2>
+        </div>
+    </div>
+
+    <div class="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-md mx-auto text-lg leading-relaxed">
+
+
+
+        <h2 class="text-xl text-gray-800 font-bold my-5">What Are Value Stocks?
+        </h2>
+
+
+        <ol class="arrow-list py-5">
+            <li>A value stock refers to shares of a company that appears to trade at a lower price relative to its
+                fundamentals; such as dividends, earnings, or sales, making it appealing to value investors.
+            </li>
+            <li>A value stock can generally be contrasted with a growth stock.
+            </li>
+            <li>Less "expensive:" Their stock prices are low relative to their sales or profits
+            </li>
+            <li>A value stock is trading at levels that are perceived to be below its fundamentals.
+            </li>
+            <li>Common characteristics of value stocks include high dividend yield, low P/B ratio and/or, a low P/E
+                ratio.
+            </li>
+            <li>A value stock typically has a bargain-price as investors see the company as unfavourable in the
+                marketplace.
+            </li>
+            <li>A value stock is a security trading at a lower price than what the company’s performance may otherwise
+                indicate.
+            </li>
+            <li>Investors in value stocks attempt to capitalise on inefficiencies in the market, since the price of the
+                underlying equity may not match the company’s performance.
+            </li>
+            <li>Value stocks may also sit within a sector that trades at a discount to the broader market.
+            </li>
+        </ol>
+
+        <h2 class="text-3xl text-gray-800 font-bold my-5">What Is Value Investing?</h2>
+        <ol class="arrow-list py-5">
+            <li>Value investing is an investment strategy that involves picking stocks that appear to be trading for
+                less than their intrinsic or book value.
+            </li>
+            <li>Value investors actively ferret out stocks they think the stock market is underestimating.
+            </li>
+            <li>They believe the market overreacts to good and bad news, resulting in stock price movements that do not
+                correspond to a company's long-term fundamentals.
+            </li>
+            <li>The overreaction offers an opportunity to profit by buying stocks at discounted prices—on sale.
+            </li>
+            <li>Value investors carry the belief that share prices do not justify the long-term fundamentals of a
+                company because such prices are considerably dependent on market behavior. They employ a contrarian
+                investment approach by denying reacting as per market tendencies and, in most cases, moving in the
+                opposite direction as the market.
+            </li>
+            <li>Value investors use financial analysis, don't follow the herd, and are long-term investors of quality
+                companies.
+            </li>
+            <li>The basic concept behind every-day value investing is straightforward: If you know the true value of
+                something, you can save a lot of money when you buy it on sale.
+            </li>
+            <li>Warren Buffett is probably the best-known value investor today, but there are many others, including
+                Benjamin Graham (Buffet's professor and mentor), David Dodd, Charlie Munger, Christopher Browne (another
+                Graham student), and billionaire hedge-fund manager, Seth Klarman.
+            </li>
+        </ol>
+
+        <a href="{{ url_for('test', num=9) }}">
+            <button
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Test Yourself
+            </button>
+        </a>
+    </div>
+</main>
+{% endblock %}

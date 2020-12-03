@@ -1,0 +1,39 @@
+[
+    {
+        "number": 0,
+        "question": "Which of the following are common characteristics of a value stock?",
+        "options": [
+            "High dividend yield",
+            "High P/E ratio",
+            "High P/B ratio"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 1,
+        "question": "State True or False: Value investors believe that share prices justify the long-term fundamentals of a company",
+        "options": [
+            "True",
+            "False"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 2,
+        "question": "Who is the best known value investor today?",
+        "options": [
+            "Thomas Rowe Price, Jr.",
+            "Warren Buffet"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 3,
+        "question": "Is the stock price of value stocks low relative to their sales or profits?",
+        "options": [
+            "Yes",
+            "No "
+        ],
+        "ans": 1
+    }
+]
