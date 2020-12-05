@@ -138,6 +138,15 @@ def add_formula():
                 common[key]["ratios"]["div_pay"] = round(common[key]["ratios"]["div_pay"],2)
             except:
                 common[key]["ratios"]["div_pay"] = None
+            
+            try:
+                common[key]["ratios"]["ret_cap"] = 100 * data["incomeStatementHistory"]["incomeStatementHistory"][0]["ebit"]["raw"] / \
+                    ( data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentAssets"]["raw"] - data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentLiabilities"]["raw"])
+                common[key]["ratios"]["ret_cap"] = round(common[key]["ratios"]["ret_cap"],2)
+            except:
+                common[key]["ratios"]["ret_cap"] = None
+            
+            
 
         else:
             common[key]["ratios"]["de_ratio"] = None
@@ -148,6 +157,7 @@ def add_formula():
             common[key]["ratios"]["op_pro"] = None
             common[key]["ratios"]["int_cov"] = None
             common[key]["ratios"]["div_pay"] = None
+            common[key]["ratios"]["ret_cap"] = None
 
     with open("common.json", "w") as f:
         json.dump(common, f)
@@ -324,6 +334,6 @@ if __name__ == "__main__":
     # master_func()
     # add_div()
     # correction()
-    while True:
-        update_stock_price()
-    # add_formula()
+    # while True:
+        # update_stock_price()
+    add_formula()

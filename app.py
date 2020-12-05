@@ -31,7 +31,8 @@ def stock_screener():
                 float(request.form["div_y_begin"]) <= float(value["ratios"]["div_y"] or 0) <= float(request.form["div_y_end"]) and \
                 float(request.form["op_pro_begin"]) <= float(value["ratios"]["op_pro"] or 0) <= float(request.form["op_pro_end"]) and \
                 float(request.form["int_cov_begin"]) <= float(value["ratios"]["int_cov"] or 0) <= float(request.form["int_cov_end"]) and \
-                float(request.form["div_pay_begin"]) <= float(value["ratios"]["div_pay"] or 0) <= float(request.form["div_pay_end"]) :
+                float(request.form["div_pay_begin"]) <= float(value["ratios"]["div_pay"] or 0) <= float(request.form["div_pay_end"]) and \
+                float(request.form["ret_cap_begin"]) <= float(value["ratios"]["ret_cap"] or 0) <= float(request.form["ret_cap_end"]):
                 ret_common[key] = value
 
         return render_template("stock-screener.html", common = ret_common)

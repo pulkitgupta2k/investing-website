@@ -228,6 +228,17 @@
                     </div>
                 </div>
             </div>
+            <div class="flex">
+                <div class="w-1/2">
+                    <div>Return Capital Employed</div>
+                    <div class="flex">
+                        <input type="number" name="ret_cap_begin" placeholder="BEGIN"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="-1000" />
+                        <input type="number" name="ret_cap_end" placeholder="END"
+                            class="w-1/4 block w-full p-3 mt-2 text-gray-700 bg-gray-200 appearance-none focus:outline-none focus:bg-gray-300 focus:shadow-inner mx-4" value="1000"/>
+                    </div>
+                </div>
+            </div>
             <button type="submit"
                 class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
                 Search
@@ -258,6 +269,7 @@
                                         <div class="mx-2 -mt-1 w-1/6">Operating Profit Margin</div>
                                         <div class="mx-2 -mt-1 w-1/6">Interest Coverage Ratio</div>
                                         <div class="mx-2 -mt-1 w-1/6">Dividend Payout Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Return on Capital Employed</div>
                                     </div>
                                 </div>
                             </a>
@@ -283,6 +295,7 @@
                                             <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['op_pro'] }}</div>
                                             <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['int_cov'] }}</div>
                                             <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['div_pay'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['ret_cap'] }}</div>
                                         </div>
                                     </div>
                                 </div>
