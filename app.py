@@ -37,6 +37,33 @@ def stock_screener():
 
         return render_template("stock-screener.html", common = ret_common)
 
+@app.route("/graph", methods=["GET", "POST"])
+def graph():
+    
+    with open("common.json", "r") as f:
+            common = json.load(f)
+    if request.method == "GET":
+        return render_template("graph.html", common = common, selected = {}, data = [[]])
+    if request.method == "POST":
+        selected = {}
+        data = [ [] for x in range(10) ]
+        for ticker in request.form['values'].split(','):
+            selected[ticker] = common[ticker]
+            data[0].append(ticker)
+            data[1].append(selected[ticker]['ratios']['de_ratio'] or 0)
+            data[2].append(selected[ticker]['ratios']['eps'] or 0)
+            data[3].append(selected[ticker]['ratios']['ret_eq'] or 0)
+            data[4].append(selected[ticker]['ratios']['q_ratio'] or 0)
+            data[5].append(selected[ticker]['ratios']['div_y'] or 0)
+            data[6].append(selected[ticker]['ratios']['op_pro'] or 0)
+            data[7].append(selected[ticker]['ratios']['int_cov'] or 0)
+            data[8].append(selected[ticker]['ratios']['div_pay'] or 0)
+            data[9].append(selected[ticker]['ratios']['ret_cap'] or 0)
+        
+        return render_template("graph.html", common = common, selected = selected, data = data)
+    
+
+
 @app.route("/company/<ticker>/", methods=["GET"])
 def company(ticker):
     with open(f"data/{ticker}.json") as f:

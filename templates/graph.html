@@ -1,0 +1,707 @@
+{% extends "layout.html" %}
+{% block title %}Gearshift Investments{% endblock %}
+
+{% block body %}
+
+<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js"></script>
+<script>
+    function dropdown() {
+        return {
+            options: [],
+            selected: [],
+            show: false,
+            open() { this.show = true },
+            close() { this.show = false },
+            isOpen() { return this.show === true },
+            select(index, event) {
+
+                if (!this.options[index].selected) {
+
+                    this.options[index].selected = true;
+                    this.options[index].element = event.target;
+                    this.selected.push(index);
+
+                } else {
+                    this.selected.splice(this.selected.lastIndexOf(index), 1);
+                    this.options[index].selected = false
+                }
+            },
+            remove(index, option) {
+                this.options[option].selected = false;
+                this.selected.splice(index, 1);
+
+
+            },
+            loadOptions() {
+                const options = document.getElementById('select').options;
+                for (let i = 0; i < options.length; i++) {
+                    this.options.push({
+                        value: options[i].value,
+                        text: options[i].innerText,
+                        selected: options[i].getAttribute('selected') != null ? options[i].getAttribute('selected') : false
+                    });
+                }
+
+
+            },
+            selectedValues() {
+                return this.selected.map((option) => {
+                    return this.options[option].value;
+                })
+            }
+        }
+    }
+</script>
+
+
+
+<div class="container px-5 py-10 mx-auto">
+    <div class="grid place-items-center pb-10">
+        <form class="mt-6" action="{{ url_for('graph') }}" method="POST">
+            <select x-cloak id="select">
+                {% for key, value in common.items() %}
+                <option value="{{key}}">{{key}} : {{value['name']}}</option>
+                {% endfor %}
+            </select>
+
+            <div x-data="dropdown()" x-init="loadOptions()" class="w-full flex flex-col items-center mx-auto">
+                <input name="values" type="hidden" x-bind:value="selectedValues()">
+                <div class="inline-block relative w-full">
+                    <div class="flex flex-col items-center relative">
+                        <div x-on:click="open" class="w-full">
+                            <div class="my-2 p-1 flex border border-gray-200 bg-white rounded">
+                                <div class="flex flex-auto flex-wrap">
+                                    <template x-for="(option,index) in selected" :key="options[option].value">
+                                        <div
+                                            class="flex justify-center items-center m-1 font-medium py-1 px-1 bg-white rounded bg-gray-100 border">
+                                            <div class="text-xs font-normal leading-none max-w-full flex-initial x-model="
+                                                options[option] x-text="options[option].text"></div>
+                                            <div class="flex flex-auto flex-row-reverse">
+                                                <div x-on:click.stop="remove(index,option)">
+                                                    <svg class="fill-current h-4 w-4 " role="button"
+                                                        viewBox="0 0 20 20">
+                                                        <path d="M14.348,14.849c-0.469,0.469-1.229,0.469-1.697,0L10,11.819l-2.651,3.029c-0.469,0.469-1.229,0.469-1.697,0
+                                                         c-0.469-0.469-0.469-1.229,0-1.697l2.758-3.15L5.651,6.849c-0.469-0.469-0.469-1.228,0-1.697s1.228-0.469,1.697,0L10,8.183
+                                                         l2.651-3.031c0.469-0.469,1.228-0.469,1.697,0s0.469,1.229,0,1.697l-2.758,3.152l2.758,3.15
+                                                         C14.817,13.62,14.817,14.38,14.348,14.849z" />
+                                                    </svg>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                    <div x-show="selected.length == 0" class="flex-1">
+                                        <input placeholder="Select companies"
+                                            class="bg-transparent p-1 px-2 appearance-none outline-none h-full w-full text-gray-800"
+                                            x-bind:value="selectedValues()">
+                                    </div>
+                                </div>
+                                <div
+                                    class="text-gray-300 w-8 py-1 pl-2 pr-1 border-l flex items-center border-gray-200 svelte-1l8159u">
+
+                                    <button type="button" x-show="isOpen() === true" x-on:click="open"
+                                        class="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none">
+                                        <svg class="fill-current h-4 w-4" viewBox="0 0 20 20">
+                                            <path d="M2.582,13.891c-0.272,0.268-0.709,0.268-0.979,0s-0.271-0.701,0-0.969l7.908-7.83
+                  c0.27-0.268,0.707-0.268,0.979,0l7.908,7.83c0.27,0.268,0.27,0.701,0,0.969c-0.271,0.268-0.709,0.268-0.978,0L10,6.75L2.582,13.891z
+                  " />
+                                        </svg>
+
+                                    </button>
+                                    <button type="button" x-show="isOpen() === false" @click="close"
+                                        class="cursor-pointer w-6 h-6 text-gray-600 outline-none focus:outline-none">
+                                        <svg version="1.1" class="fill-current h-4 w-4" viewBox="0 0 20 20">
+                                            <path d="M17.418,6.109c0.272-0.268,0.709-0.268,0.979,0s0.271,0.701,0,0.969l-7.908,7.83
+                  c-0.27,0.268-0.707,0.268-0.979,0l-7.908-7.83c-0.27-0.268-0.27-0.701,0-0.969c0.271-0.268,0.709-0.268,0.979,0L10,13.25
+                  L17.418,6.109z" />
+                                        </svg>
+
+
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-full px-4">
+                            <div x-show.transition.origin.top="isOpen()"
+                                class="absolute shadow top-100 bg-white z-40 w-full left-0 rounded max-h-select"
+                                x-on:click.away="close">
+                                <div class="flex flex-col w-full overflow-y-auto h-64">
+                                    <template x-for="(option,index) in options" :key="option" class="overflow-auto">
+                                        <div class="cursor-pointer w-full border-gray-100 rounded-t border-b hover:bg-gray-100"
+                                            @click="select(index,$event)">
+                                            <div
+                                                class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative">
+                                                <div class="w-full items-center flex justify-between">
+                                                    <div class="mx-2 leading-6" x-model="option" x-text="option.text">
+                                                    </div>
+                                                    <div x-show="option.selected">
+                                                        <svg class="svg-icon" viewBox="0 0 20 20">
+                                                            <path fill="none" d="M7.197,16.963H7.195c-0.204,0-0.399-0.083-0.544-0.227l-6.039-6.082c-0.3-0.302-0.297-0.788,0.003-1.087
+                                          C0.919,9.266,1.404,9.269,1.702,9.57l5.495,5.536L18.221,4.083c0.301-0.301,0.787-0.301,1.087,0c0.301,0.3,0.301,0.787,0,1.087
+                                          L7.741,16.738C7.596,16.882,7.401,16.963,7.197,16.963z"></path>
+                                                        </svg>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="submit"
+                class="w-full py-3 mt-6 font-medium tracking-widest text-white uppercase bg-black shadow-lg focus:outline-none hover:bg-gray-900 hover:shadow-none">
+                Search
+            </button>
+        </form>
+    </div>
+
+    <div class="flex flex-col items-center">
+        <div class="w-full items-center">
+            <div class="w-full px-4">
+                <div class="flex flex-col items-center relative">
+                    <div
+                        class="shadow bg-white top-1000 z-30 w-full lef-0 rounded max-h-select overflow-y-auto svelte-5uyqqj">
+                        <div class="flex flex-col w-full">
+                            <!---->
+
+                            <a href="/">
+                                <div
+                                    class="cursor-pointer w-full border-gray-1000 rounded-t border-b hover:bg-teal-1000 bg-teal-200">
+                                    <div
+                                        class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative hover:border-teal-1000">
+                                        <div class="mx-2 -mt-1 w-1/3">Company</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Debt to Equity Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">EPS</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Return on Equity</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Quick Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Dividend Yield</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Operating Profit Margin</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Interest Coverage Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Dividend Payout Ratio</div>
+                                        <div class="mx-2 -mt-1 w-1/6">Return on Capital Employed</div>
+                                    </div>
+                                </div>
+                            </a>
+
+                            {% for ticker, detail in selected.items() %}
+                            <a href="{{ url_for('company', ticker=ticker) }}">
+
+                                <div
+                                    class="cursor-pointer w-full border-gray-1000 rounded-t border-b hover:bg-teal-1000">
+                                    <div
+                                        class="flex w-full items-center p-2 pl-2 border-transparent border-l-2 relative hover:border-teal-1000">
+
+                                        <div class="w-full items-center flex">
+                                            <div class="mx-2 -mt-1 w-1/3">{{ detail['name'] }}
+                                                <div
+                                                    class="text-xs truncate w-full normal-case font-normal -mt-1 text-gray-500">
+                                                    {{ ticker }}</div>
+                                            </div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['de_ratio'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['eps'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['ret_eq'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['q_ratio'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['div_y'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['op_pro'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['int_cov'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['div_pay'] }}</div>
+                                            <div class="mx-2 -mt-1 w-1/6">{{ detail['ratios']['ret_cap'] }}</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            {% endfor %}
+                            <!---->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- ########## -->
+
+
+
+
+
+    <div x-data="app()" x-cloak class="px-4">
+        <div class="py-10">
+            <div class="flex">
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Debt to Equity Ratio</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in deRatio">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *100}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/deRatio.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">EPS</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in eps">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *10}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/eps.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">return on equity</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in retEq">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *10}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/retEq.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Quick Ratio</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in qRatio">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *50}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/qRatio.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Dividend Yield</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in divY">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *50}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/divY.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Operating Profit Margin</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in opPro">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *10}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/opPro.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="flex">
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Interest Coverage Ratio</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in intCov">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data *10}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/intCov.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Dividend Payout Ratio</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in divPay">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/divPay.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="w-1/3 shadow p-6 rounded-lg bg-white m-4">
+                    <div class="md:flex md:justify-between md:items-center">
+                        <div>
+                            <h2 class="text-xl text-gray-800 font-bold leading-tight">Return on Capital Employed</h2>
+                        </div>
+                    </div>
+                    <div class="line my-8 relative">
+                        <!-- Bar Chart -->
+                        <div class="flex -mx-2 items-end mb-2">
+                            <template x-for="data in retCap">
+
+                                <div class="px-2 w-1/4">
+                                    <div :style="`height: ${data}px`"
+                                        class="transition ease-in duration-200 bg-blue-600 hover:bg-blue-400 relative"
+                                        @mouseenter="showTooltip($event); tooltipOpen = true"
+                                        @mouseleave="hideTooltip($event)">
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 -mt-6 text-gray-800 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </template>
+                        </div>
+
+
+                        <!-- Labels -->
+                        <div class="border-t border-gray-400 mx-auto"
+                            :style="`height: 1px; width: ${ 100 - 1/retCap.length*100 + 3}%`"></div>
+                        <div class="flex -mx-2 items-end">
+                            <template x-for="data in labels">
+                                <div class="px-2 w-1/4">
+                                    <div class="bg-red-600 relative">
+                                        <div class="text-center absolute top-0 left-0 right-0 h-2 -mt-px bg-gray-400 mx-auto"
+                                            style="width: 1px"></div>
+                                        <div x-text="data"
+                                            class="text-center absolute top-0 left-0 right-0 mt-3 text-gray-700 text-sm">
+                                        </div>
+                                    </div>
+                                </div>
+                            </template>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function app() {
+            return {
+                labels: {{ data[0]|safe }},
+                deRatio: {{ data[1]|safe }},
+                eps:  {{ data[2]|safe }},
+                retEq:  {{ data[3]|safe }},
+                qRatio:  {{ data[4]|safe }},
+                divY:  {{ data[5]|safe }},
+                opPro:  {{ data[6]|safe }},
+                intCov:  {{ data[7]|safe }},
+                divPay:  {{ data[8]|safe }},
+                retCap:  {{ data[9]|safe }},
+
+                tooltipContent: '',
+                tooltipOpen: false,
+                tooltipX: 0,
+                tooltipY: 0,
+                showTooltip(e) {
+                    console.log(e);
+                    this.tooltipContent = e.target.textContent
+                    this.tooltipX = e.target.offsetLeft - e.target.clientWidth;
+                    this.tooltipY = e.target.clientHeight + e.target.clientWidth;
+                },
+                hideTooltip(e) {
+                    this.tooltipContent = '';
+                    this.tooltipOpen = false;
+                    this.tooltipX = 0;
+                    this.tooltipY = 0;
+                }
+            }
+        }
+    </script>
+</div>
+
+
+{% endblock %}
