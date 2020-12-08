@@ -86,29 +86,29 @@ def add_formula():
             with open(f"data/{key}.json") as f:
                 data = json.load(f)
             try:
-                common[key]["ratios"]["de_ratio"] = data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalLiab"]["raw"] / \
-                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalStockholderEquity"]["raw"]
+                common[key]["ratios"]["de_ratio"] = data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalLiab"]["raw"] / \
+                    data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalStockholderEquity"]["raw"]
                 common[key]["ratios"]["de_ratio"] = round(common[key]["ratios"]["de_ratio"],2)
             except:
                 common[key]["ratios"]["de_ratio"] = None
 
             try:
-                common[key]["ratios"]["eps"] = data["incomeStatementHistory"]["incomeStatementHistory"][0]["netIncome"]["raw"] / \
+                common[key]["ratios"]["eps"] = data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["netIncome"]["raw"] / \
                     data["defaultKeyStatistics"]["sharesOutstanding"]["raw"]
                 common[key]["ratios"]["eps"] = round(common[key]["ratios"]["eps"],2)
             except:
                 common[key]["ratios"]["eps"] = None
 
             try:
-                common[key]["ratios"]["ret_eq"] = 100 * data["incomeStatementHistory"]["incomeStatementHistory"][0]["netIncome"]["raw"] / \
-                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalStockholderEquity"]["raw"]
+                common[key]["ratios"]["ret_eq"] = 100 * data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["netIncome"]["raw"] / \
+                    data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalStockholderEquity"]["raw"]
                 common[key]["ratios"]["ret_eq"] = round(common[key]["ratios"]["ret_eq"],2)
             except:
                 common[key]["ratios"]["ret_eq"] = None
 
             try:
-                common[key]["ratios"]["q_ratio"] = ( data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentAssets"]["raw"] -  data["balanceSheetHistory"]["balanceSheetStatements"][0]["inventory"]["raw"]) / \
-                    data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentLiabilities"]["raw"]
+                common[key]["ratios"]["q_ratio"] = ( data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalCurrentAssets"]["raw"] -  data["balanceSheetHistory"]["balanceSheetStatements"][0]["inventory"]["raw"]) / \
+                    data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalCurrentLiabilities"]["raw"]
                 common[key]["ratios"]["q_ratio"] = round(common[key]["ratios"]["q_ratio"],2)
             except:
                 common[key]["ratios"]["q_ratio"] = None
@@ -120,15 +120,15 @@ def add_formula():
                 common[key]["ratios"]["div_y"] = None
 
             try:
-                common[key]["ratios"]["op_pro"] = 100 * data["incomeStatementHistory"]["incomeStatementHistory"][0]["operatingIncome"]["raw"] / \
-                    data["incomeStatementHistory"]["incomeStatementHistory"][0]["totalRevenue"]["raw"]
+                common[key]["ratios"]["op_pro"] = 100 * data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["operatingIncome"]["raw"] / \
+                    data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["totalRevenue"]["raw"]
                 common[key]["ratios"]["op_pro"] = round(common[key]["ratios"]["op_pro"],2)
             except:
                 common[key]["ratios"]["op_pro"] = None
 
             try:
-                common[key]["ratios"]["int_cov"] = data["incomeStatementHistory"]["incomeStatementHistory"][0]["ebit"]["raw"] / \
-                    data["incomeStatementHistory"]["incomeStatementHistory"][0]["interestExpense"]["raw"]
+                common[key]["ratios"]["int_cov"] = data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["ebit"]["raw"] / \
+                    data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["interestExpense"]["raw"]
                 common[key]["ratios"]["int_cov"] = abs(round(common[key]["ratios"]["int_cov"],2))
             except:
                 common[key]["ratios"]["int_cov"] = None
@@ -140,8 +140,8 @@ def add_formula():
                 common[key]["ratios"]["div_pay"] = None
             
             try:
-                common[key]["ratios"]["ret_cap"] = 100 * data["incomeStatementHistory"]["incomeStatementHistory"][0]["ebit"]["raw"] / \
-                    ( data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentAssets"]["raw"] - data["balanceSheetHistory"]["balanceSheetStatements"][0]["totalCurrentLiabilities"]["raw"])
+                common[key]["ratios"]["ret_cap"] = 100 * data["incomeStatementHistoryQuarterly"]["incomeStatementHistory"][0]["ebit"]["raw"] / \
+                    ( data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalCurrentAssets"]["raw"] - data["balanceSheetHistoryQuarterly"]["balanceSheetStatements"][0]["totalCurrentLiabilities"]["raw"])
                 common[key]["ratios"]["ret_cap"] = round(common[key]["ratios"]["ret_cap"],2)
             except:
                 common[key]["ratios"]["ret_cap"] = None
