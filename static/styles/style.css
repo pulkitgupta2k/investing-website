@@ -57,3 +57,24 @@ ol.line-list {
     background: url(/static/images/arrow_list.png) no-repeat center center;
     background-size: contain;
   }
+
+  [x-cloak] {
+    display: none;
+  }
+  
+  .svg-icon {
+    width: 1em;
+    height: 1em;
+  }
+  
+  .svg-icon path,
+  .svg-icon polygon,
+  .svg-icon rect {
+    fill: #333;
+  }
+  
+  .svg-icon circle {
+    stroke: #4691f6;
+    stroke-width: 1;
+  }
+  
