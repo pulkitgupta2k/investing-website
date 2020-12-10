@@ -269,26 +269,58 @@ def correction():
 
     #######################
     
+    # with open("common.json") as f:
+    #     common = json.load(f)
+    
+    # with open("russel.json") as f:
+    #     russel = json.load(f)
+    
+    # for row in russel:
+    #     try:
+    #         common[row['TICKER']]['sub_sector'] =  row['RUSSELL SUB-SECTOR']
+    #         common[row['TICKER']]['industry'] =  row['RUSSELL INDUSTRY']
+    #     except:
+    #         pprint(row)
+
+    # for key, value in common.items():
+    #     if 'industry' not in value.keys():
+    #         print(key)
+
+    # with open("common_n.json", "w") as f:
+    #     json.dump(common, f)
+
+    #################################
     with open("common.json") as f:
         common = json.load(f)
+
+    with open("inv_data.json") as f:
+        data = json.load(f)
     
-    with open("russel.json") as f:
-        russel = json.load(f)
-    
-    for row in russel:
-        try:
-            common[row['TICKER']]['sub_sector'] =  row['RUSSELL SUB-SECTOR']
-            common[row['TICKER']]['industry'] =  row['RUSSELL INDUSTRY']
-        except:
-            pprint(row)
+    conv = {
+        "de_ratio": "Total Debt to Equity MRQ",
+        "eps": "Basic EPS ANN",
+        "ret_eq": "Return on Equity 5YA",
+        "q_ratio": "Quick Ratio MRQ",
+        "div_y": "Dividend Yield ANN",
+        "op_pro": "",
+        "int_cov": "",
+        "div_pay": "",
+        "ret_cap": ""
+    }
 
     for key, value in common.items():
-        if 'industry' not in value.keys():
-            print(key)
-
+        ratios = value['ratios']
+        for r_key, r_value in ratios.items():
+            if r_value == None:
+                try:
+                    common[key]['ratios'][r_key] = float(data[key]['Data'][conv[r_key]][0].replace("%", ""))
+                    print(key)
+                except:
+                    pass
+                
     with open("common_n.json", "w") as f:
         json.dump(common, f)
-
+    
 
 def add_div():
     with open("common.json") as f:
@@ -346,7 +378,7 @@ def update_stock_price():
 if __name__ == "__main__":
     # master_func()
     # add_div()
-    correction()
-    # while True:
-        # update_stock_price()
+    # correction()
+    while True:
+        update_stock_price()
     # add_formula()
