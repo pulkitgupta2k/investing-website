@@ -1,0 +1,52 @@
+[
+    {
+        "number": 0,
+        "question": "Which of the following is incorrect about Fiat Money",
+        "options": [
+            "Fiat Money is inconvertible and cannot be redeemed",
+            "Fiat money is a scarce and a fixed resource",
+            "Fiat money is a government issued currency"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 1,
+        "question": "What is the common name for money",
+        "options": [
+            "Currency",
+            "Funds",
+            "Capital"
+        ],
+        "ans": 1
+    },
+    {
+        "number": 2,
+        "question": "In which year did the Mortgage Crisis take place",
+        "options": [
+            "2006",
+            "2010",
+            "2007"
+        ],
+        "ans": 3
+    },
+    {
+        "number": 3,
+        "question": "What is the currency of USA known as",
+        "options": [
+            "Pound",
+            "Dollar",
+            "Dinar"
+        ],
+        "ans": 2
+    },
+    {
+        "number": 4,
+        "question": "What are the different types of money mentioned in the module",
+        "options": [
+            "Cryptocurrencies",
+            "Corporate currencies",
+            "Fiat Money, Commodity Money and Fiduciary Money"
+        ],
+        "ans": 3
+    }
+]

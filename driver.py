@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import glob
+from pprint import pprint
 
 def getSoup(link):
     headers = {'User-Agent' : 'PostmanRuntime/7.24.1', 'Accept': "*/*", "Connection": 'keep-alive'}
@@ -267,15 +268,27 @@ def correction():
     #     json.dump(common, f)
 
     #######################
-    files = []
-    for file in glob.glob("data/*.json"):
-        files.append(f"data/{file[5:]}")
+    
+    with open("common.json") as f:
+        common = json.load(f)
+    
+    with open("russel.json") as f:
+        russel = json.load(f)
+    
+    for row in russel:
+        try:
+            common[row['TICKER']]['sub_sector'] =  row['RUSSELL SUB-SECTOR']
+            common[row['TICKER']]['industry'] =  row['RUSSELL INDUSTRY']
+        except:
+            pprint(row)
 
-    for file in files:
-        with open(file) as f:
-            data = json.load(f)
-        if "investing" not in data.keys():
-            print(file)
+    for key, value in common.items():
+        if 'industry' not in value.keys():
+            print(key)
+
+    with open("common_n.json", "w") as f:
+        json.dump(common, f)
+
 
 def add_div():
     with open("common.json") as f:
@@ -333,7 +346,7 @@ def update_stock_price():
 if __name__ == "__main__":
     # master_func()
     # add_div()
-    # correction()
+    correction()
     # while True:
         # update_stock_price()
-    add_formula()
+    # add_formula()

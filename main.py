@@ -99,9 +99,9 @@ def rank():
             + country_score[value['location']]
 
         value['score'] = int(score)
-        if value['category'] not in data.keys():
-            data[value['category']] = []
-        data[value['category']].append(value)
+        if value['industry'] not in data.keys():
+            data[value['industry']] = []
+        data[value['industry']].append(value)
 
     for key, value in data.items():
         data[key] = sorted(data[key], key=lambda k: k['score'], reverse=True)
