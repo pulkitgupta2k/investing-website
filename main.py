@@ -86,9 +86,8 @@ def rank():
 
     for key, value in common.items():
         if value['category'] == 'ENERGY' or value['category'] == 'PRODUCER DURABLES' or value['category'] == 'OTHERS' or \
-                (value['ratios']['q_ratio'] != None and value['ratios']['q_ratio'] <= 0.5) or \
-                (value['ratios']['op_pro'] != None and value['ratios']['op_pro'] <= 10) or \
-                (value['ratios']['eps'] != None and value['ratios']['eps'] <= 0)  :
+            value['industry'] not in {"Personal care", "Pharmaceuticals", "Diversified retail", "Financial data & systems", "Computer technology",  \
+               "Utilities: Miscellaneous", "Computer services software and systems" , "Diversified financial services"}:
             continue
         score = 0
         score += (value['ratios']['ret_cap'] or 0)\
