@@ -1,3 +1,21 @@
+body {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.35rem;
+}
+
+.text-base {
+  font-size: 1.25rem;
+}
+
+
+.font-semibold {
+  font-weight: 500;
+}
+
 ol.line-list {
     counter-reset: section;
   }
